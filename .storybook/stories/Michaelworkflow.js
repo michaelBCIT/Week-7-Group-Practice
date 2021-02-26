@@ -4,4 +4,3 @@ document.querySelector(".textBubbleLight").innerHTML += textBubbleLight("Discard
 /*
 document.querySelector(".textBubbleLight").innerHTML += textBubbleLight("2Discarding food could be either throwing it away, or leaving the food to spoil");
 */
-
