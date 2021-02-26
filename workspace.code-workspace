@@ -1,0 +1,17 @@
+{
+	"folders": [
+		{
+			"name": "Week-7-Group-Practice-2",
+			"path": "."
+		},
+		{
+			"name": "stories",
+			"path": "..\\Week-7-Group-Practice-1\\stories"
+		},
+		{
+			"name": "node_modules",
+			"path": "..\\..\\week_6_story\\node_modules"
+		}
+	],
+	"settings": {}
+}
