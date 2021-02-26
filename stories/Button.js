@@ -1,21 +1,18 @@
-import './button.css';
+function ButtonUI(){
+  return`
+    <div>Button UI</div>
+  `
+}
 
-export const createButton = ({
-  primary = false,
-  size = 'medium',
-  backgroundColor,
-  label,
-  onClick,
-}) => {
-  const btn = document.createElement('button');
-  btn.type = 'button';
-  btn.innerText = label;
-  btn.addEventListener('click', onClick);
+function MenuUI() {
+  return `
+    <div style='
+    background-color: blue;
+    '>
+    menu ui
+    </div>
+  `
+}
 
-  const mode = primary ? 'storybook-button--primary' : 'storybook-button--secondary';
-  btn.className = ['storybook-button', `storybook-button--${size}`, mode].join(' ');
-
-  btn.style.backgroundColor = backgroundColor;
-
-  return btn;
-};
+export const Button = ButtonUI();
+export const Menu = MenuUI();
