@@ -1,10 +1,11 @@
-import {ButtonUI} from '../accomps/button';
-import {TabUI} from '../accomps/tab';
+import {Header} from '../comps/header';
 
-export default{
-    title: "My Button"
+
+
+export default {
+    title: "My Components"
 }
 
-export const MyButtonUI = () => ButtonUI;
-export const MyTabUI = () => TabUI;
+export const MyHeader = () => Header;
+
 
