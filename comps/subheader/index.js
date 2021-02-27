@@ -13,8 +13,8 @@ function SubHeaderUI (text = "ENVIRONMENTAL COSTS"){
         position: absolute;
         width:257px;
         height:48px;
-        top:20px;
-        left:50px;
+        top:10px;
+        left:60px;
         font-family: Roboto;
         font-weight: bold;
         font-size: 24px;
@@ -26,3 +26,4 @@ function SubHeaderUI (text = "ENVIRONMENTAL COSTS"){
         </h1>
     </div>`
 }
+export const SubHeader = SubHeaderUI();   

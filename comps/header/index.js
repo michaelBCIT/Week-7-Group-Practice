@@ -13,8 +13,8 @@ function HeaderUI (text = "THE COST OF FOOD WASTE"){
         position:absolute;
         width:193px;
         height: 64px;
-        left: 91px;
-        top: 30px;
+        left: 100px;
+        top: 10px;
         color: #FFFFFF;
         text-shadow: 0px 3px 0px #70614F;
         font-family: Roboto;
