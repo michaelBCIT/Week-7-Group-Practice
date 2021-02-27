@@ -1,4 +1,5 @@
 import {Header} from '../comps/header';
+import {SubHeader} from '../comps/subheader';
 
 
 
@@ -7,5 +8,6 @@ export default {
 }
 
 export const MyHeader = () => Header;
+export const MySubHeader = () => SubHeader;
 
 

@@ -1,17 +1,17 @@
 function HeaderUI (text = "THE COST OF FOOD WASTE"){
     return `<div style="
-    background-color: #FE9179;
+    background-color: #FE9179; 
     justify-content center;
     align-items:center;
-    height: 103px;
-    width: 375px;
+    height:103px;
+    width:375px;
     justify-content:center;
     align-items:center;
     ">
         <h1 style="
-        font-size: 30px;
-        position: absolute;
-        width: 193px;
+        font-size:30px;
+        position:absolute;
+        width:193px;
         height: 64px;
         left: 91px;
         top: 30px;
@@ -21,8 +21,10 @@ function HeaderUI (text = "THE COST OF FOOD WASTE"){
         ">
         ${text}
         </h1>
-    </div>`
+    </div>` 
 }
 
 export const Header = HeaderUI();   
+
+ 
 
