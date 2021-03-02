@@ -1,4 +1,4 @@
-function MyButtonUI(text="TIP 1", src="https://www.flaticon.com/svg/vstatic/svg/3082/3082009.svg?token=exp=1614312338~hmac=ec09866f0665de30ff7090d7ba9f1367"){
+function MyButtonUI(text="TIP 1", src="https://www.flaticon.com/svg/vstatic/svg/135/135763.svg?token=exp=1614648432~hmac=9e642e1bafc99f9244e976aa3c4fbdf9"){
   return `
     <div style='
     height: 130px;
@@ -61,7 +61,7 @@ function MyButtonUI(text="TIP 1", src="https://www.flaticon.com/svg/vstatic/svg/
     '>
     ${text}</div>
 
-      <img src="https://www.flaticon.com/svg/vstatic/svg/3082/3082009.svg?token=exp=1614312338~hmac=ec09866f0665de30ff7090d7ba9f1367" alt="bread" 
+      <img src=${src} alt="bread" 
         style= '
         width: 80px;
         height: 80px;
@@ -99,7 +99,7 @@ function MyButtonUI(text="TIP 1", src="https://www.flaticon.com/svg/vstatic/svg/
     '>
     ${text}</div>
 
-      <img src="https://www.flaticon.com/svg/vstatic/svg/3082/3082009.svg?token=exp=1614312338~hmac=ec09866f0665de30ff7090d7ba9f1367" alt="bread" 
+      <img src=${src} alt="bread" 
         style= '
         width: 80px;
         height: 80px;

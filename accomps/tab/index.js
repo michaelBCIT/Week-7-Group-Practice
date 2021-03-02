@@ -36,7 +36,7 @@ function MyTabUI(text="Text"){
  TIP 1 </div>
 
     
-    <img src="https://www.flaticon.com/svg/vstatic/svg/3082/3082009.svg?token=exp=1614312338~hmac=ec09866f0665de30ff7090d7ba9f1367" alt="bread" 
+    <img src="https://www.flaticon.com/svg/vstatic/svg/135/135763.svg?token=exp=1614648432~hmac=9e642e1bafc99f9244e976aa3c4fbdf9" alt="bread" 
     style= '
     width: 80px;
     height: 80px;
