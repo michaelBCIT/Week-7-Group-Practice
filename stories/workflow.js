@@ -6,10 +6,13 @@ document.querySelector(".textbubble").innerHTML += TextBubbleUI("More than 30% o
 document.querySelector(".textbubble").innerHTML += TextBubbleUI();
 =======
 <<<<<<< HEAD
-document.querySelector(".mybutton").innerHTML += ButtonUI();
-document.querySelector(".mybutton").innerHTML += ButtonUI("TIP 2", "https://www.flaticon.com/svg/vstatic/svg/1689/1689198.svg?token=exp=1614314409~hmac=d0c5a88c93002f7b6dae6e274a512912");
 
-document.querySelector(".tab").innerHTML += TabUI();
+document.querySelector(".mybutton").innerHTML += ButtonUI();
+document.querySelector(".mybutton").innerHTML += ButtonUI("TIP 2", "https://www.flaticon.com/svg/vstatic/svg/1689/1689198.svg?token=exp=1614649480~hmac=9212608a5b8b4f9ba93fa524e3fdcdbe");
+document.querySelector(".mybutton").innerHTML += ButtonUI("TIP 3", "https://www.flaticon.com/svg/vstatic/svg/3964/3964265.svg?token=exp=1614649514~hmac=44cbf58eba807f7a58bc9f780d5555ba");
+
+
+document.querySelector(".tab").innerHTML += TabUI("Hello");
 =======
 >>>>>>> 5aac6633c5eef674adc6691e4a8ceb2ada681282
 document.querySelector(".Header"). innerHTML += HeaderUI();
