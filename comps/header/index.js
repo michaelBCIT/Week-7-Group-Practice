@@ -3,7 +3,7 @@ function HeaderUI (text = "THE COST OF FOOD WASTE"){
     background-color: #FE9179; 
     justify-content center;
     align-items:center;
-    height:103px;
+    height:133px;
     width:375px;
     justify-content:center;
     align-items:center;
