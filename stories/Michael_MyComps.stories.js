@@ -1,4 +1,5 @@
-import {textBubbleLight} from '../comps/textBubbleLight';
+import {textBubbleLight} from "../comps/textBubbleLight";
+import {textBubbleDark} from "../comps/textBubbleDark";
 
 
 
@@ -7,3 +8,4 @@ export default {
 }
 
 export const textBubbleL = () => textBubbleLight;
+export const texBubbleD = () => textBubbleDark;

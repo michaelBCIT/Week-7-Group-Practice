@@ -3,7 +3,7 @@ function textBubbleDarkUI(darkBubbleText1 = "Lorem Ipsum"){
         <div style="
         display:flex;
         background-color: #FE9179;
-        border-radius: 20;
+        border-radius: 20px;
         width: 282px;
         height: 122px;
         justify-content: center;
