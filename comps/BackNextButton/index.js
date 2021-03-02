@@ -1,4 +1,4 @@
-function BackNextButtonUI(text="Back") {
+function BackNextButtonUI(text="text") {
     return `<div class="back" style="
     background-color:#FE9179;
     height: 40px;
