@@ -8,4 +8,4 @@ export default {
 }
 
 export const textBubbleL = () => textBubbleLight;
-export const texBubbleD = () => textBubbleDark;
+export const textBubbleD = () => textBubbleDark;
