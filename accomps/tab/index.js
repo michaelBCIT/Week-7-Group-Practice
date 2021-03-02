@@ -1,4 +1,4 @@
-function MyTabUI(text="Text"){
+function MyTabUI(){
     return`
     
     <div style='
@@ -22,16 +22,22 @@ function MyTabUI(text="Text"){
     
 
     <div style='
-      margin-top: 20px;
+      margin-top: 50px;
+      margin-left: 60px;
       padding-top: 10px;
       align-items: center;
       justify-content: center;
       display: flex;
+
+      text-shadow: 2px 2px #FE9179;
+      font-size: 15px; 
     '>
-    ${text}</div>
+    Be more mindful of food waste</div>
 
     <div style='
-        margin-top: -15px;
+        margin-top: -20px;
+        margin-left: 20px;
+        font-size: 18px; 
   '>
  TIP 1 </div>
 
