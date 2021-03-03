@@ -1,8 +1,9 @@
-import {Header} from '../comps/header';
-import {SubHeader} from '../comps/subheader';
 
+
+
+//Alicia
 import {BackNextButton} from '../comps/BackNextButton';
-import {TextBubble} from '../comps/TextBubble';
+import {PieChart} from '../comps/PieChart';
 
 
 //Arielle
@@ -11,17 +12,30 @@ import {TabUI} from '../accomps/tab';
 import {TrashCan} from '../accomps/trash-can';
 
 
+//Jessica
+import {Header} from '../comps/header';
+import {SubHeader} from '../comps/subheader';
+import {StartButton} from '../comps/StartButton';
+import {LogoUI} from '../comps/Logo';
+
 
 export default {
     title: "My Components"
 }
 
+//Jessica
 export const MyHeader = () => Header;
 export const MySubHeader = () => SubHeader;
 
+//alicia
+export const StartButtonUI = () => StartButton;
+export const MyLogoUI = () => LogoUI;
+
 
 export const MyBackNextButton = () => BackNextButton;
-export const MyTextBubble = () => TextBubble;
+export const MyPieChart = () => PieChart;
+
+
 
 //Arielle
 export const MyButtonUI = () => ButtonUI;
