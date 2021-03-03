@@ -1,6 +1,15 @@
 function MyTrashCan(){
     return`
-    <div>I am the trash man</div>
+    <div>
+    
+    <img src="garbage_can_lid.png" alt="garbage-lid"> 
+
+    <br>
+
+    <img src="garbage_can.png" alt="garbage-can"> 
+
+    
+    </div>
     
     `
 }
