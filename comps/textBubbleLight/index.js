@@ -1,8 +1,8 @@
-function textBubbleLightUI(bubbleText = "lorem ipsum", width = "250px"){
+function textBubbleLightUI(bubbleText = "lorem ipsum", width = "250px", bubbleColor = "#F5D9B7"){
     return `
         <div style="
         display: flex;
-        background-color: #F5D9B7;
+        background-color: ${bubbleColor};
         width: ${width};
         height: auto;
         border-radius: 20px;
