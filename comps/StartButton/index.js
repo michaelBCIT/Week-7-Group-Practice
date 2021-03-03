@@ -7,14 +7,15 @@ function StartButtonUI(text="Start") {
     Left:66px;
     Border-radius:20px;
     color: white;
+
     display:flex;
     align-items:center;
     justify-content: center;
+
     font-family: sans-serif;
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: normal;
+    font-weight: bold;
     font-size: 36px;
+
     line-height: 42px;
     text-align: center;
     ">${text}
