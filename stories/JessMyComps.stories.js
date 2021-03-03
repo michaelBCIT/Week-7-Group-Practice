@@ -27,3 +27,7 @@ export const MyTextBubble = () => TextBubble;
 export const MyButtonUI = () => ButtonUI;
 export const MyTabUI = () => TabUI;
 export const MyTrashCan = () => TrashCan;
+
+//Michael
+import {textBubbleLight} from '../comps/textBubbleLight';
+export const TextBubbleTemplate = () => textBubbleLight;
