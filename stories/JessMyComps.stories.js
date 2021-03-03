@@ -10,7 +10,6 @@ import {PieChart} from '../comps/PieChart';
 import {ButtonUI} from '../accomps/button';
 import {TabUI} from '../accomps/tab';
 import {TrashCan} from '../accomps/trash-can';
-<<<<<<< HEAD
 import {FooterUI} from '../accomps/footer';
 
 
@@ -32,6 +31,7 @@ export default {
 
 export const MyHeader = () => Header;
 export const MySubHeader = () => SubHeader;
+
 
 //alicia
 export const StartButtonUI = () => StartButton;
