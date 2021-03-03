@@ -15,7 +15,7 @@ function SubHeaderUI (text = "ENVIRONMENTAL COSTS"){
         height:48px;
         top:10px;
         left:60px;
-        font-family: Roboto;
+        font-family: sans-serif;
         font-weight: bold;
         font-size: 24px;
         line-height: 23px;
