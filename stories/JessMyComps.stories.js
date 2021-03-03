@@ -9,12 +9,13 @@ import {TextBubble} from '../comps/TextBubble';
 import {ButtonUI} from '../accomps/button';
 import {TabUI} from '../accomps/tab';
 import {TrashCan} from '../accomps/trash-can';
-
+import {FooterUI} from '../accomps/footer';
 
 
 export default {
     title: "My Components"
 }
+
 
 export const MyHeader = () => Header;
 export const MySubHeader = () => SubHeader;
@@ -27,3 +28,4 @@ export const MyTextBubble = () => TextBubble;
 export const MyButtonUI = () => ButtonUI;
 export const MyTabUI = () => TabUI;
 export const MyTrashCan = () => TrashCan;
+export const MyFooterUI = () => FooterUI;
