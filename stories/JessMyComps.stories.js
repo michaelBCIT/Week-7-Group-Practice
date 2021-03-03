@@ -26,12 +26,10 @@ export default {
 //Jessica
 export const MyHeader = () => Header;
 export const MySubHeader = () => SubHeader;
-
-//alicia
 export const StartButtonUI = () => StartButton;
 export const MyLogoUI = () => LogoUI;
 
-
+//Alicia
 export const MyBackNextButton = () => BackNextButton;
 export const MyPieChart = () => PieChart;
 
