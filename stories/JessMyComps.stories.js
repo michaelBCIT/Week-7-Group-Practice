@@ -1,6 +1,9 @@
 
+
+
+//Alicia
 import {BackNextButton} from '../comps/BackNextButton';
-import {TextBubble} from '../comps/TextBubble';
+import {PieChart} from '../comps/PieChart';
 
 
 //Arielle
@@ -9,6 +12,7 @@ import {TabUI} from '../accomps/tab';
 import {TrashCan} from '../accomps/trash-can';
 <<<<<<< HEAD
 import {FooterUI} from '../accomps/footer';
+
 
 
 
@@ -28,11 +32,15 @@ export default {
 
 export const MyHeader = () => Header;
 export const MySubHeader = () => SubHeader;
+
+//alicia
 export const StartButtonUI = () => StartButton;
 export const MyLogoUI = () => LogoUI;
 
+
 export const MyBackNextButton = () => BackNextButton;
-export const MyTextBubble = () => TextBubble;
+export const MyPieChart = () => PieChart;
+
 
 
 //Arielle
