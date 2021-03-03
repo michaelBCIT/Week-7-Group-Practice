@@ -16,6 +16,7 @@ document.querySelector(".tab").innerHTML += TabUI("Hello");
 document.querySelector(".tab").innerHTML += TabUI();
 
 document.querySelector(".Header"). innerHTML += HeaderUI();
-
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI();
+document.querySelector(".StartButton"). innerHTML += StartButtonUI();
+document.querySelector(".Logo"). innerHTML += MyLogoUI();
 
