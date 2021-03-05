@@ -28,4 +28,4 @@ function StartButtonUI(text="Start") {
     `
 }
 
-export const StartButton = StartButtonUI();
+//export const StartButton = StartButtonUI();
