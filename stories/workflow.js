@@ -15,7 +15,7 @@ document.querySelector().innerHTML += TabUI("Hello");
 
 document.querySelector().innerHTML += TabUI();
 
-<<<<<<< HEAD
+
 document.querySelector(). innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
 document.querySelector(). innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 document.querySelector(). innerHTML += HeaderUI("WHY DOES ALL THIS HAPPEN?");
@@ -29,7 +29,7 @@ document.querySelector(). innerHTML += SubHeaderUI("HOW DID THIS HAPPEN?");
 document.querySelector(). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
 document.querySelector(). innerHTML += SubHeaderUI();
 
-=======
+
 document.querySelector(".Header"). innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
 document.querySelector(".Header"). innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 document.querySelector(".Header"). innerHTML += HeaderUI("WHY DOES ALL THIS HAPPEN?");
@@ -42,4 +42,4 @@ document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("SOCIAL COSTS");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW DID THIS HAPPEN?");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI();
->>>>>>> be143cdfd78101aea3ae1350c605db3ed10bce39
+
