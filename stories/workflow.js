@@ -3,7 +3,7 @@ document.querySelector(".BackNextButton").innerHTML += BackNextButtonUI("Next");
 
 
 //Page 2
-document.querySelector(".buttons-p2").innerHTML += BackNextButtonUI("Back");
+document.querySelector("./comps/BackNextButton/buttons-p2").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".buttons-p2").innerHTML += BackNextButtonUI("Next");
 
 document.querySelector(".textbubble").innerHTML += TextBubbleUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
@@ -46,4 +46,10 @@ document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("SOCIAL COSTS");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW DID THIS HAPPEN?");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI();
+<<<<<<< HEAD
 
+=======
+
+
+
+>>>>>>> 3684fe7d19965b00fdc1b42f269bbd90ed210bab
