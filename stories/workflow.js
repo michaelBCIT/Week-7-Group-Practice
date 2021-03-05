@@ -1,6 +1,10 @@
 document.querySelector(".BackNextButton").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".BackNextButton").innerHTML += BackNextButtonUI("Next");
 
+//Page 2
+document.querySelector(".buttons-p2").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".buttons-p2").innerHTML += BackNextButtonUI("Next");
+
 document.querySelector(".textbubble").innerHTML += TextBubbleUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
 document.querySelector(".textbubble").innerHTML += TextBubbleUI();
 
@@ -15,7 +19,7 @@ document.querySelector(".tab").innerHTML += TabUI("Hello");
 
 document.querySelector(".tab").innerHTML += TabUI();
 
-document.querySelector(".Header"). innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
+document.querySelector(".header-p2"). innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
 document.querySelector(".Header"). innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 document.querySelector(".Header"). innerHTML += HeaderUI("WHY DOES ALL THIS HAPPEN?");
 document.querySelector(".Header"). innerHTML += HeaderUI("HOW MUCH FOOD DO CANADIANS THROW AWAY?");
