@@ -21,3 +21,9 @@ import {TabUI} from '../accomps/tab';
 
 export const MyButtonUI = () => ButtonUI;
 export const MyTabUI = () => TabUI;
+
+import {StartButton} from '../comps/StartButton';
+export const StartButtonUI = () => StartButton;
+
+import {LogoUI} from '../comps/Logo';
+export const MyLogoUI = () => LogoUI;
