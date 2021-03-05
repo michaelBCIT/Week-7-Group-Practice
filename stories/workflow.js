@@ -29,10 +29,15 @@ document.querySelector(".Header"). innerHTML += HeaderUI("THE COST OF FOOD WASTE
 document.querySelector(".Header"). innerHTML += HeaderUI("WHY DOES ALL THIS HAPPEN?");
 document.querySelector(".Header"). innerHTML += HeaderUI("HOW MUCH FOOD DO CANADIANS THROW AWAY?");
 document.querySelector(".Header"). innerHTML += HeaderUI("HOW YOU CAN REDUCE FOOD WASTE");
-document.querySelector(".HeaderPage3"). innerHTML += HeaderUI("WHAT CAN CLEAN TABLE DO FOR YOU");
+
 
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI();
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("SOCIAL COSTS");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW DID THIS HAPPEN?");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI();
+
+//page 3
+document.querySelector(".HeaderPage3").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
+document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI();
+
