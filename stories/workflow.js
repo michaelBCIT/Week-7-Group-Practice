@@ -1,6 +1,14 @@
 document.querySelector(".BackNextButton").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".BackNextButton").innerHTML += BackNextButtonUI("Next");
 
+
+//Page 2
+document.querySelector(".buttons-p2").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".buttons-p2").innerHTML += BackNextButtonUI("Next");
+
+document.querySelector(".textbubble").innerHTML += TextBubbleUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
+document.querySelector(".textbubble").innerHTML += TextBubbleUI();
+
 document.querySelector(".textbubble").innerHTML += textBubbleLightUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
 document.querySelector(".textbubble").innerHTML += textBubbleLightUI();
 
@@ -8,6 +16,11 @@ document.querySelector(".textbubble").innerHTML += textBubbleLightUI();
 document.querySelector().innerHTML += ButtonUI();
 document.querySelector().innerHTML += ButtonUI("TIP 2", "https://www.flaticon.com/svg/vstatic/svg/1689/1689198.svg?token=exp=1614649480~hmac=9212608a5b8b4f9ba93fa524e3fdcdbe");
 document.querySelector().innerHTML += ButtonUI("TIP 3", "https://www.flaticon.com/svg/vstatic/svg/3964/3964265.svg?token=exp=1614649514~hmac=44cbf58eba807f7a58bc9f780d5555ba");
+
+document.querySelector(".mybutton").innerHTML += ButtonUI();
+document.querySelector(".mybutton").innerHTML += ButtonUI("TIP 2", "https://www.flaticon.com/svg/vstatic/svg/1689/1689198.svg?token=exp=1614649480~hmac=9212608a5b8b4f9ba93fa524e3fdcdbe");
+document.querySelector(".mybutton").innerHTML += ButtonUI("TIP 3", "https://www.flaticon.com/svg/vstatic/svg/3964/3964265.svg?token=exp=1614649514~hmac=44cbf58eba807f7a58bc9f780d5555ba");
+
 
 
 
@@ -30,7 +43,7 @@ document.querySelector(). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK
 document.querySelector(). innerHTML += SubHeaderUI();
 
 
-document.querySelector(".Header"). innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
+document.querySelector(".header-p2"). innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
 document.querySelector(".Header"). innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 document.querySelector(".Header"). innerHTML += HeaderUI("WHY DOES ALL THIS HAPPEN?");
 document.querySelector(".Header"). innerHTML += HeaderUI("HOW MUCH FOOD DO CANADIANS THROW AWAY?");
