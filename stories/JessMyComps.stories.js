@@ -1,7 +1,7 @@
 
 
 
-//Alicia
+//Alicia was here 
 import {BackNextButton} from '../comps/BackNextButton';
 import {PieChart} from '../comps/PieChart';
 
