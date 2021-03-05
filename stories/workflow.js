@@ -3,7 +3,7 @@ document.querySelector(".BackNextButton").innerHTML += BackNextButtonUI("Next");
 
 
 //Page 2
-document.querySelector(".buttons-p2").innerHTML += BackNextButtonUI("Back");
+document.querySelector("./comps/BackNextButton/buttons-p2").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".buttons-p2").innerHTML += BackNextButtonUI("Next");
 
 document.querySelector(".textbubble").innerHTML += TextBubbleUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
@@ -24,7 +24,17 @@ document.querySelector(".tab").innerHTML += TabUI("Hello");
 
 document.querySelector(".tab").innerHTML += TabUI();
 
+
+
+document.querySelector(".Header"). innerHTML += HeaderUI();
+document.querySelector(".SubHeader"). innerHTML += SubHeaderUI();
+document.querySelector(".StartButton"). innerHTML += StartButtonUI();
+document.querySelector(".Logo"). innerHTML += MyLogoUI();
+
+document.querySelector(".Header"). innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
+
 document.querySelector(".header-p2"). innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
+
 document.querySelector(".Header"). innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 document.querySelector(".Header"). innerHTML += HeaderUI("WHY DOES ALL THIS HAPPEN?");
 document.querySelector(".Header"). innerHTML += HeaderUI("HOW MUCH FOOD DO CANADIANS THROW AWAY?");
@@ -37,7 +47,11 @@ document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW DID THIS HAP
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI();
 
+<<<<<<< HEAD
 //page 3
 document.querySelector(".HeaderPage3").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI();
+=======
+
+>>>>>>> 3684fe7d19965b00fdc1b42f269bbd90ed210bab
 
