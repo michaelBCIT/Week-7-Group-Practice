@@ -26,7 +26,7 @@ function HeaderUI (text = "THE COST OF FOOD WASTE"){
     </div>` 
 }
 
-export const Header = HeaderUI();   
+//export const Header = HeaderUI();   
 
  
 
