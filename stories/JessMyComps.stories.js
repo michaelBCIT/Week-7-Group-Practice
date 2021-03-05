@@ -1,6 +1,4 @@
 
-
-
 //Alicia
 import {BackNextButton} from '../comps/BackNextButton';
 import {PieChart} from '../comps/PieChart';
@@ -28,7 +26,6 @@ export default {
 
 
 //Jessica
-
 export const MyHeader = () => Header;
 export const MySubHeader = () => SubHeader;
 
@@ -37,10 +34,9 @@ export const MySubHeader = () => SubHeader;
 export const StartButtonUI = () => StartButton;
 export const MyLogoUI = () => LogoUI;
 
-
+//Alicia
 export const MyBackNextButton = () => BackNextButton;
 export const MyPieChart = () => PieChart;
-
 
 
 //Arielle
