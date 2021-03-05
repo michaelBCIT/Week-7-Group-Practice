@@ -45,10 +45,19 @@ export const MyPieChart = () => PieChart;
 //Arielle
 export const MyButtonUI = () => ButtonUI;
 export const MyTabUI = () => TabUI;
+
+
+import {StartButton} from '../comps/StartButton';
+export const StartButtonUI = () => StartButton;
+
+import {LogoUI} from '../comps/Logo';
+export const MyLogoUI = () => LogoUI;
+
 export const MyTrashCan = () => TrashCan;
 export const MyFooterUI = () => FooterUI;
 
 //Michael
 import {textBubbleLight} from '../comps/textBubbleLight';
 export const TextBubbleTemplate = () => textBubbleLight;
+
 

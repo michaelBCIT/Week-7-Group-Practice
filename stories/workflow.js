@@ -24,7 +24,17 @@ document.querySelector(".tab").innerHTML += TabUI("Hello");
 
 document.querySelector(".tab").innerHTML += TabUI();
 
+<<<<<<< HEAD
+
+document.querySelector(".Header"). innerHTML += HeaderUI();
+document.querySelector(".SubHeader"). innerHTML += SubHeaderUI();
+document.querySelector(".StartButton"). innerHTML += StartButtonUI();
+document.querySelector(".Logo"). innerHTML += MyLogoUI();
+
+document.querySelector(".Header"). innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
+=======
 document.querySelector(".header-p2"). innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
+>>>>>>> 5712f7e361804bd0e9d01a672c75b1859e086111
 document.querySelector(".Header"). innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 document.querySelector(".Header"). innerHTML += HeaderUI("WHY DOES ALL THIS HAPPEN?");
 document.querySelector(".Header"). innerHTML += HeaderUI("HOW MUCH FOOD DO CANADIANS THROW AWAY?");
@@ -36,3 +46,8 @@ document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("SOCIAL COSTS");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW DID THIS HAPPEN?");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI();
+<<<<<<< HEAD
+
+
+=======
+>>>>>>> 5712f7e361804bd0e9d01a672c75b1859e086111
