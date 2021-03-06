@@ -6,6 +6,7 @@ document.querySelector(".header-p2").innerHTML += HeaderUI("WHAT IS FOOD WASTE?"
 
 document.querySelector(".button-p2-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".button-p2-2").innerHTML += BackNextButtonUI("Next");
+
 /*
 document.querySelector(".textbubble").innerHTML += TextBubbleUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
 document.querySelector(".textbubble").innerHTML += TextBubbleUI();
@@ -23,6 +24,12 @@ document.querySelector(".button-p3-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".button-p3-2").innerHTML += BackNextButtonUI("Next");
 
 
+
+// page 9
+document.querySelector(".header-p9").innerHTML += HeaderUI("WHAT CAN CLEAN TABLE DO FOR YOU?");
+document.querySelector(".touchofabutton").innerHTML += textBubbleLightUI("With a touch of a button, users can help list their groceries, and track their expiration dates");
+
+
 function NextPage(page){
   document.querySelector("#show").style.display = "none";
   document.querySelector("#show").id = "";
@@ -30,4 +37,4 @@ function NextPage(page){
   document.querySelector(page).id = "show";
 }
 
-// michael was here 3
+
