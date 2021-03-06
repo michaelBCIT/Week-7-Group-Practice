@@ -11,3 +11,13 @@ html, body{
     height: 812px;
     background-color: #FDF3CD; 
 }
+
+.lid{
+    padding-left: 50px;
+    padding-top: 300px;
+
+}
+
+.can{
+    padding-left: 75px;
+}
