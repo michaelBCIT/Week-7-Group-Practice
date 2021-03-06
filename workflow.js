@@ -21,6 +21,10 @@ document.querySelector(".HeaderPage3").innerHTML += HeaderUI("THE COST OF FOOD W
 document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI("Food waste negatively contributes to resource costs.", "245px", "#F5D9B7");
 document.querySelector(".textBubblePage3-2").innerHTML += textBubbleLightUI("RESOURCE COST", "204px", "#FBAD81");
 
+// page 9
+document.querySelector(".header-p9").innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
+document.querySelector("").innerHTML += textBubbleLightUI("THE COST OF FOOD WASTE");
+
 
 function NextPage(page){
   document.querySelector("#show").style.display = "none";
@@ -29,4 +33,4 @@ function NextPage(page){
   document.querySelector(page).id = "show";
 }
 
-// michael was here 3
+
