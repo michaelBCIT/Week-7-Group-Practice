@@ -1,6 +1,6 @@
-document.querySelector(".button-p2-1").innerHTML += BackNextButtonUI("Back");
-document.querySelector(".button-p2-2").innerHTML += BackNextButtonUI("Next");
-document.querySelector(".startbutton").innerHTML += StartButtonUI("Next");
+//document.querySelector(".button-p2-1").innerHTML += BackNextButtonUI("Back");
+//document.querySelector(".button-p2-2").innerHTML += BackNextButtonUI("Next");
+document.querySelector(".startbutton").innerHTML += StartButtonUI("Start");
 
 
 //Page 2
@@ -70,8 +70,8 @@ document.querySelector(".textBubblePage3-2").innerHTML += textBubbleLightUI("RES
 
 
 //page 3
-document.querySelector(".HeaderPage3").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
-document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI();
+//document.querySelector(".HeaderPage3").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
+//document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI();
 
 function NextPage(page){
   document.querySelector("#show").style.display = "none";

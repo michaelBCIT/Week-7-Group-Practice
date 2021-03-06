@@ -6,3 +6,13 @@
     background-color: #FDF3CD;
     display:none;
 }
+
+.page3 .textBubblePage3-1{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    margin-right: 500px;
+
+
+}
