@@ -21,6 +21,23 @@ top: 3px;
     top: 205px
 }
 
+.page5-1 .call-to-action{
+position: absolute;
+width: 46px;
+height: 46px;
+left: 210px;
+top: 465px;
+
+font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 20px;
+line-height: 23px;
+text-align: center;
+
+color: #FFFFFF;
+}
+
 .page5-1 .flying-bird{
     position: absolute;
 width: 219px;
