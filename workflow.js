@@ -1,6 +1,6 @@
 //document.querySelector(".button-p2-1").innerHTML += BackNextButtonUI("Back");
 //document.querySelector(".button-p2-2").innerHTML += BackNextButtonUI("Next");
-document.querySelector(".startbutton").innerHTML += StartButtonUI("Next");
+document.querySelector(".startbutton").innerHTML += StartButtonUI("Start");
 
 
 //Page 2
