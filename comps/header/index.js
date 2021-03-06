@@ -21,7 +21,7 @@ function HeaderUI (text = "THE COST OF FOOD WASTE"){
         align-items:center;
 
         padding: 50px;
-        margin-left: 30px;
+        text-align:center;
         ">
         ${text}
         </div>
