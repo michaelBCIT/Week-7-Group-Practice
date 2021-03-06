@@ -16,6 +16,11 @@ document.querySelector(".button-p3-2").innerHTML += BackNextButtonUI("Next");
 
 
 document.querySelector(".headerpage4").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
+<<<<<<< HEAD
+=======
+document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI("Food waste negatively contributes to resource costs.", "245px", "#F5D9B7");
+document.querySelector(".textBubblePage3-2").innerHTML += textBubbleLightUI("RESOURCE COST", "204px", "#FBAD81");
+>>>>>>> ceb576b8590cb52b23fd673fb210b877781bb7f9
 
 
 // page 9
