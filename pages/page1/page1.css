@@ -8,13 +8,13 @@ html, body {
     align-items: center;
 }
 
-.main {
+.page1 {
     width: 375px;
     height: 812px;
     background-color:#FDF3CD;
 }
 
-.cleantable {
+.page1 .cleantable {
     font-size: 30px;
     color: #522E05;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -22,7 +22,7 @@ html, body {
     font-weight: bold;
 }
 
-.presents {
+.page1 .presents {
     font-size: 18px;
     color: #522E05;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -30,7 +30,7 @@ html, body {
     font-weight:regular;
 }
 
-.theimpactof {
+.page1 .theimpactof {
     font-size: 24px;
     color: #522E05;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -38,7 +38,7 @@ html, body {
     font-weight: light;
 }
 
-.foodwastetitle {
+.page1 .foodwastetitle {
     font-size: 30px;
     color: #522E05;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -47,7 +47,7 @@ html, body {
     
 }
 
-.createdby {
+.page1 .createdby {
     font-size: 14px;
     color: #522E05;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
@@ -56,7 +56,7 @@ html, body {
     margin-top: 140px;
 }
 
-.cleantablelogo {
+.page1 .cleantablelogo {
     display: block;
     margin-left: auto;
     margin-right: auto;
