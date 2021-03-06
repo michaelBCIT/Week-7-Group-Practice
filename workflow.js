@@ -9,15 +9,14 @@ document.querySelector(".header-p2").innerHTML += HeaderUI("WHAT IS FOOD WASTE?"
 document.querySelector(".button-p2-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".button-p2-2").innerHTML += BackNextButtonUI("Next");
 
-document.querySelector(".textbubble").innerHTML += TextBubbleUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
-document.querySelector(".textbubble").innerHTML += TextBubbleUI();
+//document.querySelector(".textbubble").innerHTML += TextBubbleUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
+//document.querySelector(".textbubble").innerHTML += TextBubbleUI();
 
-document.querySelector(".textbubble").innerHTML += textBubbleLightUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
-document.querySelector(".textbubble").innerHTML += textBubbleLightUI();
+//document.querySelector(".textbubble").innerHTML += textBubbleLightUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
+//document.querySelector(".textbubble").innerHTML += textBubbleLightUI();
 
 
 //page 3
-
 document.querySelector(".headerpage3").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 document.querySelector(".textbubblepage3-1").innerHTML += textBubbleLightUI("Food waste negatively contributes to resource costs.", "245px", "#F5D9B7");
 document.querySelector(".textbubblepage3-2").innerHTML += textBubbleLightUI("RESOURCE COST", "204px", "#FBAD81");
@@ -29,17 +28,19 @@ document.querySelector(".HeaderPage3-1").innerHTML += HeaderUI("THE COST OF FOOD
 document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI("Food waste negatively contributes to resource costs.", "245px", "#F5D9B7");
 document.querySelector(".textBubblePage3-2").innerHTML += textBubbleLightUI("RESOURCE COST", "204px", "#FBAD81");
 
-
-//page 5
+//page 5-1
 document.querySelector("SubHeaderPage5"). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
 document.querySelector(".BackButton-Page5-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".NextButton-Page5-1").innerHTML += BackNextButtonUI("Next");
 
+//page 5-2
+document.querySelector(".TextBubble-Page5-2").innerHTML += textBubbleLightUI("RESOURCE COST", "204px", "#FBAD81");
+document.querySelector(".BackButton-Page5-2").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".NextButton-Page5-2").innerHTML += BackNextButtonUI("Next");
 
 // document.querySelector().innerHTML += TabUI("Hello");
 
 // document.querySelector().innerHTML += TabUI();
-
 
 // document.querySelector(). innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
 // document.querySelector(). innerHTML += HeaderUI("THE COST OF FOOD WASTE");
