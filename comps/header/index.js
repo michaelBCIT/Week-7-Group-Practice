@@ -8,9 +8,9 @@ function HeaderUI (text = "THE COST OF FOOD WASTE"){
     justify-content:center;
     align-items:center;
     ">
-        <h1 style="
+        <div style="
         font-size:30px;
-        width:193px;
+        font-weight: bold;
 
         color: #FFFFFF;
         text-shadow: 0px 3px 0px #70614F;
@@ -20,9 +20,11 @@ function HeaderUI (text = "THE COST OF FOOD WASTE"){
         justify-content:center;
         align-items:center;
 
+        padding: 50px;
+        margin-left: 30px;
         ">
         ${text}
-        </h1>
+        </div>
     </div>` 
 }
 
