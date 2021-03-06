@@ -1,7 +1,7 @@
-document.querySelector(".BackNextButton").innerHTML += BackNextButtonUI("Back");
-document.querySelector(".BackNextButton").innerHTML += BackNextButtonUI("Next");
+document.querySelector(".button-p2-1").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".button-p2-2").innerHTML += BackNextButtonUI("Next");
 
-
+/*
 //Page 2
 document.querySelector(".button-p2-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".button-p2-2").innerHTML += BackNextButtonUI("Next");
@@ -66,14 +66,9 @@ document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("SOCIAL COSTS");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW DID THIS HAPPEN?");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI();
-<<<<<<< HEAD
+
 
 //page 3
 document.querySelector(".HeaderPage3").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI();
 
-=======
-
-
-
->>>>>>> d6bc0f47418ce13e80b4d254ee2908497c9b7af9
