@@ -8,13 +8,13 @@ document.querySelector(".header-p2").innerHTML += HeaderUI("WHAT IS FOOD WASTE?"
 
 document.querySelector(".button-p2-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".button-p2-2").innerHTML += BackNextButtonUI("Next");
-
+/*
 document.querySelector(".textbubble").innerHTML += TextBubbleUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
 document.querySelector(".textbubble").innerHTML += TextBubbleUI();
 
 document.querySelector(".textbubble").innerHTML += textBubbleLightUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
 document.querySelector(".textbubble").innerHTML += textBubbleLightUI();
-
+*/
 
 //page 3
 document.querySelector(".headerpage3").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
