@@ -10,11 +10,12 @@
     align-items: center;
 }
 
-.page4 .headerpage4 {
-    margin-top: 10px;
+.page4 .subheader4 {
+    margin-top: 50px;
 }
 
-.page3 .buttons-p3{
+
+.page4 .buttons-p4{
     width: 170%;
     display: flex;
     justify-content: space-evenly;
