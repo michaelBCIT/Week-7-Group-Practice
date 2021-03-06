@@ -20,13 +20,22 @@
 }
 
 .page3 .textbubblepage3-1{
-    position: absolute;
-    top: 146px;
+    position: relative;
+    top: -106px;
+    right: 42px;
+    font-weight: bold;
 }
 
 .page3 .moneybagPage3{
+    width: 71px;
+    height: 71px;
     position: relative;
-    float: right;
+    top: -185px;
+    right: -110px;
+}
+
+.page3 .textbubblepage3-2{
+    color:#FFFFFF;
 }
 
 .page3 .buttons-p3{
