@@ -1,4 +1,4 @@
-function textBubbleLightUI(bubbleText = "lorem ipsum", width = "250px", bubbleColor = "#F5D9B7"){
+function textBubbleLightUI(bubbleText = "lorem ipsum", width = "250px", bubbleColor = "#F5D9B7", font="18px"){
     return `
         <div style="
         display: flex;
@@ -10,10 +10,12 @@ function textBubbleLightUI(bubbleText = "lorem ipsum", width = "250px", bubbleCo
         align-items: center;
         ">
             <span style="
-            font-size: 20pt;
+            font-size: ${font};
             font-family: sans-serif;
             color: #766654;
             padding: 0.75rem;
+            margin:10px;
+            text-align:center;
             ">
             ${bubbleText}
             </span>
