@@ -25,8 +25,7 @@ document.querySelector(".headerpage4").innerHTML += HeaderUI("THE COST OF FOOD W
 
 
 // page 9
-document.querySelector(".header-p9").innerHTML += HeaderUI("WHAT CAN CLEAN TABLE DO FOR YOU?");
-document.querySelector(".touchofabutton").innerHTML += textBubbleLightUI("With a touch of a button, users can help list their groceries, and track their expiration dates");
+
 
 
 //page 5-1
