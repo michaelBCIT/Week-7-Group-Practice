@@ -29,7 +29,11 @@ document.querySelector(".headerpage4").innerHTML += HeaderUI("THE COST OF FOOD W
 
 
 //page 5-1
+<<<<<<< HEAD
 document.querySelector(".subheaderpage5").innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
+=======
+document.querySelector(".subheaderpage5"). innerHTML += SubHeaderUI("WHAT OUR LANDFILLS CAN LOOK LIKE");
+>>>>>>> edc20612fa2b49b00b6194284ebb110f6f3f99e3
 document.querySelector(".BackButton-Page5-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".NextButton-Page5-1").innerHTML += BackNextButtonUI("Next");
 
