@@ -14,6 +14,8 @@ function textBubbleLightUI(bubbleText = "lorem ipsum", width = "250px", bubbleCo
             font-family: sans-serif;
             color: #766654;
             padding: 0.75rem;
+            margin:10px;
+            text-align:center;
             ">
             ${bubbleText}
             </span>
