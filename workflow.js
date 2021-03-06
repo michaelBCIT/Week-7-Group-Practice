@@ -79,3 +79,5 @@ function NextPage(page){
   document.querySelector(page).style.display = "flex";
   document.querySelector(page).id = "show";
 }
+
+// michael was here 3
