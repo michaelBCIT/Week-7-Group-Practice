@@ -26,4 +26,4 @@ function SubHeaderUI (text = "ENVIRONMENTAL COSTS"){
         </h1>
     </div>`
 }
-export const SubHeader = SubHeaderUI();   
+//export const SubHeader = SubHeaderUI();   
