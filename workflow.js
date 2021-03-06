@@ -49,7 +49,7 @@ document.querySelector(".button-p4-2").innerHTML += BackNextButtonUI("Next");
 
 
 //page 5-1
-document.querySelector("SubHeaderPage5"). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
+document.querySelector("subheaderpage5"). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
 document.querySelector(".BackButton-Page5-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".NextButton-Page5-1").innerHTML += BackNextButtonUI("Next");
 

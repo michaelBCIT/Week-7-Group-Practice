@@ -11,11 +11,23 @@
     flex-direction: column;
 }
 
+<<<<<<< HEAD
 .SubHeaderPage5{
 width: 157px;
 height: 145px;
 left: 155px;
 top: -4px;
+=======
+.page5-1 .thinking-image{
+    width: 150px;
+    left: auto;
+    right: auto;
+    margin-left: 35%
+}
+
+.page5-1 .subheaderpage5{
+    
+>>>>>>> 8509a819689cf94cc1bca0abc3dd33dc11141bf2
 }
 
 .page5-1 .sun-and-cloud{
