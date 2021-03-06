@@ -57,8 +57,4 @@ function MyTabUI(){
     `
 }
 
-<<<<<<< HEAD
 // export const TabUI = MyTabUI();
-=======
-//export const TabUI = MyTabUI();
->>>>>>> e5275fd1a76db593bdfbdf2a94709dbdbc0f63d8
