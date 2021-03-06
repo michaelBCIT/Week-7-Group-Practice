@@ -11,6 +11,12 @@
     flex-direction: column;
 }
 
+.page5-1 .thinking-image{
+    width: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
 
 .page5-1 .sun-and-cloud{
 
