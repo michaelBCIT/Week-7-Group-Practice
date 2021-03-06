@@ -6,9 +6,15 @@
 }
 
 .page3 .container3{
- 
+    display: flex;
     justify-content: center;
     align-items: center;
+    flex-direction: column;
+}
+
+.page3 .headerpage3{
+    position: absolute;
+    top: 0;
 }
 
 .page3 .textBubblePage3-1{
