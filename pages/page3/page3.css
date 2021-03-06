@@ -29,5 +29,6 @@
     display: flex;
     justify-content: space-evenly;
     
+    margin-left: -130px;
     margin-top: 300px;
 }
