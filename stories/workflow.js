@@ -1,7 +1,8 @@
 document.querySelector(".button-p2-1").innerHTML += BackNextButtonUI("Back");
+/*
 document.querySelector(".button-p2-2").innerHTML += BackNextButtonUI("Next");
 
-/*
+
 //Page 2
 document.querySelector(".button-p2-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".button-p2-2").innerHTML += BackNextButtonUI("Next");
