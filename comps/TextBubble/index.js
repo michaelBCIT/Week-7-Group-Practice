@@ -14,4 +14,4 @@ function TextBubbleUI(text="text") {
     </div>`
 }
 
-    export const TextBubble = TextBubbleUI();
+    //export const TextBubble = TextBubbleUI();

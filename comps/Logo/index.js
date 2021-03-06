@@ -9,4 +9,4 @@ function MyLogoUI(scr ="comps/img/logo.png"){
   `
 }
 
-export const LogoUI = MyLogoUI();
+//export const LogoUI = MyLogoUI();
