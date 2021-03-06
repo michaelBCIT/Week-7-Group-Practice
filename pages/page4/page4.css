@@ -13,3 +13,11 @@
 .page4 .headerpage4 {
     margin-top: 10px;
 }
+
+.page3 .buttons-p3{
+    width: 170%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-top: 300px;
+}
