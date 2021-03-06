@@ -16,14 +16,6 @@ document.querySelector(".textbubble").innerHTML += textBubbleLightUI("More than 
 document.querySelector(".textbubble").innerHTML += textBubbleLightUI();
 
 
-// document.querySelector().innerHTML += ButtonUI();
-// document.querySelector().innerHTML += ButtonUI("TIP 2", "https://www.flaticon.com/svg/vstatic/svg/1689/1689198.svg?token=exp=1614649480~hmac=9212608a5b8b4f9ba93fa524e3fdcdbe");
-// document.querySelector().innerHTML += ButtonUI("TIP 3", "https://www.flaticon.com/svg/vstatic/svg/3964/3964265.svg?token=exp=1614649514~hmac=44cbf58eba807f7a58bc9f780d5555ba");
-
-// document.querySelector(".mybutton").innerHTML += ButtonUI();
-// document.querySelector(".mybutton").innerHTML += ButtonUI("TIP 2", "https://www.flaticon.com/svg/vstatic/svg/1689/1689198.svg?token=exp=1614649480~hmac=9212608a5b8b4f9ba93fa524e3fdcdbe");
-// document.querySelector(".mybutton").innerHTML += ButtonUI("TIP 3", "https://www.flaticon.com/svg/vstatic/svg/3964/3964265.svg?token=exp=1614649514~hmac=44cbf58eba807f7a58bc9f780d5555ba");
-
 //page 3
 document.querySelector(".HeaderPage3").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI("Food waste negatively contributes to resource costs.", "245px", "#F5D9B7");
@@ -33,6 +25,7 @@ document.querySelector(".textBubblePage3-2").innerHTML += textBubbleLightUI("RES
 document.querySelector(). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
 document.querySelector(".BackButton-Page5-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".NextButton-Page5-1").innerHTML += BackNextButtonUI("Next");
+
 
 // document.querySelector().innerHTML += TabUI("Hello");
 
