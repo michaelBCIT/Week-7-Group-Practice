@@ -3,8 +3,8 @@ document.querySelector(".BackNextButton").innerHTML += BackNextButtonUI("Next");
 
 
 //Page 2
-document.querySelector("/comps/BackNextButton/buttons-p2").innerHTML += BackNextButtonUI("Back");
-document.querySelector(".buttons-p2").innerHTML += BackNextButtonUI("Next");
+document.querySelector(".button-p2-1").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".button-p2-2").innerHTML += BackNextButtonUI("Next");
 
 document.querySelector(".textbubble").innerHTML += TextBubbleUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
 document.querySelector(".textbubble").innerHTML += TextBubbleUI();
@@ -63,21 +63,8 @@ document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("SOCIAL COSTS");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW DID THIS HAPPEN?");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI();
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 
-<<<<<<< HEAD
-=======
-<<<<<<< HEAD
 //page 3
 document.querySelector(".HeaderPage3").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI();
->>>>>>> 73517c667192d00d787a40e98fe820e26719fb41
-=======
 
->>>>>>> 3684fe7d19965b00fdc1b42f269bbd90ed210bab
-
-
->>>>>>> 3684fe7d19965b00fdc1b42f269bbd90ed210bab
->>>>>>> 6361db770450c49c5c9be0d772b805d585b34aea
