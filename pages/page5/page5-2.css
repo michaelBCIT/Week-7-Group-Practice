@@ -2,7 +2,15 @@
     width: 375px;
     height: 812px;
     background-color: #FDF3CD;
+    display: none;
 }
+
+
+.page5-2 .container5{
+    display: flex;
+    flex-direction: column;
+}
+
 
 .page5-2 .pic{
 display: flex;
