@@ -8,4 +8,4 @@ function PieChartUI(){
     `
 }
 
-export const PieChart = PieChartUI();
+//export const PieChart = PieChartUI();

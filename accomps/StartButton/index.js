@@ -1,4 +1,4 @@
-function StartButtonUI(text="Start") {
+function StartButtonUI(page="page1", text="Start") {
     return `<div class="back" style="
     background-color:#FE9179;
     Width:241px;
@@ -18,7 +18,9 @@ function StartButtonUI(text="Start") {
 
     line-height: 42px;
     text-align: center;
-    ">${text}
+    "
+    onclick='StartButtonUI.NextPage("${page}")'
+    >${text}?
 
 
 
@@ -28,4 +30,9 @@ function StartButtonUI(text="Start") {
     `
 }
 
-export const StartButton = StartButtonUI();
+StartButtonUI.NextPage = (page) =>{
+    console.loge(page);
+    document.querySelector(page).style.display = "flex";
+}
+
+//export const StartButton = StartButtonUI();

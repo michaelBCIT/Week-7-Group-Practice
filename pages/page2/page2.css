@@ -1,23 +1,16 @@
-
-html, body{
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    margin-top: 10px;
-}
-
-.main {
+.page2 {
     width: 375px;
     height: 812px;
     background-color: #FDF3CD; 
+    display:none;
 }
 
-.lid{
+.page2 .lid{
     padding-left: 50px;
     padding-top: 300px;
 
 }
 
-.can{
+.page2 .can{
     padding-left: 75px;
 }
