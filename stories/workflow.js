@@ -47,11 +47,11 @@ document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW DID THIS HAP
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI();
 
-<<<<<<< HEAD
+
 //page 3
 document.querySelector(".HeaderPage3").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI();
-=======
 
->>>>>>> 3684fe7d19965b00fdc1b42f269bbd90ed210bab
+
+
 
