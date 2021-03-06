@@ -13,9 +13,13 @@
 
 .page5-1 .thinking-image{
     width: 150px;
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    left: auto;
+    right: auto;
+    margin-left: 35%
+}
+
+.page5-1 .subheaderpage5{
+    
 }
 
 .page5-1 .sun-and-cloud{
