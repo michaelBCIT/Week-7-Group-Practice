@@ -2,7 +2,7 @@
     width: 375px;
     height: 812px;    
     background-color: #FDF3CD;
-    display: none;
+    /*display: none;*/
 }
 
 .page3 .container3{
@@ -10,17 +10,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
+    width: 375px;
+    height: 812px;
 }
 
 .page3 .headerpage3{
     position: absolute;
-    top: 0;
+    top: 21px;
 }
 
 .page3 .textBubblePage3-1{
-    display: flex;
-    justify-content: center;
-    align-content: center;
 
 }
 
@@ -29,6 +28,6 @@
     display: flex;
     justify-content: space-evenly;
     
-    margin-left: -130px;
-    margin-top: 300px;
+    /*margin-left: -130px;
+    margin-top: 300px;*/
 }
