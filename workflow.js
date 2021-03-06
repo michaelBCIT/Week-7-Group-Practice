@@ -22,8 +22,8 @@ document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI("Foo
 document.querySelector(".textBubblePage3-2").innerHTML += textBubbleLightUI("RESOURCE COST", "204px", "#FBAD81");
 
 // page 9
-document.querySelector(".header-p9").innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
-document.querySelector("").innerHTML += textBubbleLightUI("THE COST OF FOOD WASTE");
+document.querySelector(".header-p9").innerHTML += HeaderUI("WHAT CAN CLEAN TABLE DO FOR YOU?");
+document.querySelector(".touchofabutton").innerHTML += textBubbleLightUI("THE COST OF FOOD WASTE");
 
 
 function NextPage(page){
