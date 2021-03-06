@@ -9,10 +9,7 @@ document.querySelector(".button-p2-2").innerHTML += BackNextButtonUI("Next");
 
 
 //page 3
-<<<<<<< HEAD
-=======
 
->>>>>>> e5275fd1a76db593bdfbdf2a94709dbdbc0f63d8
 document.querySelector(".headerpage3").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 document.querySelector(".textbubblepage3-1").innerHTML += textBubbleLightUI("Food waste negatively contributes to resource costs.", "245px", "#F5D9B7");
 document.querySelector(".textbubblepage3-2").innerHTML += textBubbleLightUI("RESOURCE COST", "204px", "#FBAD81");
@@ -20,18 +17,14 @@ document.querySelector(".textbubblepage3-2").innerHTML += textBubbleLightUI("RES
 document.querySelector(".button-p3-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".button-p3-2").innerHTML += BackNextButtonUI("Next");
 
-document.querySelector(".HeaderPage3-1").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
+document.querySelector(".headerpage4").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI("Food waste negatively contributes to resource costs.", "245px", "#F5D9B7");
 document.querySelector(".textBubblePage3-2").innerHTML += textBubbleLightUI("RESOURCE COST", "204px", "#FBAD81");
-<<<<<<< HEAD
-db883f30120682260880218549401dd015036be
 
 // page 9
 document.querySelector(".header-p9").innerHTML += HeaderUI("WHAT CAN CLEAN TABLE DO FOR YOU?");
 document.querySelector(".touchofabutton").innerHTML += textBubbleLightUI("With a touch of a button, users can help list their groceries, and track their expiration dates");
-=======
 
->>>>>>> e5275fd1a76db593bdfbdf2a94709dbdbc0f63d8
 
 
 function NextPage(page){

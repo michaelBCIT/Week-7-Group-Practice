@@ -1,0 +1,11 @@
+.page4{
+    width: 375px;
+    height: 812px;    
+    background-color: #FDF3CD;
+    display: none;
+}
+
+.page4 .container4{
+    justify-content: center;
+    align-items: center;
+}
