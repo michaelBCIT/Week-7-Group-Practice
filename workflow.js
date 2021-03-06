@@ -7,14 +7,21 @@ document.querySelector(".header-p2").innerHTML += HeaderUI("WHAT IS FOOD WASTE?"
 document.querySelector(".button-p2-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".button-p2-2").innerHTML += BackNextButtonUI("Next");
 
+
+//document.querySelector(".textbubble").innerHTML += TextBubbleUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
+//document.querySelector(".textbubble").innerHTML += TextBubbleUI();
+
+//document.querySelector(".textbubble").innerHTML += textBubbleLightUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
+//document.querySelector(".textbubble").innerHTML += textBubbleLightUI();
+
+//page 3
+
 /*
 document.querySelector(".textbubble").innerHTML += TextBubbleUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
 document.querySelector(".textbubble").innerHTML += TextBubbleUI();
 
 
-//page 3
 
-=======
 document.querySelector(".textbubble").innerHTML += textBubbleLightUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
 document.querySelector(".textbubble").innerHTML += textBubbleLightUI();
 */
@@ -38,6 +45,60 @@ document.querySelector(".textBubblePage3-2").innerHTML += textBubbleLightUI("RES
 document.querySelector(".header-p9").innerHTML += HeaderUI("WHAT CAN CLEAN TABLE DO FOR YOU?");
 document.querySelector(".touchofabutton").innerHTML += textBubbleLightUI("With a touch of a button, users can help list their groceries, and track their expiration dates");
 
+
+//page 5-1
+document.querySelector("SubHeaderPage5"). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
+document.querySelector(".BackButton-Page5-1").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".NextButton-Page5-1").innerHTML += BackNextButtonUI("Next");
+
+//page 5-2
+document.querySelector(".TextBubble-Page5-2").innerHTML += textBubbleLightUI("RESOURCE COST", "204px", "#FBAD81");
+document.querySelector(".BackButton-Page5-2").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".NextButton-Page5-2").innerHTML += BackNextButtonUI("Next");
+
+// document.querySelector().innerHTML += TabUI("Hello");
+
+// document.querySelector().innerHTML += TabUI();
+
+// document.querySelector(). innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
+// document.querySelector(). innerHTML += HeaderUI("THE COST OF FOOD WASTE");
+// document.querySelector(). innerHTML += HeaderUI("WHY DOES ALL THIS HAPPEN?");
+// document.querySelector(). innerHTML += HeaderUI("HOW MUCH FOOD DO CANADIANS THROW AWAY?");
+// document.querySelector(). innerHTML += HeaderUI("HOW YOU CAN REDUCE FOOD WASTE");
+// document.querySelector(). innerHTML += HeaderUI("WHAT CAN CLEAN TABLE DO FOR YOU");
+
+// document.querySelector(). innerHTML += SubHeaderUI();
+// document.querySelector(). innerHTML += SubHeaderUI("SOCIAL COSTS");
+// document.querySelector(). innerHTML += SubHeaderUI("HOW DID THIS HAPPEN?");
+
+// document.querySelector(). innerHTML += SubHeaderUI();
+
+
+// document.querySelector(".Header").innerHTML += HeaderUI();
+// document.querySelector(".SubHeader").innerHTML += SubHeaderUI();
+// document.querySelector(".StartButton").innerHTML += StartButtonUI("Start");
+// document.querySelector(".Logo").innerHTML += MyLogoUI();
+
+// document.querySelector(".Header").innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
+
+// document.querySelector(".header-p2").innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
+
+// document.querySelector(".Header").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
+// document.querySelector(".Header").innerHTML += HeaderUI("WHY DOES ALL THIS HAPPEN?");
+// document.querySelector(".Header").innerHTML += HeaderUI("HOW MUCH FOOD DO CANADIANS THROW AWAY?");
+// document.querySelector(".Header").innerHTML += HeaderUI("HOW YOU CAN REDUCE FOOD WASTE");
+
+
+// document.querySelector(".SubHeader").innerHTML += SubHeaderUI();
+// document.querySelector(".SubHeader").innerHTML += SubHeaderUI("SOCIAL COSTS");
+// document.querySelector(".SubHeader").innerHTML += SubHeaderUI("HOW DID THIS HAPPEN?");
+// document.querySelector(".SubHeader").innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
+// document.querySelector(".SubHeader").innerHTML += SubHeaderUI();
+
+
+//page 3
+//document.querySelector(".HeaderPage3").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
+//document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI();
 
 function NextPage(page){
   document.querySelector("#show").style.display = "none";
