@@ -12,6 +12,12 @@ left: 153px;
 top: 3px;
 }
 
+.SubHeaderPage5{
+width: 157px;
+height: 145px;
+left: 155px;
+top: -4px;
+}
 
 .page5-1 .sun-and-cloud{
     position: absolute;
@@ -57,7 +63,7 @@ top: 555px;
 }
 
 .page5-1 .text{
-    position: absolute;
+position: absolute;
 width: 139px;
 height: 47px;
 left: 29px;
@@ -71,4 +77,13 @@ line-height: 14px;
 text-align: center;
 
 color: #755F46;
+}
+
+.page5-1 .Backbutton-Page-5-1{
+    width: 170;
+    display: flex;
+    justify-content: center;
+    align-content: flex-end;
+    margin-top: 70px;
+
 }
