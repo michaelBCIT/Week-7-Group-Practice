@@ -26,7 +26,6 @@ top: -4px;
 }
 
 .page5-1 .subheaderpage5{
-    
 
 }
 
@@ -91,6 +90,7 @@ text-align: center;
 color: #755F46;
 }
 
+
 .page5-1 .Backbutton-Page-5-1{
     width: 170;
     display: flex;
@@ -99,3 +99,11 @@ color: #755F46;
     margin-top: 70px;
 
 }
+
+.page5 .buttons-p5{
+    width: 170%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
