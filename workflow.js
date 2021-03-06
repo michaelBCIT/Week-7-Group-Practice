@@ -22,7 +22,7 @@ document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI("Foo
 document.querySelector(".textBubblePage3-2").innerHTML += textBubbleLightUI("RESOURCE COST", "204px", "#FBAD81");
 
 //page 5
-document.querySelector(). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
+document.querySelector("SubHeaderPage5"). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
 document.querySelector(".BackButton-Page5-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".NextButton-Page5-1").innerHTML += BackNextButtonUI("Next");
 
