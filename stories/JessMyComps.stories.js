@@ -1,11 +1,9 @@
 
-//Alicia was here 
 
 //Alicia
 
 import {BackNextButton} from '../comps/BackNextButton';
 import {PieChart} from '../comps/PieChart';
-
 
 //Arielle
 import {ButtonUI} from '../accomps/button';
@@ -27,13 +25,9 @@ export default {
     title: "My Components"
 }
 
-
 //Jessica
 export const MyHeader = () => Header;
 export const MySubHeader = () => SubHeader;
-
-
-//alicia
 export const StartButtonUI = () => StartButton;
 export const MyLogoUI = () => LogoUI;
 

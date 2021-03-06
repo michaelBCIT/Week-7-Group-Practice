@@ -13,6 +13,9 @@ document.querySelector(".textbubble").innerHTML += textBubbleLightUI("More than 
 document.querySelector(".textbubble").innerHTML += textBubbleLightUI();
 
 
+document.querySelector().innerHTML += ButtonUI();
+document.querySelector().innerHTML += ButtonUI("TIP 2", "https://www.flaticon.com/svg/vstatic/svg/1689/1689198.svg?token=exp=1614649480~hmac=9212608a5b8b4f9ba93fa524e3fdcdbe");
+document.querySelector().innerHTML += ButtonUI("TIP 3", "https://www.flaticon.com/svg/vstatic/svg/3964/3964265.svg?token=exp=1614649514~hmac=44cbf58eba807f7a58bc9f780d5555ba");
 
 document.querySelector(".mybutton").innerHTML += ButtonUI();
 document.querySelector(".mybutton").innerHTML += ButtonUI("TIP 2", "https://www.flaticon.com/svg/vstatic/svg/1689/1689198.svg?token=exp=1614649480~hmac=9212608a5b8b4f9ba93fa524e3fdcdbe");
@@ -20,15 +23,29 @@ document.querySelector(".mybutton").innerHTML += ButtonUI("TIP 3", "https://www.
 
 
 
-document.querySelector(".tab").innerHTML += TabUI("Hello");
 
-document.querySelector(".tab").innerHTML += TabUI();
+document.querySelector().innerHTML += TabUI("Hello");
 
+document.querySelector().innerHTML += TabUI();
+
+
+document.querySelector(). innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
+document.querySelector(). innerHTML += HeaderUI("THE COST OF FOOD WASTE");
+document.querySelector(). innerHTML += HeaderUI("WHY DOES ALL THIS HAPPEN?");
+document.querySelector(). innerHTML += HeaderUI("HOW MUCH FOOD DO CANADIANS THROW AWAY?");
+document.querySelector(). innerHTML += HeaderUI("HOW YOU CAN REDUCE FOOD WASTE");
+document.querySelector(). innerHTML += HeaderUI("WHAT CAN CLEAN TABLE DO FOR YOU");
+
+document.querySelector(). innerHTML += SubHeaderUI();
+document.querySelector(). innerHTML += SubHeaderUI("SOCIAL COSTS");
+document.querySelector(). innerHTML += SubHeaderUI("HOW DID THIS HAPPEN?");
+document.querySelector(). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
+document.querySelector(). innerHTML += SubHeaderUI();
 
 
 document.querySelector(".Header"). innerHTML += HeaderUI();
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI();
-document.querySelector(".StartButton"). innerHTML += StartButtonUI();
+document.querySelector(".StartButton"). innerHTML += StartButtonUI("Start");
 document.querySelector(".Logo"). innerHTML += MyLogoUI();
 
 document.querySelector(".Header"). innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
@@ -39,13 +56,28 @@ document.querySelector(".Header"). innerHTML += HeaderUI("THE COST OF FOOD WASTE
 document.querySelector(".Header"). innerHTML += HeaderUI("WHY DOES ALL THIS HAPPEN?");
 document.querySelector(".Header"). innerHTML += HeaderUI("HOW MUCH FOOD DO CANADIANS THROW AWAY?");
 document.querySelector(".Header"). innerHTML += HeaderUI("HOW YOU CAN REDUCE FOOD WASTE");
-document.querySelector(".HeaderPage3"). innerHTML += HeaderUI("WHAT CAN CLEAN TABLE DO FOR YOU");
+
 
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI();
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("SOCIAL COSTS");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW DID THIS HAPPEN?");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
 document.querySelector(".SubHeader"). innerHTML += SubHeaderUI();
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+//page 3
+document.querySelector(".HeaderPage3").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
+document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI();
+>>>>>>> 73517c667192d00d787a40e98fe820e26719fb41
+=======
+
+>>>>>>> 3684fe7d19965b00fdc1b42f269bbd90ed210bab
 
 
-
+>>>>>>> 3684fe7d19965b00fdc1b42f269bbd90ed210bab
+>>>>>>> 6361db770450c49c5c9be0d772b805d585b34aea
