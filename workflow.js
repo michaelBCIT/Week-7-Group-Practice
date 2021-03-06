@@ -4,6 +4,8 @@ document.querySelector(".startbutton").innerHTML += StartButtonUI("Start");
 
 
 //Page 2
+document.querySelector(".header-p2").innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
+
 document.querySelector(".button-p2-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".button-p2-2").innerHTML += BackNextButtonUI("Next");
 
