@@ -29,6 +29,10 @@ document.querySelector(".HeaderPage3").innerHTML += HeaderUI("THE COST OF FOOD W
 document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI("Food waste negatively contributes to resource costs.", "245px", "#F5D9B7");
 document.querySelector(".textBubblePage3-2").innerHTML += textBubbleLightUI("RESOURCE COST", "204px", "#FBAD81");
 
+//page 5
+document.querySelector(). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
+document.querySelector(".BackButton-Page5-1").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".NextButton-Page5-1").innerHTML += BackNextButtonUI("Next");
 
 // document.querySelector().innerHTML += TabUI("Hello");
 
@@ -45,7 +49,7 @@ document.querySelector(".textBubblePage3-2").innerHTML += textBubbleLightUI("RES
 // document.querySelector(). innerHTML += SubHeaderUI();
 // document.querySelector(). innerHTML += SubHeaderUI("SOCIAL COSTS");
 // document.querySelector(). innerHTML += SubHeaderUI("HOW DID THIS HAPPEN?");
-// document.querySelector(). innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
+
 // document.querySelector(). innerHTML += SubHeaderUI();
 
 
