@@ -6,7 +6,7 @@ html, body{
 }
 
 .page9 {
-    width: 375px;
+    width: auto;
     height: 812px;
     background-color:#FDF3CD;
     
@@ -44,4 +44,10 @@ html, body{
     padding-left: 20px;
     padding-right: 20px;
     margin-top: 30px;
+}
+
+.page9 .createvisual {
+    margin-right:90px;
+    margin-top:40px;
+    font-weight: bold;
 }
