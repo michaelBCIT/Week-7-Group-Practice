@@ -1,18 +1,12 @@
 .page3{
     width: 375px;
     height: 812px;    
-    /*min-width: 375px;
-    min-height: 812px;*/
     background-color: #FDF3CD;
-    display:none;
+    display: none;
 }
 
 .page3 .textBubblePage3-1{
     display: flex;
     justify-content: center;
     align-items: center;
-    
-    margin-right: 500px;
-
-
 }
