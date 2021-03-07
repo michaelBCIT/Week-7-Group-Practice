@@ -65,6 +65,12 @@ p {
     top: -1430px;
     right: -40px;
     z-index: 1;
+    animation:drive 2s linear;
+}
+@keyframes drive{
+    0%{
+    transform: translateX(-220px);
+    }
 }
 
 .page6-4 .trash {
@@ -92,3 +98,18 @@ p {
     bottom: -30px;
 }
 
+
+  @keyframes shrink {
+    0% {
+      width: 90%;
+      margin: 0 5%;
+    }
+    50% {
+      width: 60%;
+      margin: 0 18%;
+    }
+    100% {
+      width: 90%;
+      margin: 0 5%;
+    }
+  }
