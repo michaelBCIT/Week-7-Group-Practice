@@ -30,10 +30,10 @@
 }
 
 .page7-1 .buttons-p7-1{
-    width: 375px;
+    width: 325px;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     position: relative;
-    left: -350px;
-    top: 360px;
+    left: -393px;
+    top: 370px;
 }
