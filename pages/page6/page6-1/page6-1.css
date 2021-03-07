@@ -15,17 +15,17 @@ html, body {
     position: relative;
     margin-top: 50px;
     z-index: 1;
+
 }
 
 .page6-1 .truck{
     position: relative;
     width: 130px;
-    margin-top: 350px;
+
 }
 
 .page6-1 .sign{
     position: relative;
     width: 125px;
-    margin-top: 500px;
 
 }
