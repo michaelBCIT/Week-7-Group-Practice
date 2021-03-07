@@ -12,18 +12,29 @@
 }
 
 .page7-1 .tower{
-    overflow: hidden;
     position: relative;
     width: 418px;
     height: 665px;
-    left: -11px;
-    top: 670px;
+    left: 10px;
+    top: 130px;
+}
+
+.page7-1 .textbubble7-1{
+    width: 375px;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    margin-top: -100px;
 }
 
 .page7-1 .buttons-p7-1{
-    width: 170%;
+    width: 375px;
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    left: -138px;
+
+    left: -350px;
+    top: 360px;
 }

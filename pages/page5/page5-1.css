@@ -61,7 +61,9 @@ top: 334px;
 width: 375px;
 height: 181px;
 left: 8px;
-top: 200px;
+top: -200px;
+z-index: 1;
+
 }
 
 .page5-1 .hill{
