@@ -31,26 +31,36 @@ html, body {
     justify-content: center;
     align-items: center;
     position: relative;
-    bottom:1200px;
+    bottom:1450px;
     
 }
 
 .page6-2 .road{
     position: relative;
-    top: -1090px;
-   
+    top: -1020px;
 
 }
 
 .page6-2 .truck{
     position: relative;
     width: 150px;
+    top: -1180px;
+    right: -100px;
     z-index: 1;
     
 
 }
 
 .page6-2 .backnext{
-    position: relative;
-    bottom:1200px;
+        width: 180%;
+        display: flex;
+        justify-content: space-evenly;
+        align-content: flex-end;
+        
+        position: relative;
+        top:-20px;
+        left: -120px;
+        top:-30px;
+        left: -150px;
+    }
 }
