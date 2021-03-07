@@ -47,11 +47,10 @@ text-align: center;
 color: #4E4841;
 }
 
-.page5 .Backbutton-Page5-2{
+.page5-2 .ButtonPage5-2{
     width: 170%;
     display: flex;
     justify-content: space-evenly;
-    
     margin-left: -130px;
     margin-top: 300px;
 }

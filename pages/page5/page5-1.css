@@ -46,17 +46,14 @@ top: 555px;
 }
 
 .page5-1 .text{
-position: absolute; 
 width: 139px;
 height: 47px;
-
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
 font-size: 12px;
 line-height: 14px;
 text-align: center;
-
 color: #755F46;
 }
 
@@ -64,7 +61,5 @@ color: #755F46;
     width: 200%;
     display: flex;
     justify-content: space-evenly;
-
     margin-top: 100px;
-
 }
