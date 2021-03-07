@@ -2,7 +2,7 @@
     width: 375px;
     height: 812px;    
     background-color: #FDF3CD;
-    /*display: none;*/
+    display: none;
 }
 
 .page3-2 .container3{
@@ -21,7 +21,7 @@
     align-items: center;
 }
 
-.page3-2 .headerpage3{
+.page3-2 .headerpage3--2{
     position: absolute;
     top: 21px;
 }
@@ -34,7 +34,7 @@
     align-items: center;
 }
 
-.page3-2 .textbubblepage3-1{
+.page3-2 .textbubblepage3-1--2{
     position: relative;
     top: 85px;
     right: 40px;
@@ -49,18 +49,18 @@
     right: -110px;
 }
 
-.page3-2 .subheaderpage3-1{
+.page3-2 .subheaderpage3-1--2{
     position: relative;
     top: 40px;
     right: -65px;
     z-index: 2;
 }
 
-.page3-2 .subheaderpage3-2{
+.page3-2 .subheaderpage3-2--2{
     z-index: 2;
 }
 
-.page3-2 .textbubblepage3-2{
+.page3-2 .textbubblepage3-2--2{
     position: relative;
     top: 30px;
     z-index: 1;
@@ -89,7 +89,7 @@
 
 .page3-2 .transparentText{
     position: absolute;
-    top: 565px;
+    top: 548px;
 }
 
 .page3-2 .buttons-p3{
@@ -99,7 +99,7 @@
     position: relative;
     top: 20px;
 }
-
+/*
 .page3-2 .coinsPage3-2{
     position: absolute;
     width: 108px;
@@ -117,3 +117,4 @@
     left: 525px;
     transform: rotate(100deg);
 }
+*/
