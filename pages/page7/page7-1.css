@@ -21,11 +21,9 @@
 
 .page7-1 .textbubble7-1{
     width: 375px;
-
     display: flex;
     justify-content: center;
     align-items: center;
-
     margin-top: -100px;
 }
 
