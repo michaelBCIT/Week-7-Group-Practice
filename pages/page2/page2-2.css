@@ -19,35 +19,54 @@ html, body{
 }
 
 .page2-2  .lid{
-    padding-left: 20px;
-    padding-top: 200px;
-
+    padding-left: 100px;
+    transform: rotate(20deg);
 }
 
-.page2-2  .trash-button{
+.page2-2 .textbubble-1{
     position: relative;
     z-index: 1;
-
-    color: white;
-    font-family: sans-serif;
-    font-weight: bold;
-    font-size: 20px;
-
     left: 10px;
 }
 
-.page2-2  .can{
+.page2-2 .textbubble-2{
+    width: 375px;
+    left: 20px;
     position: relative;
-    padding-left: 23px;
-    margin-top: -30px;
+}
+
+.page2-2 .banana{
+    position: relative;
+    z-index: 1;
+    transform: rotate(50deg);
+
+    left: 250px;
+    top: -170px;
+}
+
+.page2-2 .apple{
+    position: relative;
+    z-index: 1;
+    transform: rotate(-40deg);
+
+    top: -120px;
+    right: 60px;
+}
+
+.page2-2 .can{
+    position: relative;
+    padding-left: 80px;
+    margin-top: -80px;
 }
 
 .page2-2  .buttons-p2{
-    width: 167%;
     width: 180%;
     display: flex;
     justify-content: space-evenly;
-    align-content: flex-end;
-    margin-top: 71px;
+    position: relative;
+
+    margin-top: 30px;
+    margin-right: 150px;
+    margin-left: -150px;
 }
 
