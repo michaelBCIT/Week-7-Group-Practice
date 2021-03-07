@@ -20,12 +20,13 @@ flex-direction: column;
     margin-left: 35%
 }
 
-.page5-2 .TextBlubble-Page5-2{
-    position: relative;
-    top: -106px;
-    right: 42px;
-    font-weight: bold;
-    }
+.page5-2 .TextBlubblePage5-2{
+width: 310px;
+left: 28px;
+top: px;
+font-weight: bold;
+}
+
 .page5-2 .landfill{
     display: flex;
     Width:200px;
