@@ -11,7 +11,7 @@ function TextBubbleUI(text="text") {
     font-family: sans-serif;
     font-weight: bold;
     ">${text}
-    </div>`
+    </div>`;
 }
 
     //export const TextBubble = TextBubbleUI();
