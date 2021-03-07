@@ -21,8 +21,14 @@ font-family: sans-serif;
 font-weight: bold;
 font-size: 20px;
 text-align: center;
-color: #4E4841;
+color: #ffffff;
 z-index: 2;
+animation:mymove 5s;
+animation-delay: 2s;
+}
+@keyframes mymove{
+    from{top: 200px;}
+    to {bottom:0px;}
 }
 
 .page4-2 .big-smoke{
@@ -31,10 +37,15 @@ width: 100px;
 height: 230px;
 left: -30px;
 transform: rotate(-16deg);
-
 top: 20px;
+animation:mymove 5s;
+animation-delay: 2s;
 }
 
+@keyframes mymove{
+    from{top:200px;}
+    to {bottom:0px;}
+}
 .page4-2 .gas-photo{
 width:60%;
 height: auto;
