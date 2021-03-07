@@ -17,9 +17,9 @@ document.querySelector(".button-p3-2").innerHTML += BackNextButtonUI("Next");
 
 
 //page4
-document.querySelector(".subheaderp4"). innerHTML += SubHeaderUI("SOCIAL COST");
-document.querySelector(".textBubblePage4-1").innerHTML += textBubbleLightUI("Food waste negatively contributes to resource costs.", "245px", "#F5D9B7");
-document.querySelector(".textBubblePage4-2").innerHTML += textBubbleLightUI("RESOURCE COST", "204px", "#FBAD81");
+document.querySelector(".subheaderp4").innerHTML += SubHeaderUI("SOCIAL COST");
+document.querySelector(".textBubblePage4-1").innerHTML += textBubbleLightUI("When many people within a culture or society throw food out before it can be used and eaten, it can inadvertently lead to issues in regards to the health of the population and in-turn create more pressure on a country's healthcare system", "245px", "#F5D9B7");
+document.querySelector(".textBubblePage4-2").innerHTML += textBubbleLightUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
 
 document.querySelector(".headerpage4").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 
