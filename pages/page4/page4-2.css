@@ -10,33 +10,32 @@
 }
 
 .page4-2 .fact-text{
-    left: -11.06%;
-    right: -35.09%;
-    top: -10.19%;
-    bottom: -17.08%;
-    
-    font-family: Roboto;
-    font-style: normal;
-    font-weight: bold;
-    font-size: 20px;
-    line-height: 23px;
-    text-align: center;
-    color: #807C78;
+position: relative;
+height: 1px;
+width: 212px;
+left:96px;
+top:180px;
+border-radius: nullpx;
+font-family: Roboto;
+font-weight: bold;
+font-size: 20px;
+text-align: center;
+color: #4E4841;
+z-index: 2;
 }
 
 .page4-2 .big-smoke{
-    width: 326.05px;
-    height: 271.54px;
-    left: 47px;
-    top: 144px;
+position: relative;
+width: 300px;
+height: 260px;
+left: -10px;
 }
 
 .page4-2 .gas-pic{
+    width:50%;
     position: relative;
-    width: 172px;
-    height: 100px;
-    left: 15px;
-    top: 481px;
+    margin-left: -50px;
+    top: 10px;
     text-shadow: 0,6,5,0;
 }
 
@@ -44,5 +43,4 @@
     width: 170%;
     display: flex;
     justify-content: space-evenly;
-
 }
