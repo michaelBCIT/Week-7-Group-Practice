@@ -1,18 +1,18 @@
-html, body {
-    margin:0px;
-    display: flex;
+.page6-1 {
+    width: 375px;
+    height: 812px;   
+    background-color: #FDF3CD;
+    display: none;
+    
+}
+
+
+.page6 .container6-1{
     justify-content: center;
     align-items: center;
 }
 
-.page6-1 {
-    width: 375px;
-    height: 900px;
-    background-color:#FDF3CD;
-    
-}
-
-.page6-1 .withallthereasons{
+.page6 .withallthereasons{
     margin-top: 40px;
     margin-left: 90px;
 }
@@ -25,7 +25,7 @@ html, body {
     left: 22px;
 }
 
-.page6-1 .familiesandind{
+.page6 .familiesandind{
     margin-top: -10px;
     display: flex;
     justify-content: center;
@@ -33,27 +33,27 @@ html, body {
 
 }
 
-.page6-1 .family {
+.page6 .family {
     width:80px;
     position: relative;
     top: -188px;
     right: -200px;
 }
 
-.page6-1 .toofindout{
+.page6 .toofindout{
     margin-top: -60px;
     margin-left:20px;
 
 }
 
-.page6-1 .road{
+.page6 .road{
     position: relative;
     margin-top: 50px;
     top: -40px;
 
 }
 
-.page6-1 .truck{
+.page6 .truck{
     position: relative;
     width: 150px;
     z-index: 1;
@@ -62,7 +62,7 @@ html, body {
 
 }
 
-.page6-1 .sign{
+.page6 .sign{
     position: relative;
     width: 155px;
     z-index: 1;
@@ -71,7 +71,7 @@ html, body {
 }
 
 
-.page6-1 .backnextbut {
+.page6 .backnextbut {
     width: 180%;
     display: flex;
     justify-content: space-evenly;
@@ -81,7 +81,7 @@ html, body {
 
 }
 
-.page6-1 .click {
+.page6 .click {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     color: white;
@@ -92,7 +92,7 @@ html, body {
     top: -20px;
 }
 
-.page6-1 .here {
+.page6 .here {
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-weight: bold;
     color: white;
@@ -103,6 +103,6 @@ html, body {
     top: -12px;
 }
 
-.page6-1 .images {
+.page6 .images {
     margin-top: -160px;
 }
