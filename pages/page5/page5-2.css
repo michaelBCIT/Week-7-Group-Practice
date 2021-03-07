@@ -2,15 +2,14 @@
     width: 375px;
     height: 812px;
     background-color: #FDF3CD;
-    display: flex;
-    justify-content:center;
+    display: none;
 }
 
 .page5-2 .container5{
-flex-direction: column;
-display: flex;
-justify-content:center;
-flex-direction: column;
+    flex-direction: column;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
 }
 
 .page5-2 .thinking-image{
@@ -20,32 +19,45 @@ flex-direction: column;
     margin-left: 35%
 }
 
-.page5-2 .landfill{
-    display: flex;
-    Width:200px;
-    Height:370px;
-    Top:583.55px;
+.page5-2 .SubHeaderPage5-2{
+margin-top: -3%;
+}
+
+.page5-2 .TextBlubblePage5-2{
+width: 310px;
+left: 28px;
+font-weight: bold;
+margin-top:-15px; 
 }
 
 .page5-2 .textt{
-width: 313px;
-height: 93px;
-left: 31px;
-top: 240px;
+position: relative;
+width: 177.45px;
+height: 137.65px;
+left: 125px;
+top: 120px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 18px;
-line-height: 21px;
+font-size: 16px;
 text-align: center;
 color: #4E4841;
+z-index:2;
 }
 
-.page5 .Backbutton{
+.page5-2 .landfill{
+    width: 350px;
+    height: 200px;
+    left: auto;
+    right:auto;
+    margin-top: -120px;
+    z-index: 1;
+}
+
+.page5-2 .ButtonPage5-2{
     width: 170%;
     display: flex;
     justify-content: space-evenly;
-    
     margin-left: -130px;
     margin-top: 300px;
 }

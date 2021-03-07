@@ -40,4 +40,4 @@ function MyButtonUI(text="TIP 1", src="https://www.flaticon.com/svg/vstatic/svg/
 
 }
 
-export const ButtonUI = MyButtonUI();
+//export const ButtonUI = MyButtonUI();
