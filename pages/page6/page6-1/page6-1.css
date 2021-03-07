@@ -52,6 +52,7 @@
     position: relative;
     margin-top: 50px;
     top: -40px;
+    margin-bottom: 0;
 
 }
 
@@ -80,7 +81,12 @@
     align-content: flex-end;
     
     position: relative;
+<<<<<<< HEAD
     left: -120px;
+=======
+    top:-50px;
+    left: -150px;
+>>>>>>> 1e79a899e03ae66e74b15fc6abbe7247a7b5b113
 
 }
 
