@@ -8,7 +8,7 @@ document.querySelector(".textbubblepage3-2").innerHTML += textBubbleLightUI("Lar
 
 document.querySelector(".subheaderpage3-2").innerHTML += SubHeaderUI("63px", "361px", "24px", "ENVIRONMENTAL COSTS");
 
-document.querySelector(".transparentText").innerHTML += textBubbleLightUI("The destruction of the world’s environment and wildlife, to produce the food and water we need, has lead to a great decline in our global habitat.", "364px", "#F5D9B7", "18px");
+document.querySelector(".transparentText").innerHTML += textBubbleLightUI("The destruction of the world’s environment and wildlife, to produce the food and water we need, has lead to a great decline in our global habitat.", "364px", "#F5D9B7", "18px", "#766654", "173px");
 
 document.querySelector(".button-p3-1").innerHTML += BackNextButtonUI("Back");
 
