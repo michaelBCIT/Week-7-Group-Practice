@@ -18,7 +18,5 @@ document.querySelector(".back").innerHTML += BackNextButtonUI("Next");
 
 document.querySelector(".next").innerHTML += BackNextButtonUI("Next");
 
-<<<<<<< HEAD
-=======
+
 //michael was here 321
->>>>>>> 1e713abaf3d2efd77a840ad2ec773da0079e899a
