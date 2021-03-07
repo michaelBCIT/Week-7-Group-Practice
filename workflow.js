@@ -55,13 +55,13 @@ document.querySelector(".NextButton-Page5-2").innerHTML += BackNextButtonUI("Nex
 
 
 
-//page 6-2
+//page 6-1
 document.querySelector(".headerP6-1").innerHTML += HeaderUI("WHY DOES ALL THIS HAPPEN?");
 document.querySelector(".withallthereasons").innerHTML += textBubbleLightUI("With all the reasons why food waste is bad for us and our world, why does it happen at all?");
 document.querySelector(".familiesandind").innerHTML += textBubbleLightUI("Families and individuals that stock too much food that spoils before it can be sold or eaten.");
 
 document.querySelector(".toofindout").innerHTML += textBubbleLightUI("To find out how much good food Canadians throw away");
-document.querySelector(".back").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".back-6-2").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".next").innerHTML += BackNextButtonUI("Next");
 
 

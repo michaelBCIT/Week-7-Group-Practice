@@ -52,6 +52,7 @@
     position: relative;
     margin-top: 50px;
     top: -40px;
+    margin-bottom: 0;
 
 }
 
@@ -78,7 +79,7 @@
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    top:10px;
+    top:-50px;
     left: -150px;
 
 }
