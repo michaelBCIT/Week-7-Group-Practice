@@ -33,4 +33,4 @@ function MyFooterUI(){
 
 }
 
-export const FooterUI = MyFooterUI();
+// export const FooterUI = MyFooterUI();

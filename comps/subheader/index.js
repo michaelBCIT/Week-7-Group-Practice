@@ -1,4 +1,4 @@
-function SubHeaderUI (text = "ENVIRONMENTAL COSTS"){
+function SubHeaderUI (width = "257px", height = "48px", text = "ENVIRONMENTAL COSTS"){
     return `<div style="
     background: #FBAD81;
     border-radius: 50px;
@@ -11,8 +11,8 @@ function SubHeaderUI (text = "ENVIRONMENTAL COSTS"){
     ">
         <h1 style="
         position: absolute;
-        width:257px;
-        height:48px;
+        width:${width};
+        height:${height};
         top:10px;
         left:60px;
         font-family: sans-serif;
