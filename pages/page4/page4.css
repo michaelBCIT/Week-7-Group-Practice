@@ -34,6 +34,8 @@
 .page4 .section2{
     width: 365px;
 
+    margin-top: 50px;
+
     display: flex;
     justify-content: center;
     align-items: center;
@@ -46,6 +48,23 @@
 
     position: relative;
     left: 100px;
+}
+
+.page4 .textBubblePage4-2{
+    margin-top: -10px;
+}
+
+.page4 .section3{
+    margin-top: 100px;
+    font-family: sans-serif;
+    color: white;
+    text-shadow: 1px 1px #7A5151;
+
+}
+
+.page4 .gas{
+    width: 40%;
+
 }
 
 .page4 .buttons-p4{
