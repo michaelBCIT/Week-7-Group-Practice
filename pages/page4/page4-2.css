@@ -2,12 +2,27 @@
     width: 375px;
     height: 1400px;    
     background-color: #FDF3CD;
-    display: none;
 }
 
 .page4-2 .container4-2{
     justify-content: center;
     align-items: center;
+}
+
+.page4-2 .fact-text{
+    position: absolute;
+    left: -11.06%;
+    right: -35.09%;
+    top: -10.19%;
+    bottom: -17.08%;
+    
+    font-family: Roboto;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 23px;
+    text-align: center;
+    color: #807C78;
 }
 
 .page4-2 .big-smoke{
