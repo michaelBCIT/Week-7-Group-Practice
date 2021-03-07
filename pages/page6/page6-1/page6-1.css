@@ -79,7 +79,7 @@
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    top:-50px;
+    top:-20px;
     left: -150px;
 
 }
@@ -107,6 +107,6 @@
 }
 
 .page6 .images {
-    margin-top: -160px;
+    margin-top: -170px;
     position: relative;
 }
