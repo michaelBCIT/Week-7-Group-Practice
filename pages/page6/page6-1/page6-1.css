@@ -83,7 +83,7 @@
     position: relative;
     top:-20px;
     left: -120px;
-    top:-50px;
+    top:-30px;
     left: -150px;
 
 
@@ -97,7 +97,7 @@
     z-index: 2;
     position:relative;
     left:275px;
-    top: -20px;
+    top: -30px;
 }
 
 .page6 .here {
@@ -108,7 +108,7 @@
     z-index: 2;
     position:relative;
     left:250px;
-    top: -12px;
+    top: -20px;
 }
 
 .page6 .images {
