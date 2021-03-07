@@ -10,10 +10,13 @@
 }
 
 .page7-1 .tower{
-width:60%;
-height: auto;
-position: relative;
-top:150px;
+    overflow: hidden;
+    height: auto;
+    position: relative;
+    width: 418px;
+    height: 665px;
+    left: -11px;
+    top: 670px;
 }
 
 .page7-1 .buttons-p7-1{
