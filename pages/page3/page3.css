@@ -23,7 +23,7 @@
 
 .page3 .headerpage3{
     position: absolute;
-    top: 21px;
+    top: 0px;
 }
 
 .page3 .middleHalf{
@@ -80,5 +80,5 @@
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    top: 20px;
+    top: 10px;
 }
