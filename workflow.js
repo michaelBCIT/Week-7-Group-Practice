@@ -30,7 +30,7 @@ document.querySelector(".button-p3-2--2").innerHTML += BackNextButtonUI("Next");
 
 //page4
 document.querySelector(".subheaderp4").innerHTML += SubHeaderUI("63px", "351px", "24px", "SOCIAL COST");
-document.querySelector(".textBubblePage4-1").innerHTML += textBubbleLightUI("When many people within a culture or society throw food out before it can be used and eaten, it can inadvertently lead to issues in regards to the health of the population and in-turn create more pressure on a country's healthcare system", "245px", "#F5D9B7");
+document.querySelector(".textBubblePage4-1").innerHTML += textBubbleLightUI("When many people within a culture or society throw food out before it can be used and eaten, it can inadvertently lead to issues in regards to the health of the population and in-turn create more pressure on a country's healthcare system ", "250px", "#F5D9B7", "18px", "#766654", "350px", "-110px");
 document.querySelector(".textBubblePage4-2").innerHTML += textBubbleLightUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
 document.querySelector(".button-p4-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".button-p4-2").innerHTML += BackNextButtonUI("Next");
