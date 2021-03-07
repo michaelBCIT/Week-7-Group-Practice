@@ -41,7 +41,6 @@
 
 body{
     padding:100px 0;
-   
   }
   
   #heart {
@@ -49,7 +48,8 @@ body{
       width: 100px;
       height: 90px;
       animation: heartbeat 1s infinite;
-      margin:0 auto
+      margin:0 auto;
+      top:-100px;
   }
   #heart:before,
   #heart:after {
