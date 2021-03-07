@@ -46,7 +46,9 @@ p {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -1650px;
+    top: -1600px;
+
+    left: -100px;
     
 }
 
@@ -57,14 +59,14 @@ p {
 
 .page6-2 .road{
     position: relative;
-    top: -1230px;
+    top: -1300px;
 }
 
 .page6-2 .truck{
     position: relative;
     width: 150px;
-    top: -1390px;
-    right: -115px;
+    top: -1300px;
+    left: -300px;
     z-index: 1;
 }
 
