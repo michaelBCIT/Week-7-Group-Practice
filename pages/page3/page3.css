@@ -34,8 +34,16 @@
     right: -110px;
 }
 
-.page3 .subheaderpage3{
+.page3 .subheaderpage3-1{
     color:#FFFFFF;
+    position: relative;
+    top: -150px;
+    right: -50px;
+}
+
+.page3 .plantspage3{
+    position: relative;
+    
 }
 
 .page3 .buttons-p3{

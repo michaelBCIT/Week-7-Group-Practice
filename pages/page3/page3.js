@@ -2,7 +2,11 @@ document.querySelector(".headerpage3").innerHTML += HeaderUI("THE COST OF FOOD W
 
 document.querySelector(".textbubblepage3-1").innerHTML += textBubbleLightUI("Food waste negatively contributes to resource costs.", "245px", "#F5D9B7");
 
-document.querySelector(".subheaderpage3").innerHTML += SubHeaderUI("40px", "204px", "RESOURCE COST");
+document.querySelector(".subheaderpage3-1").innerHTML += SubHeaderUI("40px", "204px", "16pt", "RESOURCE COST");
+
+document.querySelector(".textbubblepage3-2").innerHTML += textBubbleLightUI("Large amounts of money are used to farm resources, crops, and the like that end up never being used if food is thrown away", "291px", "#F5D9B7");
+
+document.querySelector(".subheaderpage3-2").innerHTML += SubHeaderUI("63px", "361px", "24px", "ENVIRONMENTAL COSTS");
 
 document.querySelector(".button-p3-1").innerHTML += BackNextButtonUI("Back");
 
