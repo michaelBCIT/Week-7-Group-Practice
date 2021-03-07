@@ -1,17 +1,26 @@
 .page8{
     background-color: #FDF3CD;
     width: 375px;
-    height: 804px;
+    height: 812px;
+    /*display: none;*/
+}
+
+.page8 .headerpage8{
+    flex-grow: 1;
 }
 
 .page8 .container8{
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    flex-grow: 1;
+}
 
-    padding: 50px;
+.page8 .buttons-p8{
+    flex-grow: 1;
 }
 
 .page8 .tip1{
-    margin: padding: 10px;
+    padding: 10px;
 }

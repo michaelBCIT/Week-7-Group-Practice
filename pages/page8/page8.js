@@ -8,4 +8,4 @@ document.querySelector(".tip1").innerHTML += MyButtonUI("TIP 2");
 document.querySelector(".tip1").innerHTML += MyButtonUI("TIP 3");
 
 document.querySelector(".BackButton-Page8-1").innerHTML += BackNextButtonUI("Back");
-document.querySelector(".BackButton-Page8-2").innerHTML += BackNextButtonUI("Next");
+document.querySelector(".NextButton-Page8-2").innerHTML += BackNextButtonUI("Next");
