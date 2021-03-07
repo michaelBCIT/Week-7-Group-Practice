@@ -13,8 +13,8 @@
 position: relative;
 height: 1px;
 width: 212px;
-left:96px;
-top:180px;
+left:100px;
+top:130px;
 border-radius: nullpx;
 font-family: Roboto;
 font-weight: bold;
@@ -26,20 +26,20 @@ z-index: 2;
 
 .page4-2 .big-smoke{
 position: relative;
-width: 300px;
-height: 260px;
-left: -10px;
+width: 100px;
+height: 230px;
+left: -30px;
+transform: rotate(-16deg)
 }
 
-.page4-2 .gas-pic{
-    width:50%;
-    position: relative;
-    margin-left: -50px;
-    top: 10px;
-    text-shadow: 0,6,5,0;
+.page4-2 .gas-photo{
+width:60%;
+height: auto;
+position: relative;
+top:170px;
 }
 
-.page4-2 .buttons-p4-2{
+.page4 .buttons-p4-2{
     width: 170%;
     display: flex;
     justify-content: space-evenly;
