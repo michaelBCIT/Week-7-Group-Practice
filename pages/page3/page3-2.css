@@ -11,7 +11,7 @@
     align-items: center;
     flex-direction: column;
     width: 375px;
-    height: 812px;
+    height: 810px;
 }
 
 .page3-2 .topHalf{
@@ -23,7 +23,7 @@
 
 .page3-2 .headerpage3--2{
     position: absolute;
-    top: 21px;
+    top: 0px;
 }
 
 .page3-2 .middleHalf{
@@ -57,6 +57,8 @@
 }
 
 .page3-2 .subheaderpage3-2--2{
+    position:relative;
+    top:-1px;
     z-index: 2;
 }
 
@@ -97,7 +99,7 @@
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    top: 20px;
+    top: 12px;
 }
 /*
 .page3-2 .coinsPage3-2{

@@ -2,9 +2,7 @@
     background-color: #FDF3CD;
     width: 375px;
     height: 812px;
-    /*display: none;*/
-    display: flex;
-    flex-direction: column;
+    display: none;
 }
 
 .page8 .headerpage8{
