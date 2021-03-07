@@ -12,25 +12,45 @@ html, body {
     
 }
 
-.pie-chart {
-    background:
-        radial-gradient(
-            circle closest-side,
-            transparent 46%,
-            white 0
-        ),
-        conic-gradient(
-            #f28f78 0,
-            #f28f78 60.9%,
-            #f8c695 0,
-            #f8c695 100%
-    );
+.page6-2 .top-pie {
+    width: 600px;
     position: relative;
-    width: 500px;
-    min-height: 350px;
-    margin: 0;
-    z-index: 1;
+    top: -996px;
+    right: 70px;
 }
 
+.page6-2 .bot-pie {
+    width: 600px;
+    position: relative;
+    bottom: 150px;
+    right: 80px;
+}
 
+.page6-2 .percent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    bottom:1200px;
+    
+}
 
+.page6-2 .road{
+    position: relative;
+    top: -1090px;
+   
+
+}
+
+.page6-2 .truck{
+    position: relative;
+    width: 150px;
+    z-index: 1;
+    
+
+}
+
+.page6-2 .backnext{
+    position: relative;
+    bottom:1200px;
+}
