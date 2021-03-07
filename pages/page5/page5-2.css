@@ -45,7 +45,10 @@ z-index:2;
 }
 
 .page5-2 .landfill{
- width:50%;
+    width:60%;
+    height: auto;
+    position: relative;
+    top:150px;
 }
 
 .page5-2 .ButtonPage5-2{
