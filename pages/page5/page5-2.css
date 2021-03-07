@@ -20,6 +20,12 @@ flex-direction: column;
     margin-left: 35%
 }
 
+.page5-2 .TextBlubble-Page5-2{
+    position: relative;
+    top: -106px;
+    right: 42px;
+    font-weight: bold;
+    }
 .page5-2 .landfill{
     display: flex;
     Width:200px;
@@ -41,7 +47,7 @@ text-align: center;
 color: #4E4841;
 }
 
-.page5 .Backbutton{
+.page5 .Backbutton-Page5-2{
     width: 170%;
     display: flex;
     justify-content: space-evenly;
