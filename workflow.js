@@ -39,7 +39,7 @@ document.querySelector(".button-p4-2").innerHTML += BackNextButtonUI("Next");
 
 //page 5-1
 
-document.querySelector(".subheaderpage5").innerHTML += SubHeaderUI("HOW OUR LANDFILLS COULD LOOK");
+document.querySelector(".subheaderpage5").innerHTML += SubHeaderUI("69px", "341px", "20px", "HOW OUR LANDFILLS COULD LOOK", "#FFFFFF", "#FBAD81");
 
 document.querySelector(".subheaderpage5"). innerHTML += SubHeaderUI("WHAT OUR LANDFILLS CAN LOOK LIKE");
 
