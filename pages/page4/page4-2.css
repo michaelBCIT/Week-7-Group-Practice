@@ -27,10 +27,9 @@ animation:mymove 5s;
 animation-delay: 2s;
 }
 @keyframes mymove{
-    from{top: 200px;}
+    from{top: 210px;}
     to {bottom:0px;}
 }
-
 .page4-2 .big-smoke{
 position: relative;
 width: 100px;
