@@ -1,0 +1,17 @@
+html, body {
+    margin:0px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.page6-1 {
+    width: 375px;
+    height: 804px;
+    background-color:#FDF3CD;
+}
+
+.page6-1 .road{
+    position: relative;
+    
+}
