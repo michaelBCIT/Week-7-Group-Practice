@@ -40,9 +40,8 @@ document.querySelector(".button-p4-2-2").innerHTML += BackNextButtonUI("Next");
 
 //page 5-1
 
-document.querySelector(".subheaderpage5").innerHTML += SubHeaderUI("69px", "341px", "20px", "HOW OUR LANDFILLS COULD LOOK", "#FFFFFF", "#FBAD81");
-
-document.querySelector(".subheaderpage5"). innerHTML += SubHeaderUI("WHAT OUR LANDFILLS CAN LOOK LIKE");
+document.querySelector(".subheaderpage5").innerHTML += SubHeaderUI("69px", "341px", "20px", "HOW OUR LANDFILLS COULD LOOK", "#FFFFFF", "#FE9179");
+document.querySelector(".bubble-5-1"). innerHTML += textBubbleLightUI("In the landfill, food scraps get buried underneath tonnes of garbage", "310px","#F5D9B7", "20px", "#766654");
 
 document.querySelector(".BackButton-Page5-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".NextButton-Page5-1").innerHTML += BackNextButtonUI("Next");
