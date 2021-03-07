@@ -11,21 +11,28 @@
     align-items: center;
 }
 
-.page7-1 .tower{
-    position: relative;
-    width: 418px;
-    height: 665px;
-    left: 10px;
-    top: 600px;
-}
-
 .page7-1 .textbubble7-1{
     position:fixed;
     width: 375px;
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: -100px;
+    top: 100px;
+}
+
+.page7-1 .tower{
+    position: relative;
+    width: 418px;
+    height: 665px;
+    left: 10px;
+    top: 610px;
+    overflow: hidden;
+    animation:tower 4s;
+animation-delay: 3s;
+}
+@keyframes tower{
+    from{bottom:0px;}
+    to {top: 200px;}
 }
 
 .page7-1 .buttons-p7-1{
