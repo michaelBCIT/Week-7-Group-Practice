@@ -6,5 +6,5 @@ document.querySelector(".BackButton-Page8-1-2").innerHTML += BackNextButtonUI("B
 document.querySelector(".NextButton-Page8-2-2").innerHTML += BackNextButtonUI("Next");
 
 function clickTip(){
-    document.getElementsByClassName("tip1-2").
+    document.getElementsByClassName("tip1-2").className = 'tip1-2';
 }
