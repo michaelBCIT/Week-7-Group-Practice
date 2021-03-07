@@ -1,6 +1,6 @@
 .page4-2{
     width: 375px;
-    height: 1400px;    
+    height: 812px;   
     background-color: #FDF3CD;
 }
 
@@ -10,7 +10,6 @@
 }
 
 .page4-2 .fact-text{
-    position: absolute;
     left: -11.06%;
     right: -35.09%;
     top: -10.19%;
@@ -26,12 +25,19 @@
 }
 
 .page4-2 .big-smoke{
-
+    width: 326.05px;
+    height: 271.54px;
+    left: 47px;
+    top: 144px;
 }
 
-.page4-2 .gas{
-    width: 40%;
-
+.page4-2 .gas-pic{
+    position: relative;
+    width: 172px;
+    height: 100px;
+    left: 15px;
+    top: 481px;
+    text-shadow: 0,6,5,0;
 }
 
 .page4-2 .buttons-p4-2{
