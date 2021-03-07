@@ -36,7 +36,7 @@ document.querySelector(".button-p3-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".button-p3-2").innerHTML += BackNextButtonUI("Next");
 
 //page4
-document.querySelector(".subheaderp4"). innerHTML += SubHeaderUI("SOCIAL COST");
+document.querySelector(".subheaderp4").innerHTML += SubHeaderUI("SOCIAL COST");
 document.querySelector(".textBubblePage4-1").innerHTML += textBubbleLightUI("Food waste negatively contributes to resource costs.", "245px", "#F5D9B7");
 document.querySelector(".textBubblePage4-2").innerHTML += textBubbleLightUI("RESOURCE COST", "204px", "#FBAD81");
 
@@ -49,7 +49,7 @@ document.querySelector(".button-p4-2").innerHTML += BackNextButtonUI("Next");
 
 
 //page 5-1
-document.querySelector(".subheaderpage5"). innerHTML += SubHeaderUI("WHAT OUR LANDFILLS CAN LOOK LIKE");
+document.querySelector(".subheaderpage5").innerHTML += SubHeaderUI("WHAT OUR LANDFILLS CAN LOOK LIKE");
 document.querySelector(".BackButton-Page5-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".NextButton-Page5-1").innerHTML += BackNextButtonUI("Next");
 

@@ -61,8 +61,10 @@ color: #755F46;
 }
 
 .page5 .buttons-p5{
-    width: 170%;
+    width: 200%;
     display: flex;
     justify-content: space-evenly;
+
+    margin-top: 100px;
 
 }
