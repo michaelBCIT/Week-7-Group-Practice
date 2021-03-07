@@ -47,7 +47,6 @@ p {
     align-items: center;
     position: relative;
     top: -1650px;
-    
 }
 
 .page6-4 .images {
@@ -57,33 +56,39 @@ p {
 
 .page6-4 .road{
     position: relative;
-    top: -1230px;
+    top: -1260px;
 }
 
 .page6-4 .truck{
     position: relative;
     width: 150px;
-    top: -1390px;
-    right: -200px;
+    top: -1430px;
+    right: -40px;
     z-index: 1;
 }
 
-.page6-4 .garbage {
-    width:120px;
+.page6-4 .trash {
+    width:140px;
     position: relative;
-    bottom: -900;
+    bottom: 1477px;
+    right: -235px;
+    z-index: 1;
 }
 
 .page6-4 .back{
     position: relative;
-    bottom: 740px;
+    bottom: 725px;
     right: -10px;
 }
 
 .page6-4 .next{
     position: relative;
-    bottom: 779px;
+    bottom: 765px;
     right: -270px;
 }
 
+.page6-4 .images {
+    position: relative;
+    bottom: -30px;
+}
 
