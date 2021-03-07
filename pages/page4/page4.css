@@ -159,7 +159,7 @@ body{
 
 .page4 .click{
     margin-left: 25px;
-    top: 20px;
+    top: 15px;
     position: relative;
 
     background-color: #FE9179;
@@ -183,6 +183,7 @@ body{
 .page4 .gas{
     position: relative;
     top: 0px;
+    left: 20px;
     width: 40%;
 }
 
