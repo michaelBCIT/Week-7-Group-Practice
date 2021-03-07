@@ -1,6 +1,6 @@
 .page4{
     width: 375px;
-    height: 1200px;    
+    height: 1350px;    
     background-color: #FDF3CD;
     display: none;
 }
@@ -29,6 +29,22 @@
  
     margin-top: 50px;
     left: 50%;
+}
+
+.page4 .heart{
+    width: 30%;
+    height: 30%;
+
+    position: relative;
+    z-index: 1;
+    margin-top: -125px;
+}
+
+.page4 .broccoli{
+    z-index: 1;
+    position: relative;
+    right: 60px;
+    top: 30px;
 }
 
 .page4 .textBubblePage4-1{
@@ -65,16 +81,26 @@
 }
 
 .page4 .click{
-    margin-left: 20px;
-    
+    margin-left: 25px;
+    top: 20px;
     position: relative;
+
+    background-color: #FE9179;
+    height: 18px;
+    width: 110px;
+
+    padding: 10px;
+    padding-left: 20px;
+
+    border-radius: 10px;
 }
 
 .page4 .section3{
     margin-top: 100px;
     font-family: sans-serif;
     color: white;
-    text-shadow: 1px 1px #7A5151;
+    text-shadow: 2px 2px 0px #7A5151;
+    
 }
 
 .page4 .gas{
