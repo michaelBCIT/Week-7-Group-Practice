@@ -104,4 +104,16 @@
     position: absolute;
     width: 108px;
     height: 84px;
+    top: 425px;
+    right: 510px;
+    z-index: 1;
+}
+
+.page3-2 .moneyPage3-2{
+    position: absolute;
+    z-index: 1;
+    width: 85px;
+    top: 415px;
+    left: 525px;
+    transform: rotate(100deg);
 }
