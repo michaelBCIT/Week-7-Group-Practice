@@ -11,21 +11,58 @@ html, body {
     background-color:#FDF3CD;
 }
 
+.page6-1 .withallthereasons{
+    margin-top: 60px;
+    margin-left: 90px;
+}
+
+.page6-1 .quesicon{
+    width: 100px;
+    transform: rotate(-15deg);
+    position: relative;
+    top: -100px;
+    left: 22px;
+}
+
+.page6-1 .familiesandind{
+    margin-top: -10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+.page6-1 .family {
+    width:80px;
+    position: relative;
+    top: -188px;
+    right: -200px;
+}
+
+.page6-1 .toofindout{
+    margin-top: -30px;
+
+}
+
 .page6-1 .road{
     position: relative;
     margin-top: 50px;
-    z-index: 1;
+    
+    top: -80px;
 
 }
 
 .page6-1 .truck{
     position: relative;
     width: 130px;
+    z-index: 1;
 
 }
 
 .page6-1 .sign{
     position: relative;
     width: 125px;
-
+    z-index: 1;
 }
+
+
