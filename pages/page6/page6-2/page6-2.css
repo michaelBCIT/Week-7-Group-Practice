@@ -1,15 +1,15 @@
-html, body {
-    margin:0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .page6-2 {
     width: 375px;
     height: 812px;   
     background-color: #FDF3CD;
+    display: none;
     
+}
+
+.page6-2 .container6-2{
+    justify-content: center;
+    align-items: center;
 }
 
 p {
@@ -46,7 +46,9 @@ p {
     justify-content: center;
     align-items: center;
     position: relative;
-    top: -1650px;
+    top: -1600px;
+
+    left: -100px;
     
 }
 
@@ -57,20 +59,28 @@ p {
 
 .page6-2 .road{
     position: relative;
-    top: -1230px;
+    top: -1300px;
 }
 
 .page6-2 .truck{
     position: relative;
     width: 150px;
-    top: -1390px;
-    right: -115px;
+    top: -1300px;
+    left: -300px;
     z-index: 1;
 }
 
+.page6-2 .backnext{
+    width: 180%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    
+    position: relative;
 
+}
 
-.page6-2 .back{
+/*.page6-2 .back{
     position: relative;
     bottom: 740px;
     right: -10px;
@@ -79,6 +89,6 @@ p {
     position: relative;
     bottom: 779px;
     right: -270px;
-}
+}*/
 
 

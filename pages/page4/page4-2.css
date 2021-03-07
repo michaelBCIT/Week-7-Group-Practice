@@ -19,7 +19,7 @@ top:130px;
 border-radius: nullpx;
 font-family: sans-serif;
 font-weight: bold;
-font-size: 20px;
+font-size: 20pt;
 text-align: center;
 color: #ffffff;
 z-index: 2;
@@ -30,6 +30,7 @@ animation-delay: 2s;
     from{top: 200px;}
     to {bottom:0px;}
 }
+
 
 .page4-2 .big-smoke{
 position: relative;
