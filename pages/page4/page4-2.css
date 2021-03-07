@@ -3,11 +3,14 @@
     height: 812px;   
     background-color: #FDF3CD;
     display: none;
+ 
 }
 
 .page4-2 .container4-2{
     justify-content: center;
     align-items: center;
+    
+
 }
 
 .page4-2 .fact-text{
