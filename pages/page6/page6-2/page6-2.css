@@ -68,6 +68,12 @@
     top: -1300px;
     left: -300px;
     z-index: 1;
+    animation:drive 3s linear;
+}
+@keyframes drive{
+    0%{
+    transform: translateX(-500px);
+    }
 }
 
 .page6-2 .backnext{
