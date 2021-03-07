@@ -1,4 +1,4 @@
-function textBubbleLightUI(bubbleText = "lorem ipsum", width = "250px", bubbleColor = "#F5D9B7", font="18px"){
+function textBubbleLightUI(bubbleText = "lorem ipsum", width = "250px", bubbleColor = "#F5D9B7", font="18px", fontcolor="#766654"){
     return `
         <div style="
         display: flex;
@@ -14,7 +14,7 @@ function textBubbleLightUI(bubbleText = "lorem ipsum", width = "250px", bubbleCo
             font-family: sans-serif;
             font-weight: bold;
 
-            color: #766654;
+            color: ${fontcolor};
             padding: 0.75rem;
             text-align: center;
             ">
