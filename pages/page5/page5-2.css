@@ -20,17 +20,17 @@
 }
 
 .page5-2 .SubHeaderPage5-2{
-margin-top: -3%;
+    margin-top: -10px;
+    margin-left: 20px;
 }
 
 .page5-2 .TextBlubblePage5-2{
-width: 310px;
-left: 28px;
-font-weight: bold;
-margin-top:-15px; 
+position: relative;
+top: 50px;
+left: 100px;
 }
 
-.page5-2 .text{
+.page5-2 .textt{
 position: relative;
 width: 177.45px;
 height: 137.65px;
