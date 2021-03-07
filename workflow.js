@@ -55,6 +55,8 @@ document.querySelector(".SubHeaderPage5-2").innerHTML += SubHeaderUI("69px", "34
 document.querySelector(".BackButton-Page5-2").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".NextButton-Page5-2").innerHTML += BackNextButtonUI("Next");
 
+
+
 //page 6-2
 document.querySelector(".headerP6-1").innerHTML += HeaderUI("WHY DOES ALL THIS HAPPEN?");
 document.querySelector(".withallthereasons").innerHTML += textBubbleLightUI("With all the reasons why food waste is bad for us and our world, why does it happen at all?");
@@ -64,6 +66,9 @@ document.querySelector(".toofindout").innerHTML += textBubbleLightUI("To find ou
 document.querySelector(".back").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".next").innerHTML += BackNextButtonUI("Next");
 
+
+//page 7-1
+document.querySelector(".button-p7-1-1").innerHTML += BackNextButtonUI("Back");
 // document.querySelector().innerHTML += TabUI("Hello");
 
 // document.querySelector().innerHTML += TabUI();
