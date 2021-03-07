@@ -73,6 +73,6 @@ left: 25px;
 .page5 .buttons-p5{
     width: 200%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     margin-top: 100px;
 }
