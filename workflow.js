@@ -40,14 +40,13 @@ document.querySelector(".button-p4-2").innerHTML += BackNextButtonUI("Next");
 //page 5-1
 
 document.querySelector(".subheaderpage5").innerHTML += SubHeaderUI("69px", "341px", "20px", "HOW OUR LANDFILLS COULD LOOK", "#FFFFFF", "#FE9179");
-document.querySelector(".bubble-5-1"). innerHTML += textBubbleLightUI("In the landfill, food scraps get buried underneath tonnes of garbage", "310px","#F5D9B7", "20px", "#766654");
 
 document.querySelector(".BackButton-Page5-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".NextButton-Page5-1").innerHTML += BackNextButtonUI("Next");
 
 //page 5-2
-document.querySelector(".TextBubblePage5-2").innerHTML += textBubbleLightUI("In the landfill, food scraps get buried underneath tonnes of garbage", width = "310px", bubbleColor = "#F5D9B7", font="24px", fontcolor="#766654");
-document.querySelector(".SubHeaderPage5-2").innerHTML += SubHeaderUI("HOW DID THIS HAPPEN?", width = "340px", bubbleColor = "#FE9179");
+document.querySelector(".TextBubblePage5-2").innerHTML += textBubbleLightUI("In the landfill, food scraps get buried underneath tonnes of garbage", width = "310px", bubbleColor = "#F5D9B7", font="20px", fontcolor="#766654");
+document.querySelector(".SubHeaderPage5-2").innerHTML += SubHeaderUI("69px", "346px", "20px", "HOW DID THIS HAPPEN?", "#FFFFFF", "#FE9179");
 document.querySelector(".BackButton-Page5-2").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".NextButton-Page5-2").innerHTML += BackNextButtonUI("Next");
 
