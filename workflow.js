@@ -66,7 +66,7 @@ document.querySelector(".next").innerHTML += BackNextButtonUI("Next");
 
 
 //page 7-1
-//document.querySelector(".button-p7-1-1").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".button-p7-1-1").innerHTML += BackNextButtonUI("Back");
 // document.querySelector().innerHTML += TabUI("Hello");
 
 // document.querySelector().innerHTML += TabUI();
