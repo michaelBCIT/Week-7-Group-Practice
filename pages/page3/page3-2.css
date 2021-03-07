@@ -11,7 +11,7 @@
     align-items: center;
     flex-direction: column;
     width: 375px;
-    height: 812px;
+    height: 810px;
 }
 
 .page3-2 .topHalf{
@@ -57,6 +57,8 @@
 }
 
 .page3-2 .subheaderpage3-2--2{
+    position:relative;
+    top:0px;
     z-index: 2;
 }
 
