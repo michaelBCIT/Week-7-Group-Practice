@@ -1,15 +1,15 @@
-html, body {
-    margin:0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
 .page6-2 {
     width: 375px;
     height: 812px;   
     background-color: #FDF3CD;
+    display: none;
     
+}
+
+.page6-2 .container6-2{
+    justify-content: center;
+    align-items: center;
 }
 
 p {
@@ -68,9 +68,20 @@ p {
     z-index: 1;
 }
 
+.page6-2 .backnext{
+    width: 180%;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-end;
+    
+    position: relative;
+    top:-20px;
+    left: -120px;
+    top:-30px;
+    left: -150px;
+}
 
-
-.page6-2 .back{
+/*.page6-2 .back{
     position: relative;
     bottom: 740px;
     right: -10px;
@@ -79,6 +90,6 @@ p {
     position: relative;
     bottom: 779px;
     right: -270px;
-}
+}*/
 
 
