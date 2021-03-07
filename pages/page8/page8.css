@@ -11,16 +11,20 @@
 
 .page8 .container8{
     display: flex;
-    flex-direction: column;
-    align-items: center;
     justify-content: center;
-    flex-grow: 1;
+    align-items: center;
+
+    left: 500px;
 }
+
 
 .page8 .buttons-p8{
-    flex-grow: 1;
+    width: 500px;
+    display: flex;
+    justify-content: space-between;
+    position: relative;
+
+    left: -350px;
+    top: 360px;
 }
 
-.page8 .tip1{
-    padding: 10px;
-}
