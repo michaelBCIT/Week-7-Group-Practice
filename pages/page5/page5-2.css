@@ -2,15 +2,14 @@
     width: 375px;
     height: 812px;
     background-color: #FDF3CD;
-    display: flex;
-    justify-content:center;
+    display: none;
 }
 
 .page5-2 .container5{
-flex-direction: column;
-display: flex;
-justify-content:center;
-flex-direction: column;
+    flex-direction: column;
+    display: flex;
+    justify-content:center;
+    flex-direction: column;
 }
 
 .page5-2 .thinking-image{
