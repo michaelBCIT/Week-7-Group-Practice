@@ -1,0 +1,10 @@
+.page8{
+    background-color: #FDF3CD;
+    width: 375px;
+    height: 804px;
+}
+
+.page8 .container8{
+    display: flex;
+    flex-direction: column;
+}

@@ -1,4 +1,4 @@
-function SubHeaderUI (h="64px", w="361px", size="24pt", text="ENVIRONMENTAL COSTS"){
+function SubHeaderUI (h="64px", w="361px", size="24px", text="ENVIRONMENTAL COSTS", fontcolor="#FFFFFF"){
     return `<div style="
     display: flex;
     background: #FBAD81;
@@ -18,7 +18,7 @@ function SubHeaderUI (h="64px", w="361px", size="24pt", text="ENVIRONMENTAL COST
         align-items: center;
         line-height: 23pt;
         text-align: center;
-        color: #FFFFFF;
+        color: ${fontcolor};
         margin: 0;
         ">
         ${text}
