@@ -1,8 +1,15 @@
+html, body {
+    margin:0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 .page6-2 {
     width: 375px;
     height: 812px;   
     background-color: #FDF3CD;
-    display: none;
+    
 }
 
 .pie-chart {
