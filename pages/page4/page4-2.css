@@ -1,0 +1,23 @@
+.page4-2{
+    width: 375px;
+    height: 1400px;    
+    background-color: #FDF3CD;
+    display: none;
+}
+
+.page4 .container4-2{
+    justify-content: center;
+    align-items: center;
+}
+
+.page4 .gas{
+    width: 40%;
+
+}
+
+.page4 .buttons-p4-2{
+    width: 170%;
+    display: flex;
+    justify-content: space-evenly;
+
+}
