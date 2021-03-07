@@ -32,7 +32,7 @@ html, body{
 
 .page9 .touchofabutton{
     margin-left:90px;
-    margin-top:40px;
+    margin-top:10px;
     font-weight: bold;
 }
 
@@ -79,7 +79,6 @@ html, body{
     font-weight: bold;
 }
 
-/*fuck this button, will finish later*/
 .page9 .backbutton {
    margin-top:50px;
    position: relative;
@@ -87,11 +86,12 @@ html, body{
 }
 
 .page9 .footer {
-    margin-top:30px;
+    margin-top:20px;
 }
     
 .page9 .phoneicon{
     height: 30px;
     position:relative;
-    margin-left: 40px;
+    left:-30px;
+    top: 65px;
 }
