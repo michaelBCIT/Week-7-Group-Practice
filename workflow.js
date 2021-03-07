@@ -72,11 +72,21 @@ document.querySelector(".textbubble7-1").innerHTML += textBubbleLightUI("That's 
 
 //page 8 
 document.querySelector(".headerpage8").innerHTML += HeaderUI("HOW YOU CAN REDUCE FOOD WASTE");
-document.querySelector(".tip1").innerHTML += MyButtonUI("TIP 1");
-document.querySelector(".tip1").innerHTML += MyButtonUI("TIP 2");
-document.querySelector(".tip1").innerHTML += MyButtonUI("TIP 3");
+document.querySelector(".tip1").innerHTML += MyButtonUI("TIP 1", "../../stories/info-pics/clean_table_icons/bread.png");
+document.querySelector(".tip2").innerHTML += MyButtonUI("TIP 2", "../../stories/info-pics/clean_table_icons/frying-pan.png");
+document.querySelector(".tip3").innerHTML += MyButtonUI("TIP 3", "../../stories/info-pics/clean_table_icons/check-list.png");
 document.querySelector(".BackButton-Page8-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".NextButton-Page8-2").innerHTML += BackNextButtonUI("Next");
+
+//page9-1
+document.querySelector(".header-p9").innerHTML += HeaderUI("WHAT CAN CLEAN TABLE DO FOR YOU?");
+document.querySelector(".touchofabutton").innerHTML += textBubbleLightUI("With a touch of a button, users can help list their groceries, and track their expiration dates.");
+document.querySelector(".createvisual").innerHTML += textBubbleLightUI("Create a visual grocery list, that shows the use when their products expire and also shows what items they have inside their pantry or fridge.");
+document.querySelector(".makerecipiesoutof").innerHTML += textBubbleLightUI("Make recipies out of the igredients that are about to expire.");
+document.querySelector(".cleantablewillgiveusers").innerHTML += textBubbleLightUI("Clean Table will give users confidence to cook more from home instead of using food delivery. As well as spread awareness about healthy eating while reducing garbage production.");
+document.querySelector(".backbutton").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".footer").innerHTML += MyFooterUI();
+
 
 // document.querySelector().innerHTML += TabUI("Hello");
 
