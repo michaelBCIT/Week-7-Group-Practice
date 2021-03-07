@@ -61,7 +61,13 @@ top: 334px;
 width: 375px;
 height: 181px;
 left: 8px;
-top: 200px;
+<<<<<<< HEAD
+top: -200px;
+z-index: 1;
+
+=======
+margin-top: -37px;
+>>>>>>> 150ed15ad1e5c9d5a1b3da8d969a6171767381fa
 }
 
 .page5-1 .hill{
@@ -127,7 +133,7 @@ left: 25px;
 
 .page5-1 .sun-and-cloud{
 
-    width: 352px;
+    width: 360px;
     height: 126px;
 
 }
@@ -164,7 +170,7 @@ color: #755F46;
 
 z-index: 1;
 position: relative;
-top: -270px;
+top: -280px;
 left: 25px;
 }
 

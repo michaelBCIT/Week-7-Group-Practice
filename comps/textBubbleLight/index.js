@@ -19,7 +19,7 @@ function textBubbleLightUI(bubbleText = "lorem ipsum", width = "250px", bubbleCo
             text-align: center;
             margin-top: ${mgtop}
             ">
-            ${bubbleText};
+            ${bubbleText}
             </span>
         </div>
     `
