@@ -51,7 +51,7 @@ top: 200px;
 }
 
 .page5-1 .hill{
-    top: -500px;
+    top: -400px;
 }
 
 .page5-1 .text{
@@ -78,5 +78,6 @@ left: 25px;
     align-content: flex-end;
     
     position: relative;
+    left: -150px;
 
 }

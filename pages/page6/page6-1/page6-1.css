@@ -5,6 +5,9 @@
     display: none;
 }
 
+.page6 .section-1{
+    top: -10px;
+}
 
 .page6 .container6-1{
     justify-content: center;
@@ -12,7 +15,7 @@
 }
 
 .page6 .withallthereasons{
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 90px;
 }
 
@@ -104,4 +107,5 @@
 
 .page6 .images {
     margin-top: -160px;
+    position: relative;
 }
