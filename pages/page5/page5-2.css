@@ -2,54 +2,50 @@
     width: 375px;
     height: 812px;
     background-color: #FDF3CD;
+    display: flex;
+    justify-content:center;
 }
 
-.page5-2 .pic{
-    position: absolute;
-width: 157px;
-height: 145px;
-left: 153px;
-top: 3px;
+.page5-2 .container5{
+flex-direction: column;
+display: flex;
+justify-content:center;
+flex-direction: column;
 }
 
-
-.page5-2 .sun-and-cloud{
-    position: absolute;
-    width: 352px;
-    height: 126px;
-    left: 10px;
-    top: 205px
-}
-
-.page5-2 .flying-bird{
-    position: absolute;
-width: 219px;
-height: 191px;
-left: 63px;
-top: 334px;
+.page5-2 .thinking-image{
+    width: 150px;
+    left: auto;
+    right: auto;
+    margin-left: 35%
 }
 
 .page5-2 .landfill{
-    position: absolute;
-    Width:272px;
-    Height:153.9px;
+    display: flex;
+    Width:200px;
+    Height:370px;
     Top:583.55px;
-    Left:124px;
 }
 
 .page5-2 .textt{
-    position: absolute;
-width: 139px;
-height: 47px;
-left: 29px;
-top: 260px;
-
+width: 313px;
+height: 93px;
+left: 31px;
+top: 240px;
 font-family: Roboto;
 font-style: normal;
 font-weight: bold;
-font-size: 12px;
-line-height: 14px;
+font-size: 18px;
+line-height: 21px;
 text-align: center;
+color: #4E4841;
+}
 
-color: #755F46;
+.page5 .Backbutton{
+    width: 170%;
+    display: flex;
+    justify-content: space-evenly;
+    
+    margin-left: -130px;
+    margin-top: 300px;
 }

@@ -1,11 +1,11 @@
-function SubHeaderUI (text = "ENVIRONMENTAL COSTS"){
-    return `<div style="
+function SubHeaderUI (h="64px", w="361px", text="ENVIRONMENTAL COSTS"){
+    return `<div style=
     background: #FBAD81;
     border-radius: 50px;
-    justify-content center;
+    justify-content: center;
     align-items:center;
-    height:63.94px;
-    width:361px;
+    height:${h};
+    width:${w};
     justify-content:center;
     align-items:center;
     ">
@@ -24,6 +24,6 @@ function SubHeaderUI (text = "ENVIRONMENTAL COSTS"){
         ">
         ${text}
         </h1>
-    </div>`
+    </div>`;
 }
 //export const SubHeader = SubHeaderUI();   
