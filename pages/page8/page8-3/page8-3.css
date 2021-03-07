@@ -35,6 +35,11 @@ html, body {
     padding: 25px;
 }
 
-.page8-3 .tip2 {
-    
+
+
+
+.page8-3 .tip2:hover {
+   
+    width: 300px;
+    {transition-timing-function: ease-in-out;}
 }
