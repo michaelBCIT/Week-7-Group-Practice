@@ -1,6 +1,6 @@
 .page4{
     width: 375px;
-    height: 1400px;    
+    height: 1200px;    
     background-color: #FDF3CD;
     display: none;
 }
@@ -13,6 +13,7 @@
 .page4 .subheader4 {
     position: relative;
     margin-top: 90px;
+    margin-left: 10px;
 }
 
 .page4 .section1{
@@ -43,6 +44,11 @@
     flex-direction: column;
 }
 
+.page4 .social-icon{
+    width: 40%;
+    height: 50%;
+}
+
 .page4 .garbage-icon{
     width: 40%;
     height: 40%;
@@ -55,22 +61,32 @@
     margin-top: -10px;
 }
 
+.page4 .click{
+    margin-left: 20px;
+    
+    position: relative;
+    top: 20px;
+}
+
 .page4 .section3{
     margin-top: 100px;
     font-family: sans-serif;
     color: white;
     text-shadow: 1px 1px #7A5151;
-
 }
 
 .page4 .gas{
+    position: relative;
+    top: 20px;
     width: 40%;
-
 }
 
 .page4 .buttons-p4{
     width: 170%;
+    position: relative;
+    top: 50px;
+    left: -130px;
+
     display: flex;
     justify-content: space-evenly;
-
 }
