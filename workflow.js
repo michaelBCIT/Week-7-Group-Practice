@@ -29,8 +29,8 @@ document.querySelector(".button-p4-2").innerHTML += BackNextButtonUI("Next");
 // document.querySelector(".headerpage4").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 
 //page4-2
-document.querySelector(".button-p4-1").innerHTML += BackNextButtonUI("Back");
-document.querySelector(".button-p4-2").innerHTML += BackNextButtonUI("Next");
+document.querySelector(".button-p4-2-1").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".button-p4-2-2").innerHTML += BackNextButtonUI("Next");
 
 
 //page 5-1
