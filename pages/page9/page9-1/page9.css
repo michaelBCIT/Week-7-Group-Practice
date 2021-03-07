@@ -1,26 +1,26 @@
-html, body{
-    margin: 0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
 
-.page9 {
-    width: auto;
-    height: auto;
+.page9-1 {
+    width: 375px;
+    height: 1500px;
     background-color:#FDF3CD;
     display:flex;
     justify-content:center;
     align-items: center;
     flex-direction: column;
+
+    display: none;
     
 }
 
-.page9 .header-p9{
+.page9-1 .container9{
+    margin-top: -270px;
+}
+
+.page9-1 .header-p9{
     margin-top: 0px;
 }
 
-.page9 .description{
+.page9-1 .description{
     font-size: 24px;
     font-weight: bold;
     justify-content: center;
@@ -30,13 +30,13 @@ html, body{
     margin-top: 30px;
 }
 
-.page9 .touchofabutton{
+.page9-1 .touchofabutton{
     margin-left:90px;
     margin-top:10px;
     font-weight: bold;
 }
 
-.page9 .helpusers{
+.page9-1 .helpusers{
     font-size: 22px;
     font-weight: bold;
     justify-content: center;
@@ -46,13 +46,13 @@ html, body{
     margin-top: 40px;
 }
 
-.page9 .createvisual {
+.page9-1 .createvisual {
     margin-left:40px;
     margin-top:40px;
     font-weight: bold;
 }
 
-.page9 .makerecipiesoutof{
+.page9-1 .makerecipiesoutof{
     font-size: 22px;
     font-weight: bold;
     justify-content: center;
@@ -65,7 +65,7 @@ html, body{
     margin-left:90px;
 }
 
-.page9 .intheend {
+.page9-1 .intheend {
     font-size: 24px;
     font-weight: bold;
     justify-content: center;
@@ -74,22 +74,23 @@ html, body{
     color: #522E05;
     margin-top: 30px;
 }
-.page9 .cleantablewillgiveusers{
+.page9-1 .cleantablewillgiveusers{
     margin-top: 30px;
     font-weight: bold;
+    left: -100px;
 }
 
-.page9 .backbutton {
+.page9-1 .backbutton {
    margin-top:50px;
    position: relative;
-   left: -120px;
+   left: 10px;
 }
 
-.page9 .footer {
-    margin-top:20px;
+.page9-1 .footer {
+
 }
     
-.page9 .phoneicon{
+.page9-1 .phoneicon{
     height: 30px;
     position:relative;
     left:-30px;
