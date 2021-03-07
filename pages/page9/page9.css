@@ -81,10 +81,17 @@ html, body{
 
 /*fuck this button, will finish later*/
 .page9 .backbutton {
-   padding-top:10px;
+   margin-top:50px;
+   position: relative;
+   left: -120px;
 }
 
 .page9 .footer {
     margin-top:30px;
 }
     
+.page9 .phoneicon{
+    height: 30px;
+    position:relative;
+    margin-left: 40px;
+}

@@ -37,8 +37,7 @@ function MyFooterUI(){
 
 }
 
-<<<<<<< HEAD
+
 //export const FooterUI = MyFooterUI();
-=======
-// export const FooterUI = MyFooterUI();
->>>>>>> 5f5fb38a85a7248b230a8d65044e8e431099d5c2
+
+

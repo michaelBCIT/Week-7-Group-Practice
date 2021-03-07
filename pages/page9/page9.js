@@ -7,8 +7,6 @@ document.querySelector(".makerecipiesoutof").innerHTML += textBubbleLightUI("Mak
 
 document.querySelector(".cleantablewillgiveusers").innerHTML += textBubbleLightUI("Clean Table will give users confidence to cook more from home instead of using food delivery. As well as spread awareness about healthy eating while reducing garbage production.");
 
-document.querySelector(".cleantablewillgiveusers").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".backbutton").innerHTML += BackNextButtonUI("Back");
 
 document.querySelector(".footer").innerHTML += MyFooterUI();
-
-document.querySelector(".subheader").innerHTML += SubHeaderUI("environment");
