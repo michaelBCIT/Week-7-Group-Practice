@@ -1,18 +1,18 @@
-function SubHeaderUI (width = "257px", height = "48px", text = "ENVIRONMENTAL COSTS"){
-    return `<div style="
+function SubHeaderUI (h="64px", w="361px", text="ENVIRONMENTAL COSTS"){
+    return `<div style=
     background: #FBAD81;
     border-radius: 50px;
-    justify-content center;
+    justify-content: center;
     align-items:center;
-    height:63.94px;
-    width:361px;
+    height:${h};
+    width:${w};
     justify-content:center;
     align-items:center;
     ">
         <h1 style="
         position: absolute;
-        width:${width};
-        height:${height};
+        width:257px;
+        height:48px;
         top:10px;
         left:60px;
         font-family: sans-serif;
@@ -24,6 +24,6 @@ function SubHeaderUI (width = "257px", height = "48px", text = "ENVIRONMENTAL CO
         ">
         ${text}
         </h1>
-    </div>`
+    </div>`;
 }
 //export const SubHeader = SubHeaderUI();   
