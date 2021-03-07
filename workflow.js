@@ -79,9 +79,10 @@ document.querySelector(".next").innerHTML += BackNextButtonUI("Next");
 
 
 //page 7-1
+document.querySelector(".textbubble7-1").innerHTML += textBubbleLightUI("That's 3.5 tonnes of food which is equivalent to 95 CN Towers!", "250px", "#FE9179", "18px", "white");
 document.querySelector(".button-p7-1-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".button-p7-1-2").innerHTML += BackNextButtonUI("Next");
-document.querySelector(".textbubble7-1").innerHTML += textBubbleLightUI("That's 3.5 tonnes of food which is equivalent to 95 CN Towers!", "250px", "#FE9179", "18px", "white", );
+
 
 //page 8 
 document.querySelector(".headerpage8").innerHTML += HeaderUI("HOW YOU CAN REDUCE FOOD WASTE");
