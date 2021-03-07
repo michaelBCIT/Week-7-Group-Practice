@@ -78,14 +78,13 @@
 .page3-2 .plantspage3-2{
     position: relative;
     top: 10px;
-    opacity: 50%;
+    opacity: 66%;
     z-index: 1;
 }
 
 .page3-2 .transparentText{
     position: absolute;
     top: 615px;
-    height: 173px;
 }
 
 .page3-2 .buttons-p3{
