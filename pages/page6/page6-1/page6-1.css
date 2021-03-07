@@ -78,9 +78,19 @@
     width: 180%;
     display: flex;
     justify-content: space-evenly;
+    align-content: flex-end;
+    
     position: relative;
+<<<<<<< HEAD
     top:-20px;
+=======
+<<<<<<< HEAD
+    left: -120px;
+=======
+    top:-50px;
+>>>>>>> 9218f08f904adb5e53565401a33a058c644d06ac
     left: -150px;
+>>>>>>> 1e79a899e03ae66e74b15fc6abbe7247a7b5b113
 
 }
 
