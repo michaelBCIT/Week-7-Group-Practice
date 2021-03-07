@@ -23,6 +23,7 @@ document.querySelector(".button-p3-1").innerHTML += BackNextButtonUI("Back");
 
 document.querySelector(".button-p3-2").innerHTML += BackNextButtonUI("Next");
 
+//page 3-2
 
 //page4
 document.querySelector(".subheaderp4").innerHTML += SubHeaderUI("SOCIAL COST");
