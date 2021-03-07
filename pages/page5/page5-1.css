@@ -44,6 +44,19 @@ left: 63px;
 top: 334px;
 }
 
+.page5-1 .txt{
+    position: relative;
+    z-index: 1;
+
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 15px;
+
+    left: 135px;
+    top: 165px;
+}
+
 .page5-1 .green-land{
 width: 375px;
 height: 181px;
