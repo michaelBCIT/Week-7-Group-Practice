@@ -104,4 +104,10 @@ function NextPage(page){
   document.querySelector(page).id = "show";
 }
 
+function BackPage(page){
+  document.querySelector("#show").style.display = "none";
+  document.querySelector("#show").id = "";
+  document.querySelector(page).style.display = "flex";
+  document.querySelector(page).id = "show";
+}
 
