@@ -17,7 +17,7 @@ width: 212px;
 left:100px;
 top:130px;
 border-radius: nullpx;
-font-family: Roboto;
+font-family: sans-serif;
 font-weight: bold;
 font-size: 20px;
 text-align: center;
@@ -30,14 +30,16 @@ position: relative;
 width: 100px;
 height: 230px;
 left: -30px;
-transform: rotate(-16deg)
+transform: rotate(-16deg);
+
+top: 20px;
 }
 
 .page4-2 .gas-photo{
 width:60%;
 height: auto;
 position: relative;
-top:170px;
+top:150px;
 }
 
 .page4-2 .buttons-p4-2{
@@ -46,5 +48,5 @@ top:170px;
     justify-content: space-evenly;
     position: relative;
     left: -138px;
-    top:190px
+    top:250px
 }
