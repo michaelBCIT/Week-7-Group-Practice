@@ -1,3 +1,12 @@
+
+html, body {
+    margin:0;
+    justify-content: center;
+    align-content: center;
+    
+}
+
+
 .page8-3{
     background-color: #FDF3CD;
     width: 375px;
@@ -24,4 +33,8 @@
     top: 34px;
     top: 50px;
     padding: 25px;
+}
+
+.page8-3 .tip2 {
+    
 }
