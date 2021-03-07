@@ -31,6 +31,15 @@
     left: 50%;
 }
 
+.page4 .heart{
+    width: 30%;
+    height: 30%;
+
+    position: relative;
+    z-index: 1;
+    margin-top: -125px;
+}
+
 .page4 .broccoli{
     z-index: 1;
     position: relative;
