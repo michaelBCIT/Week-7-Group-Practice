@@ -71,9 +71,13 @@ top: -270px;
 left: 25px;
 }
 
-.page5 .buttons-p5{
+.page5-1 .buttons-p5{
     width: 180%;
+<<<<<<< HEAD
    
+=======
+    display: flex;
+>>>>>>> f57e9277a37b3587d3f49525d3b3f1c0b29a68c6
     justify-content: space-evenly;
     position: relative;
     top:10px;
