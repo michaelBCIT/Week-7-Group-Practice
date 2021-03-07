@@ -19,10 +19,14 @@ function MyFooterUI(){
     '>
     
     <div>
-    <img src="logo.png" alt="logo-image">
+    <img src="/comps/img/logo.png" alt="logo-image" style="
+    width: 50%;
+    height:50%;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    ">
    
-
-    <br><br>
     CLEAN TABLE 
     <span 
     style='
@@ -33,4 +37,7 @@ function MyFooterUI(){
 
 }
 
-// export const FooterUI = MyFooterUI();
+
+//export const FooterUI = MyFooterUI();
+
+

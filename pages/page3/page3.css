@@ -2,7 +2,7 @@
     width: 375px;
     height: 812px;    
     background-color: #FDF3CD;
-    /*display: none;*/
+    display: none;
 }
 
 .page3 .container3{
@@ -50,7 +50,4 @@
     width: 170%;
     display: flex;
     justify-content: space-evenly;
-    
-    /*margin-left: -130px;
-    margin-top: 300px;*/
 }

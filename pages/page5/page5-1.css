@@ -11,13 +11,6 @@
     flex-direction: column;
 }
 
-
-.SubHeaderPage5{
-width: 157px;
-height: 145px;
-left: 155px;
-top: -4px;
-}
 .page5-1 .thinking-image{
     width: 150px;
     left: auto;
@@ -36,31 +29,12 @@ top: -4px;
 
 }
 
-.page5-1 .call-to-action{
-position: absolute;
-width: 46px;
-height: 46px;
-left: 210px;
-top: 448px;
-
-font-family: Roboto;
-font-style: normal;
-font-weight: bold;
-font-size: 20px;
-line-height: 23px;
-text-align: center;
-
-color: #FFFFFF;
-z-index: 2;
-}
-
 .page5-1 .flying-bird{
 
 width: 219px;
 height: 191px;
 left: 63px;
 top: 334px;
-z-index: 1;
 }
 
 .page5-1 .green-land{
@@ -72,11 +46,7 @@ top: 555px;
 }
 
 .page5-1 .text{
-
-position: absolute;
-
 position: absolute; 
-
 width: 139px;
 height: 47px;
 
@@ -90,20 +60,11 @@ text-align: center;
 color: #755F46;
 }
 
-
-.page5-1 .Backbutton-Page-5-1{
-    width: 170;
-    display: flex;
-    justify-content: center;
-    align-content: flex-end;
-    margin-top: 70px;
-
-}
-
 .page5 .buttons-p5{
-    width: 170%;
+    width: 200%;
     display: flex;
     justify-content: space-evenly;
 
-}
+    margin-top: 100px;
 
+}
