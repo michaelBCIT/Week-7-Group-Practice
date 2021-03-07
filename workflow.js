@@ -28,8 +28,9 @@ document.querySelector(".button-p4-2").innerHTML += BackNextButtonUI("Next");
 
 // document.querySelector(".headerpage4").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 
-
-// page 9
+//page4-2
+document.querySelector(".button-p4-2-1").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".button-p4-2-2").innerHTML += BackNextButtonUI("Next");
 
 
 //page 5-1
@@ -44,8 +45,6 @@ document.querySelector(".TextBubblePage5-2").innerHTML += textBubbleLightUI("In 
 document.querySelector(".SubHeaderPage5-2").innerHTML += SubHeaderUI("69px", "346px", "20px", "HOW DID THIS HAPPEN?", "#FFFFFF", "#FE9179");
 document.querySelector(".BackButton-Page5-2").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".NextButton-Page5-2").innerHTML += BackNextButtonUI("Next");
-
-
 
 // document.querySelector().innerHTML += TabUI("Hello");
 
