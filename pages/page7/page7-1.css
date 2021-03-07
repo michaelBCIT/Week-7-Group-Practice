@@ -8,7 +8,17 @@
 .page7-1 .container7-1{
     display: flex;
     justify-content: center;
+    align-items: center;  
+    overflow: hidden;
+}
+
+.page7-1 .textbubble7-1{
+    position:fixed;
+    width: 375px;
+    display: flex;
+    justify-content: center;
     align-items: center;
+    top: 100px;
 }
 
 .page7-1 .tower{
@@ -16,17 +26,13 @@
     width: 418px;
     height: 665px;
     left: 10px;
-    top: 130px;
+    top: 610px;
+    animation:tower 4s;
+animation-delay: 3s;
 }
-
-.page7-1 .textbubble7-1{
-    width: 375px;
-
-    display: flex;
-    justify-content: center;
-    align-items: center;
-
-    margin-top: -100px;
+@keyframes tower{
+    from{bottom:0px;}
+    to {top: 200px;}
 }
 
 .page7-1 .buttons-p7-1{
