@@ -2,23 +2,30 @@
     background-color: #FDF3CD;
     width: 375px;
     height: 812px;
-    display: none;
-}
-
-.page8 .headerpage8{
-    flex-grow: 1;
+    /*display: none;*/
+    display: flex;
+    flex-direction: column;
 }
 
 .page8 .container8{
     display: flex;
+<<<<<<< HEAD
     justify-content: center;
     align-items: center;
 
     left: 500px;
+=======
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+    flex-grow: 4;
+
+>>>>>>> 21e978e7b25a20dbe5fded01556b28b4a32ae078
 }
 
 
 .page8 .buttons-p8{
+<<<<<<< HEAD
     width: 500px;
     display: flex;
     justify-content: space-between;
@@ -28,3 +35,12 @@
     top: 360px;
 }
 
+=======
+    display: flex;
+    flex-grow: 1;
+    justify-content: space-between;
+    position: relative;
+    top: 12px;
+    padding: 25px;
+}
+>>>>>>> 21e978e7b25a20dbe5fded01556b28b4a32ae078
