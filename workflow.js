@@ -54,9 +54,11 @@ document.querySelector(".BackButton-Page5-1").innerHTML += BackNextButtonUI("Bac
 document.querySelector(".NextButton-Page5-1").innerHTML += BackNextButtonUI("Next");
 
 //page 5-2
-document.querySelector(".TextBubble-Page5-2").innerHTML += textBubbleLightUI("RESOURCE COST", "204px", "#FBAD81");
+document.querySelector(".SubHeaderPage5-2").innerHTML += SubHeaderUI("HOW DID THIS HAPPEN?");
+document.querySelector(".TextBubblePage5-2").innerHTML += TextBubbleUI("In the landfill, food scraps get buried underneath tonnes of garbage");
 document.querySelector(".BackButton-Page5-2").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".NextButton-Page5-2").innerHTML += BackNextButtonUI("Next");
+
 
 // document.querySelector().innerHTML += TabUI("Hello");
 
@@ -101,6 +103,8 @@ document.querySelector(".NextButton-Page5-2").innerHTML += BackNextButtonUI("Nex
 //page 3
 //document.querySelector(".HeaderPage3").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 //document.querySelector(".textBubblePage3-1").innerHTML += textBubbleLightUI();
+//document.querySelector(".TextBubble-Page3-1").innerHTML += textBubbleLightUI("RESOURCE COST", "204px", "#FBAD81");
+
 
 function NextPage(page){
   document.querySelector("#show").style.display = "none";
