@@ -7,4 +7,11 @@
 .page8 .container8{
     display: flex;
     flex-direction: column;
+    align-items: center;
+
+    padding: 50px;
+}
+
+.page8 .tip1{
+    margin: padding: 10px;
 }
