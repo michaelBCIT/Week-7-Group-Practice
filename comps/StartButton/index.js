@@ -70,7 +70,7 @@ function StartButtonUI(text="Start") {
     </div>
 
 
-    `
+    `;
 }
 
 //export const StartButton = StartButtonUI();

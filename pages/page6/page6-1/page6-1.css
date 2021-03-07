@@ -5,6 +5,9 @@
     display: none;
 }
 
+.page6 .section-1{
+    top: -10px;
+}
 
 .page6 .container6-1{
     justify-content: center;
@@ -12,7 +15,7 @@
 }
 
 .page6 .withallthereasons{
-    margin-top: 40px;
+    margin-top: 10px;
     margin-left: 90px;
 }
 
@@ -49,6 +52,7 @@
     position: relative;
     margin-top: 50px;
     top: -40px;
+    margin-bottom: 0;
 
 }
 
@@ -74,9 +78,14 @@
     width: 180%;
     display: flex;
     justify-content: space-evenly;
+    align-content: flex-end;
+    
     position: relative;
-    top:10px;
+    top:-20px;
+    left: -120px;
+    top:-30px;
     left: -150px;
+
 
 }
 
@@ -88,7 +97,7 @@
     z-index: 2;
     position:relative;
     left:275px;
-    top: -20px;
+    top: -30px;
 }
 
 .page6 .here {
@@ -99,9 +108,10 @@
     z-index: 2;
     position:relative;
     left:250px;
-    top: -12px;
+    top: -20px;
 }
 
 .page6 .images {
-    margin-top: -160px;
+    margin-top: -170px;
+    position: relative;
 }

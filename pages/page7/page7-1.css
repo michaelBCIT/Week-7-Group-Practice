@@ -2,9 +2,11 @@
     width: 375px;
     height: 812px;   
     background-color: #FDF3CD;
+    display: none;
 }
 
 .page7-1 .container7-1{
+    display: flex;
     justify-content: center;
     align-items: center;
 }
