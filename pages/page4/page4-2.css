@@ -19,11 +19,12 @@ top:130px;
 border-radius: nullpx;
 font-family: sans-serif;
 font-weight: bold;
-font-size: 20px;
+font-size: 20pt;
 text-align: center;
 color: #4E4841;
 z-index: 2;
 }
+
 
 .page4-2 .big-smoke{
 position: relative;
