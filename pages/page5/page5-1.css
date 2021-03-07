@@ -9,6 +9,7 @@
 .page5-1 .container5{
     display: flex;
     flex-direction: column;
+    justify-content: center;
 }
 
 .page5-1 .thinking-image{
@@ -71,8 +72,12 @@ left: 25px;
 }
 
 .page5 .buttons-p5{
-    width: 200%;
+    width: 180%;
     display: flex;
-    justify-content: space-between;
-    margin-top: 100px;
+   
+    justify-content: space-evenly;
+    align-content: flex-end;
+    
+    position: relative;
+
 }
