@@ -7,12 +7,13 @@ html, body {
 
 .page6-1 {
     width: 375px;
-    height: 804px;
+    height: 900px;
     background-color:#FDF3CD;
+    
 }
 
 .page6-1 .withallthereasons{
-    margin-top: 60px;
+    margin-top: 40px;
     margin-left: 90px;
 }
 
@@ -40,29 +41,43 @@ html, body {
 }
 
 .page6-1 .toofindout{
-    margin-top: -30px;
+    margin-top: -60px;
+    margin-left:20px;
 
 }
 
 .page6-1 .road{
     position: relative;
     margin-top: 50px;
-    
-    top: -80px;
+    top: -40px;
 
 }
 
 .page6-1 .truck{
     position: relative;
-    width: 130px;
+    width: 150px;
     z-index: 1;
+    right: -20px;
+    top:60px;
 
 }
 
 .page6-1 .sign{
     position: relative;
-    width: 125px;
+    width: 155px;
     z-index: 1;
+    right: -60px;
+    top: 30px;
 }
 
 
+.page6-1 .backnextbut {
+    width: 180%;
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    top:-20px;
+    left: -150px;
+
+    
+}
