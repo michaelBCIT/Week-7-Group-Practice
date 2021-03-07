@@ -21,7 +21,7 @@
 
 .page3 .textbubblepage3-1{
     position: relative;
-    top: -106px;
+    top: -50px;
     right: 42px;
     font-weight: bold;
 }
@@ -30,15 +30,22 @@
     width: 71px;
     height: 71px;
     position: relative;
-    top: -185px;
+    top: -140px;
     right: -110px;
 }
 
-.page3 .subheaderpage3-1{
-    color:#FFFFFF;
+.page3 .textbubblepage3-2{
     position: relative;
-    top: -150px;
-    right: -50px;
+    left: 80px;
+    top: -90px;
+
+    z-index: 1;
+}
+
+.page3 .textbubblepage3-3{
+    position: relative;
+    top: -100px;
+
 }
 
 .page3 .plantspage3{
