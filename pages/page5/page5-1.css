@@ -19,7 +19,12 @@
 }
 
 .page5-1 .subheaderpage5{
-    
+    margin-left: 15px;
+    margin-top: -10px;
+}
+
+.page5-1 .bubble-5-1{
+    margin-top: 10px;
 }
 
 .page5-1 .sun-and-cloud{
@@ -38,23 +43,31 @@ top: 334px;
 }
 
 .page5-1 .green-land{
-
 width: 375px;
 height: 181px;
 left: 8px;
-top: 555px;
+top: 200px;
+}
+
+.page5-1 .hill{
+    top: -500px;
 }
 
 .page5-1 .text{
 width: 139px;
 height: 47px;
-font-family: Roboto;
+font-family: sans-serif;
 font-style: normal;
 font-weight: bold;
 font-size: 12px;
 line-height: 14px;
 text-align: center;
 color: #755F46;
+
+z-index: 1;
+position: relative;
+top: -270px;
+left: 25px;
 }
 
 .page5 .buttons-p5{
