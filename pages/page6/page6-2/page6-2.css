@@ -62,6 +62,14 @@
     top: -1300px;
 }
 
+.page6-2 .trash {
+    width:140px;
+    position: relative;
+    bottom: 1477px;
+    right: -235px;
+    z-index: 1;
+}
+
 .page6-2 .truck{
     position: relative;
     width: 150px;
