@@ -46,6 +46,11 @@ document.querySelector(".SubHeaderPage5-2").innerHTML += SubHeaderUI("69px", "34
 document.querySelector(".BackButton-Page5-2").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".NextButton-Page5-2").innerHTML += BackNextButtonUI("Next");
 
+
+//page 7-2
+document.querySelector(".button-p7-2-1").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".button-p7-2-2").innerHTML += BackNextButtonUI("Next");
+
 // document.querySelector().innerHTML += TabUI("Hello");
 
 // document.querySelector().innerHTML += TabUI();
