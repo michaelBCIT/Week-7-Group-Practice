@@ -1,7 +1,7 @@
-function SubHeaderUI (h="64px", w="361px", size="24px", text="ENVIRONMENTAL COSTS", fontcolor="#FFFFFF"){
+function SubHeaderUI (h="64px", w="361px", size="24px", text="ENVIRONMENTAL COSTS", fontcolor="#FFFFFF", bgcolor="#FBAD81"){
     return `<div style="
     display: flex;
-    background: #FBAD81;
+    background: ${bgcolor};
     border-radius: 50px;
     justify-content: center;
     align-items:center;
