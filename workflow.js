@@ -43,9 +43,7 @@ document.querySelector(".button-p4-2-2").innerHTML += BackNextButtonUI("Next");
 
 
 //page 5-1
-
 document.querySelector(".subheaderpage5").innerHTML += SubHeaderUI("69px", "341px", "20px", "HOW OUR LANDFILLS COULD LOOK", "#FFFFFF", "#FE9179");
-
 document.querySelector(".BackButton-Page5-1").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".NextButton-Page5-1").innerHTML += BackNextButtonUI("Next");
 
@@ -68,7 +66,7 @@ document.querySelector(".next").innerHTML += BackNextButtonUI("Next");
 
 
 //page 7-1
-document.querySelector(".button-p7-1-1").innerHTML += BackNextButtonUI("Back");
+//document.querySelector(".button-p7-1-1").innerHTML += BackNextButtonUI("Back");
 // document.querySelector().innerHTML += TabUI("Hello");
 
 // document.querySelector().innerHTML += TabUI();
