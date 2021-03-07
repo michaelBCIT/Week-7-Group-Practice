@@ -73,5 +73,4 @@ function StartButtonUI(text="Start") {
     `
 }
 
-
 //export const StartButton = StartButtonUI();
