@@ -46,18 +46,15 @@ z-index:2;
 }
 
 .page5-2 .landfill{
-    width: 350px;
-    height: 200px;
-    left: auto;
-    right:auto;
-    margin-top: -120px;
-    z-index: 1;
+    position: relative;
+    top: -105px;
+    margin: -20px;
 }
 
 .page5-2 .ButtonPage5-2{
-    width: 170%;
+    position: relative;
+    top: -100px;
+
     display: flex;
-    justify-content: space-evenly;
-    margin-left: -130px;
-    margin-top: 300px;
+    justify-content: space-between;
 }
