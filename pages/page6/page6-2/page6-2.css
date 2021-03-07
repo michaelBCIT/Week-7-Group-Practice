@@ -32,6 +32,11 @@
     position: relative;
     top: -996px;
     right: 70px;
+
+    transition-delay: 0.2s;
+    transition-timing-function: linear;
+    transition: opacity 2s;
+
 }
 
 .page6-2 .bot-pie {
@@ -62,28 +67,34 @@
     top: -1300px;
 }
 
+.page6-2 .trash {
+    width:140px;
+    position: relative;
+    bottom: 1477px;
+    right: -235px;
+    z-index: 1;
+}
+
 .page6-2 .truck{
     position: relative;
     width: 150px;
     top: -1300px;
-    left: -300px;
+    left: -160px;
     z-index: 1;
-    animation:drive 3s linear;
+    animation:drive 2s linear;
 }
 @keyframes drive{
     0%{
-    transform: translateX(-500px);
+    transform: translateX(-220px);
     }
 }
 
 .page6-2 .backnext{
-    width: 180%;
+    width: 325px;
     display: flex;
-    justify-content: space-evenly;
-    align-content: flex-end;
-    
+    justify-content: space-between;
     position: relative;
-
+    top: 97px;
 }
 
 /*.page6-2 .back{
