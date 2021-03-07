@@ -1,18 +1,14 @@
-html, body {
-    margin:0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .page6-4 {
     width: 375px;
     height: 812px;   
     background-color: #FDF3CD;
+    display: none;
     
 }
 
-p {
+.page6-4 p {
     font-weight: bold;
     color: white;
     font-size: 60px;
