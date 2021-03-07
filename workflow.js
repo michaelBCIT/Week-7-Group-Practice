@@ -50,8 +50,6 @@ document.querySelector(".SubHeaderPage5-2").innerHTML += SubHeaderUI("HOW DID TH
 document.querySelector(".BackButton-Page5-2").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".NextButton-Page5-2").innerHTML += BackNextButtonUI("Next");
 
-
-
 // document.querySelector().innerHTML += TabUI("Hello");
 
 // document.querySelector().innerHTML += TabUI();
