@@ -47,6 +47,14 @@ html, body{
 
     left: 240px;
     top: -190px;
+
+    animation-name: banana;
+    animation-delay: 0s;
+    animation-duration: 3s;
+}
+
+@keyframes banana{
+    from{top: 0; opacity: 0; width: 5%;}
 }
 
 .page2-2 .apple{
@@ -56,6 +64,14 @@ html, body{
 
     top: -120px;
     right: 90px;
+
+    animation-name: apple;
+    animation-delay: 0s;
+    animation-duration: 3s;
+}
+
+@keyframes apple{
+    from{top: 0; right:-200; opacity: 0; width: 5%;}
 }
 
 .page2-2 .can{
