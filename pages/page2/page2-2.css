@@ -108,10 +108,12 @@ html, body{
 }
 
 .page2-2  .buttons-p2{
-    width: 210%;
+    width: 135%;
     display: flex;
     justify-content: space-evenly;
     position: relative;
+    bottom: -30px;
+    right: 150px;
 
     
 }
