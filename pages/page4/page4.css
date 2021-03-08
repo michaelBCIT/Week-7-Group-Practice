@@ -1,6 +1,6 @@
 .page4{
     width: 375px;
-    height: 1350px;    
+    height: 1250px;    
     background-color: #FDF3CD;
     display: none;
     overflow: hidden;
@@ -172,6 +172,13 @@
     padding-left: 25px;
 
     border-radius: 10px;
+    animation: blinker 1.5s linear infinite;
+  }
+  @keyframes blinker{
+      50%{
+      opacity:0
+  }
+
 }
 
 .page4 .section3{
@@ -218,13 +225,19 @@
 
 .page4 .backbutton-p4-1 {
     position:relative;
+<<<<<<< HEAD
     bottom: -1200px;
     right: 70px;
+=======
+    bottom: -1100px;
+    left: -99px;
+>>>>>>> 85ff977f8523223604756eca9159ecf4a5b2c32a
     
 }
 
 .page4 .nextbutton-p4-2 {
     position:relative;
+<<<<<<< HEAD
     bottom: -1200px;
     right: 560px;
 }
@@ -266,3 +279,8 @@
   
   
   Resources
+=======
+    bottom: -1100px;
+    right: 960px;
+}
+>>>>>>> 85ff977f8523223604756eca9159ecf4a5b2c32a

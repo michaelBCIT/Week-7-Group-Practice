@@ -110,6 +110,13 @@
     bottom: 250px;
     left: 40px;
 
+    animation-name: move-left;
+    animation-duration: 5s;
+}
+
+@keyframes move-left{
+    0% {left:0px;}
+    25%{left: 40px;}
 }
 
 .page6-4 .images {
@@ -148,11 +155,11 @@
 .page6-4 .backnext6-4{
     position: absolute;
 
-    width: 40%;
+    width: 43%;
     display: flex;
     justify-content: space-between;
     top: 760px;
-    left: 260px;
+    left: 220px;
 }
 
 .page6-4 .images {
