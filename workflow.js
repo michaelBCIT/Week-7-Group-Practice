@@ -10,7 +10,7 @@ document.querySelector(".button-p2-2").innerHTML += BackNextButtonUI("Next");
 //page 2-2
 document.querySelector(".header-p2-2").innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
 document.querySelector(".textbubble-1").innerHTML += textBubbleLightUI("Food waste is discarding food that was originally made for human consumption", "245px", "#FBAD81", "18px", "white");
-document.querySelector(".textbubble-1").innerHTML += textBubbleLightUI("Discarding food could be either throwing it away, or leaving the food to spoil", "245px", "#F5D9B7");
+document.querySelector(".textbubble-2").innerHTML += textBubbleLightUI("Discarding food could be either throwing it away, or leaving the food to spoil", "245px", "#F5D9B7");
 document.querySelector(".button-p2-3").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".button-p2-4").innerHTML += BackNextButtonUI("Next");
 
