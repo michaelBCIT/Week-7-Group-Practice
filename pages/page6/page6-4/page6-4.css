@@ -69,6 +69,16 @@
 }
 */
 
+.page6-4 .piechart2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    font-family: sans-serif;
+    color: #4E4841;
+
+}
+
 .page6-4 .percent {
     display: flex;
     justify-content: center;
