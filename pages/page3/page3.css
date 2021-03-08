@@ -23,9 +23,8 @@
 }
 
 .page3 .headerpage3{
-    position: relative;
+    position: absolute;
     top: 0px;
-    margin-top: 53px;
 }
 
 .page3 .middleHalf{
@@ -38,7 +37,7 @@
 
 .page3 .textbubblepage3-1{
     position: relative;
-    top: 85px;
+    top: 144px;
     right: 40px;
     font-weight: bold;
 }
@@ -47,21 +46,21 @@
     width: 71px;
     height: 71px;
     position: relative;
-    top: 0px;
+    top: 60px;
     right: -110px;
 }
 
 .page3 .subheaderpage3-1{
     position: relative;
-    top:50pxx;
+    top:99px;
     right: -65px;
     z-index: 1;
 }
 
 .page3 .textbubblepage3-2{
      position: relative;
-    top: 85px;
-    right: 40px;
+    top: 92px;
+    right: -4px;
     font-weight: bold;
 }
 
@@ -93,7 +92,6 @@ line-height: 21px;
 .page3 .plantspage3{
     position: relative;
     top: 10px;
-    
 }
 
 .page3 .buttons-p3{
