@@ -7,6 +7,7 @@
 
     display: flex;
     flex-direction: column; 
+    display: none;
 }
 
 .page6-4 .container6-4{
