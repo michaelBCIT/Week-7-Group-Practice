@@ -68,10 +68,13 @@ function clickedTip(button){
     for(let i = 0; i < 3; i++){
         a[i].style.width = "125px";
         button.style.animation = "expandAnim 0.4s linear 0s 1 forwards";    
-        b[i].style.visibility = "visible";    
-    }
+    //    b[i].style.visibility = "visible";
+    //    console.log(button.children[1].children[1]);
+    }        
     
-
+    button.children[1].children[1].style.visibility = "visible";
+    
+    //console.log(button.childNode);
 }
 
 //export const ButtonUI = MyButtonUI();
