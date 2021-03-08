@@ -49,9 +49,10 @@
 }
 
 .page7-1 .buttons-p7-1{
-    width: 325px;
+    width: 330px;
     display: flex;
     justify-content: space-between;
     position: relative;
     top: 97px;
+    left: 4px;
 }
