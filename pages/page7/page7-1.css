@@ -29,13 +29,13 @@
     height: 665px;*/
     left: 10px;
     top: 610px;
-    animation:tower 4s;
-    animation-delay: 3s;
+    animation:tower 2s;
+    animation-delay: 2s;
     animation-fill-mode: forwards;
 }
 @keyframes tower{
     from{bottom:0px;}
-    to {top: 200px;}
+    to {top: 100px;}
 }
 
 .page7-1 .buttons-p7-1{
