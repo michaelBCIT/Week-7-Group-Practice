@@ -12,6 +12,7 @@
     width: 375px;
     height: 812px;
     background-color:#FDF3CD;
+    display: flex;
 }
 
 .page1 .cleantable {
