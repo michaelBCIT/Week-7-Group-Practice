@@ -23,6 +23,7 @@ html, body{
     top: 20px;
     padding-left: 100px;
     transform: rotate(20deg);
+    z-index:2;
 }
 
 .page2-2 .textbubble-1{

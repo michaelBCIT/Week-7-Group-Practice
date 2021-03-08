@@ -153,13 +153,15 @@
 }
 
 .page6-4 .backnext6-4{
-    position: absolute;
+    position: relative;
 
-    width: 25%;
+    width: 350px;
     display: flex;
     justify-content: space-between;
-    top: 755px;
-    left: 485px;
+
+    top: -30px;
+    left: 10px;
+
 }
 
 .page6-4 .images {
