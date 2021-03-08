@@ -38,14 +38,14 @@ document.querySelector(".button-p3-2--2").innerHTML += BackNextButtonUI("Next");
 document.querySelector(".subheaderp4").innerHTML += SubHeaderUI("63px", "351px", "24px", "SOCIAL COST");
 document.querySelector(".textBubblePage4-1").innerHTML += textBubbleLightUI("When many people within a culture or society throw food out before it can be used and eaten, it can inadvertently lead to issues in regards to the health of the population and in-turn create more pressure on a country's healthcare system ", "250px", "#F5D9B7", "18px", "#766654", "350px", "-110px");
 document.querySelector(".textBubblePage4-2").innerHTML += textBubbleLightUI("More than 30% of the landfill is taken up by compostable organics and food scraps");
-document.querySelector(".button-p4-1").innerHTML += BackNextButtonUI("Back");
-document.querySelector(".button-p4-2").innerHTML += BackNextButtonUI("Next");
+document.querySelector(".backbutton-p4-1").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".nextbutton-p4-2").innerHTML += BackNextButtonUI("Next");
 
 // document.querySelector(".headerpage4").innerHTML += HeaderUI("THE COST OF FOOD WASTE");
 
 //page4-2
-document.querySelector(".button-p4-2-1").innerHTML += BackNextButtonUI("Back");
-document.querySelector(".button-p4-2-2").innerHTML += BackNextButtonUI("Next");
+document.querySelector(".backbutton-p4-2-1").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".nextbutton-p4-2-2").innerHTML += BackNextButtonUI("Next");
 
 
 //page 5-1
@@ -83,19 +83,10 @@ document.querySelector(".percent").innerHTML += textBubbleLightUI("63% of the fo
 //page 6-4
 document.querySelector(".header6-4").innerHTML += HeaderUI("HOW MUCH FOOD DO CANADIANS THROW AWAY?");
 document.querySelector(".percent").innerHTML += textBubbleLightUI("63% of the food Canadians throw away could have been eaten.", "300px", "#FE9179", "18px", "#FFFFFF");
+document.querySelector(".piechart2").innerHTML += Pie();
 
 document.querySelector(".back6-4").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".next6-4").innerHTML += BackNextButtonUI("Next");
-
-
-//page 6-4
-document.querySelector(".header6-4").innerHTML += HeaderUI("HOW MUCH FOOD DO CANADIANS THROW AWAY?");
-
-
-document.querySelector(".percent").innerHTML += textBubbleLightUI("63% of the food Canadians throw away could have been eaten.", "300px", "#FE9179", "18px", "#FFFFFF");
-
-document.querySelector(".back").innerHTML += BackNextButtonUI("Back");
-document.querySelector(".next").innerHTML += BackNextButtonUI("Next");
 
 //page 7-1
 document.querySelector(".textbubble7-1").innerHTML += textBubbleLightUI("That's 3.5 tonnes of food which is equivalent to 95 CN Towers!", "250px", "#FE9179", "18px", "white");
