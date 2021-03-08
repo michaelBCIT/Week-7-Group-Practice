@@ -183,3 +183,8 @@ function BackPage(page){
     lid.style.animation = "lidUp 0.33s linear 0s 1 forwards";
 
 }*/
+
+function hello(m){
+    var pos = m.getBoundingClientRect();
+    console.log(pos.top, pos.bottom, pos.left, pos.right);
+}

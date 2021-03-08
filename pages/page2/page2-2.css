@@ -13,13 +13,16 @@ html, body{
     overflow: hidden;
 }
 
+
+
 .page2-2 .container{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*justify-content: center;*/
+    /*align-items: center;*/
 }
 
-.page2-2  .lid{
+.page2-2 .lid{
     position: relative;
     top: 20px;
     padding-left: 100px;
@@ -107,14 +110,18 @@ html, body{
     margin-top: -100px;
 }
 
-.page2-2  .buttons-p2{
-    width: 755px;
+.page2-2 .buttons-p2{
+    width: 375px;
     display: flex;
     justify-content: space-evenly;
     position: absolute;
+    flex-flow: 1;
+    top: 748px;
 
-    top: 750px;
-    left: 390px;
-    
+}
+
+.page2-2 .button-p2-3{
+    position: relative;
+    left: 62px;
 }
 
