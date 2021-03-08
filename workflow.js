@@ -10,7 +10,7 @@ document.querySelector(".button-p2-2").innerHTML += BackNextButtonUI("Next");
 //page 2-2
 document.querySelector(".header-p2-2").innerHTML += HeaderUI("WHAT IS FOOD WASTE?");
 document.querySelector(".textbubble-1").innerHTML += textBubbleLightUI("Food waste is discarding food that was originally made for human consumption", "245px", "#FBAD81", "18px", "white");
-document.querySelector(".textbubble-1").innerHTML += textBubbleLightUI("Discarding food could be either throwing it away, or leaving the food to spoil", "245px", "#F5D9B7");
+document.querySelector(".textbubble-2").innerHTML += textBubbleLightUI("Discarding food could be either throwing it away, or leaving the food to spoil", "245px", "#F5D9B7");
 document.querySelector(".button-p2-3").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".button-p2-4").innerHTML += BackNextButtonUI("Next");
 
@@ -72,6 +72,9 @@ document.querySelector(".next").innerHTML += BackNextButtonUI("Next");
 
 //page 6-2
 //document.querySelector(".header6-2").innerHTML += HeaderUI("HOW MUCH FOOD DO CANADIANS THROW AWAY?");
+
+document.querySelector(".percent").innerHTML += textBubbleLightUI("63% of the food Canadians throw away could have been eaten.", "200px", "#FE9179", "18px", "#FFFFFF");
+
 //document.querySelector(".percent").innerHTML += textBubbleLightUI("63% of the food Canadians throw away could have been eaten.", "200px", "#FE9179", "18px", "#FFFFFF");
 
 //document.querySelector(".back").innerHTML += BackNextButtonUI("Back");
@@ -84,6 +87,15 @@ document.querySelector(".percent").innerHTML += textBubbleLightUI("63% of the fo
 document.querySelector(".back6-4").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".next6-4").innerHTML += BackNextButtonUI("Next");
 
+
+//page 6-4
+document.querySelector(".header6-4").innerHTML += HeaderUI("HOW MUCH FOOD DO CANADIANS THROW AWAY?");
+
+
+document.querySelector(".percent").innerHTML += textBubbleLightUI("63% of the food Canadians throw away could have been eaten.", "300px", "#FE9179", "18px", "#FFFFFF");
+
+document.querySelector(".back").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".next").innerHTML += BackNextButtonUI("Next");
 
 //page 7-1
 document.querySelector(".textbubble7-1").innerHTML += textBubbleLightUI("That's 3.5 tonnes of food which is equivalent to 95 CN Towers!", "250px", "#FE9179", "18px", "white");

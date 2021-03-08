@@ -30,9 +30,10 @@ html, body{
 }
 
 .page2-2 .textbubble-2{
-    width: 500px;
-    top: 50px;
+    width: 500px;    
     position: absolute;
+    top: 50px;
+    z-index: 2;
 }
 
 .page2-2 .banana{
