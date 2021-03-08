@@ -178,6 +178,6 @@ function BackPage(page){
   document.querySelector(page).id = "show";
 }
 
-function GarbageCanText(){
-    document
+function GarbageCanLidUp(lid){
+    lid.style.animation = "lidUp 0.33s linear 0s 1 forwards";
 }
