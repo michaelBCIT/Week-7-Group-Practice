@@ -32,14 +32,23 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
 }
+
 
 .page6 .family {
     width:80px;
     position: relative;
     top: -188px;
     right: -200px;
+
+    animation-name: growout;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+@keyframes growout{
+    0% {height: 30px;}
+    25%{height: 80px;}
 }
 
 .page6 .toofindout{
