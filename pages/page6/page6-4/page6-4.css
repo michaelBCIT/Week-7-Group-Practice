@@ -5,6 +5,12 @@
     height: 812px;   
     background-color: #FDF3CD;
 
+    display: none;
+    
+
+    flex-direction: column;
+
+
     display: flex;
     flex-direction: column; 
     display: none;
@@ -13,6 +19,7 @@
 .page6-4 .container6-4{
     justify-content: center;
     align-items: center;
+
 }
 
 .page6-4 p {
@@ -89,6 +96,7 @@
     animation:drive 2s linear;
 }
 
+
 @keyframes drive{
     0%{
     transform: translateX(-220px);
@@ -103,16 +111,38 @@
     z-index: 1;
 }
 
-.page6-4 .backnext6-4{
-    width: 325px;
-    display: flex;
-    justify-content: space-between;
+.page6-4 .back{
     position: relative;
-    top: 97px;
+
+    bottom: 725px;
+    right: -10px;
 }
+
+.page6-4 .next{
+    position: relative;
+    bottom: 765px;
+    right: -270px;
+}
+
+
 
 .page6-4 .images {
     position: relative;
     bottom: -30px;
 }
 
+
+  @keyframes shrink {
+    0% {
+      width: 90%;
+      margin: 0 5%;
+    }
+    50% {
+      width: 60%;
+      margin: 0 18%;
+    }
+    100% {
+      width: 90%;
+      margin: 0 5%;
+    }
+  }
