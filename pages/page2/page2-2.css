@@ -82,12 +82,11 @@ html, body{
 }
 
 .page2-2  .buttons-p2{
-    width: 135%;
+    width: 210%;
     display: flex;
     justify-content: space-evenly;
     position: relative;
 
-    margin-top: 35px;
-    margin-left: -150px;
+    
 }
 
