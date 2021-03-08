@@ -1,4 +1,4 @@
-function MyButtonAnimationUI(text="TIP 1", src="https://www.flaticon.com/svg/vstatic/svg/135/135763.svg?token=exp=1614648432~hmac=9e642e1bafc99f9244e976aa3c4fbdf9", w="125px"){
+function MyButtonAnimationUI(text="TIP 1", src="https://www.flaticon.com/svg/vstatic/svg/135/135763.svg?token=exp=1614648432~hmac=9e642e1bafc99f9244e976aa3c4fbdf9", w="125px", text2="lorem"){
   return `
     <div 
     class="tipsButton" 
@@ -26,32 +26,55 @@ function MyButtonAnimationUI(text="TIP 1", src="https://www.flaticon.com/svg/vst
         '>
         ${text}</div>
 
-      <img src= ${src} alt="bread" 
-        style= '
-        width: 80px;
-        height: 80px;
-        align-items: center;
-        justify-content: center;
+        <div class="containerForLorem" 
+        style="
         display: flex;
-        padding-top: 10px;
-        padding-left: 20px;
-        '>
+        justify-content: space-between;
+        ">
 
-        <div style=" 
-        padding-top: 10px;
-        align-items: center;
-        justify-content: center;
-        display: flex;
-        "
+            <img src= ${src} alt="bread" 
+            style= '
+            width: 80px;
+            height: 80px;
+            align-items: center;
+            justify-content: center;
+            display: flex;
+            padding-top: 10px;
+            padding-left: 20px;
+            '>
+
+            <div class="loremText" 
+            style=" 
+            padding-right: 20px;
+            padding-left: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            text-align: center;
+            visibility: hidden;
+            ">${text2}</div>
+
+        </div>
     </div>
 
-  `
+  `;
 
 }
 
 function clickedTip(el){
-    document.querySelector(".tipsButton").style.width = "125px";
-    el.style.animation = "expandAnim 0.4s linear 0s 1 forwards";
+    let a = document.getElementsByClassName("tipsButton");
+    let b = document.getElementsByClassName("loremText");
+
+    for(let i = 0; i < 3; i++){
+        for(let k = 0; k < 1; k++){
+            a[i].style.width = "125px";
+            el.style.animation = "expandAnim 0.4s linear 0s 1 forwards";
+            
+            if(el.width="325px"){
+                el.style.visibility = "visible";
+            }
+        }
+    }
 }
 
 //export const ButtonUI = MyButtonUI();
