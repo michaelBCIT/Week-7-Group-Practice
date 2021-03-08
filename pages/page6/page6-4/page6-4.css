@@ -4,9 +4,9 @@
     width: 375px;
     height: 812px;   
     background-color: #FDF3CD;
-    flex-direction: column;
 
-    display: none;   
+    display: flex;
+    flex-direction: column; 
 }
 
 .page6-4 .container6-4{
