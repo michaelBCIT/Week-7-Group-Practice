@@ -24,18 +24,16 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 20px;
+    margin-top: 30px;
    
 
     width: 365px;
     height: 400px;
 }
 
-.page4 .trash{
-    width:250px;
-    position: relative;
-    top: 40px;
-}
+
+
+
 
 /*.page4 .heart{
     width: 30%;
@@ -136,7 +134,7 @@
 
     position: relative;
     right: 25px;
-    bottom: -150px;
+    bottom: 110px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -162,7 +160,7 @@
 }
 
 .page4 .click{
-    margin-left: 25px;
+    margin-left: 65px;
     top: 15px;
     position: relative;
 
@@ -171,7 +169,7 @@
     width: 110px;
 
     padding: 10px;
-    padding-left: 20px;
+    padding-left: 25px;
 
     border-radius: 10px;
 }
@@ -184,7 +182,9 @@
     animation-duration: 3s;
     animation-name: slidein;
     position: relative;
-    bottom: -150px;
+    bottom: 900px;
+    right:-50px;
+    z-index: 2;
   }
   
   @keyframes slidein {
@@ -228,3 +228,41 @@
     bottom: -1200px;
     right: 560px;
 }
+
+.smokeone {
+    animation: rotation 8s infinite linear;
+    position: relative;
+    width:600px;
+    bottom: 60px;
+    opacity: 30%;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  .smoketwo {
+    animation: rotation 6s infinite linear;
+    position: relative;
+    z-index: 1;
+    width:300px;
+    bottom: 700px;
+    opacity: 30%;
+  }
+  
+  @keyframes rotation {
+    from {
+      transform: rotate(0deg);
+    }
+    to {
+      transform: rotate(360deg);
+    }
+  }
+  
+  
+  Resources
