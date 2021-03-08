@@ -58,11 +58,9 @@ top:150px;
 }
 
 .page4-2 .buttons-p4-2{
-    width: 180%;
+    width: 170%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-content: flex-end;
     position: relative;
-    top:270px;
-    left: -150px;
 }
