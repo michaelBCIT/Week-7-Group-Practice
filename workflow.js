@@ -184,7 +184,7 @@ function BackPage(page){
 
 }*/
 
-function hello(m){
+/*function hello(m){
     var pos = m.getBoundingClientRect();
     console.log(pos.top, pos.bottom, pos.left, pos.right);
-}
+}*/
