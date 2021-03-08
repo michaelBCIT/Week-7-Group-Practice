@@ -22,13 +22,13 @@
     top: 100px;
 
     animation-name:movedown;
-    animation-delay: 2s;
-    animation-duration: 2s;
+    animation-delay: 0.5s;
+    animation-duration: 1s;
 }
 
 @keyframes movedown{
-    0% {top:0px;}
-    25%{top: 40px;}
+    0% {top:-100px;}
+    100%{top: 40px;}
 }
 
 .page7-1 .tower{
