@@ -34,10 +34,12 @@
 @keyframes reduceAnim{
     0% {
         width: 325px;
+        visibility: hidden;
     }
 
     100% {
         width: 125px;
+        visibility: visible;
     }
 }
 
