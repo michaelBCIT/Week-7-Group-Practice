@@ -71,12 +71,21 @@ document.querySelector(".back-6-2").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".next").innerHTML += BackNextButtonUI("Next");
 
 //page 6-2
-document.querySelector(".header6-2").innerHTML += HeaderUI("HOW MUCH FOOD DO CANADIANS THROW AWAY?");
+//document.querySelector(".header6-2").innerHTML += HeaderUI("HOW MUCH FOOD DO CANADIANS THROW AWAY?");
 document.querySelector(".percent").innerHTML += textBubbleLightUI("63% of the food Canadians throw away could have been eaten.", "200px", "#FE9179", "18px", "#FFFFFF");
 
 document.querySelector(".back").innerHTML += BackNextButtonUI("Back");
 document.querySelector(".next").innerHTML += BackNextButtonUI("Next");
 
+
+//page 6-4
+document.querySelector(".header6-4").innerHTML += HeaderUI("HOW MUCH FOOD DO CANADIANS THROW AWAY?");
+
+
+document.querySelector(".percent").innerHTML += textBubbleLightUI("63% of the food Canadians throw away could have been eaten.", "300px", "#FE9179", "18px", "#FFFFFF");
+
+document.querySelector(".back").innerHTML += BackNextButtonUI("Back");
+document.querySelector(".next").innerHTML += BackNextButtonUI("Next");
 
 //page 7-1
 document.querySelector(".textbubble7-1").innerHTML += textBubbleLightUI("That's 3.5 tonnes of food which is equivalent to 95 CN Towers!", "250px", "#FE9179", "18px", "white");
