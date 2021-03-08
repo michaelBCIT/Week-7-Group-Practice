@@ -70,14 +70,40 @@
 */
 
 .page6-4 .piechart2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    
+    top: -10px;
+    left: 50px;
 
     font-family: sans-serif;
     color: #4E4841;
 
 }
+
+.page6-4 .sthree{
+    position: absolute;
+    top: 270px;
+    margin-left: 145px;
+
+    z-index: 1;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+
+    animation-delay: 5s;
+    animation: pulse 5s;
+
+}
+
+@keyframes pulse {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 .page6-4 .percent {
     position: relative;
@@ -120,13 +146,13 @@
 }
 
 .page6-4 .backnext6-4{
-    position: relative;
+    position: absolute;
 
-    width: 85%;
+    width: 40%;
     display: flex;
     justify-content: space-between;
-    top: -20px;
-    left: 22px;
+    top: 760px;
+    left: 260px;
 }
 
 .page6-4 .images {
