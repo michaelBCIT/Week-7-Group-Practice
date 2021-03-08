@@ -4,11 +4,7 @@
     width: 375px;
     height: 812px;   
     background-color: #FDF3CD;
-    flex-direction: column;
-
     display: none;
-
- 
     
 }
 
@@ -81,14 +77,17 @@
     z-index: 1;
 }
 
-.page6-4 .backnext6-4{
-    width: 325px;
-    display: flex;
-    justify-content: space-between;
+.page6-4 .back{
     position: relative;
-    top: 0px;
+    bottom: 725px;
+    right: -10px;
 }
 
+.page6-4 .next{
+    position: relative;
+    bottom: 765px;
+    right: -270px;
+}
 
 .page6-4 .images {
     position: relative;
