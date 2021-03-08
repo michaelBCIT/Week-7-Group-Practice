@@ -214,16 +214,13 @@
 }
 
 .page4 .buttons-p4{
-    width: 170%;
-    position: absolute;
-    top: 90px;
-    left: -130px;
-    z-index:3;
+  width: 350px;
+  position: relative;
+  z-index: 1;
 
-    display: flex;
-    justify-content: space-evenly;
+
+
 }
-
 
 
 .smokeone {
