@@ -5,15 +5,13 @@
     height: 812px;   
     background-color: #FDF3CD;
 
+    display: flex;
     display: none;
-    
-
     flex-direction: column;
 
+    overflow: hidden;
 
-    display: flex;
-    flex-direction: column; 
-    display: none;
+
 }
 
 .page6-4 .container6-4{
