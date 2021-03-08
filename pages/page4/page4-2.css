@@ -81,11 +81,12 @@ top:150px;
 }
 
 .page4-2 .buttons-p4-2{
-    width: 170%;
     display: flex;
     justify-content: space-between;
     align-content: flex-end;
     position: relative;
+    padding: 15px;
+    bottom: -250px;
 }
 
 
