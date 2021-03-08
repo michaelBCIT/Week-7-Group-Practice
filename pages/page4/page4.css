@@ -224,25 +224,7 @@
     justify-content: space-evenly;
 }
 
-.page4 .backbutton-p4-1 {
-    position:relative;
-    bottom: -1200px;
-    right: 70px;
 
-    bottom: -1100px;
-    left: -70px;
-
-
-    bottom: -1100px;
-    left: -99px; 
-}
-
-.page4 .nextbutton-p4-2 {
-    position:relative;
-    bottom: -1100px;
-    bottom: -1200px;
-    right: 560px;
-}
 
 .smokeone {
     animation: rotation 8s infinite linear;
@@ -279,4 +261,18 @@
     }
   }
   
-  
+  .page4 .nextbutton-p4-2 {
+    display: flex;
+    justify-content: space-evenly;
+    position: relative;
+    margin-top: 1100px;
+    left: -480px;
+  }
+
+  .page4 .backbutton-p4-1 {
+    position:relative;
+    bottom: -1200px;
+    right: 70px;
+    bottom: -1100px;
+    left: -70px;
+}
