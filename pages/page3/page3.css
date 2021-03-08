@@ -12,6 +12,7 @@
     flex-direction: column;
     width: 375px;
     height: 812px;
+    margin-top: -30px;
 }
 
 .page3 .topHalf{
@@ -22,8 +23,9 @@
 }
 
 .page3 .headerpage3{
-    position: absolute;
+    position: relative;
     top: 0px;
+    margin-top: 53px;
 }
 
 .page3 .middleHalf{
@@ -51,14 +53,16 @@
 
 .page3 .subheaderpage3-1{
     position: relative;
-    top: 40px;
+    top:50pxx;
     right: -65px;
     z-index: 1;
 }
 
 .page3 .textbubblepage3-2{
-    position: relative;
-    top: 30px;
+     position: relative;
+    top: 85px;
+    right: 40px;
+    font-weight: bold;
 }
 
 .page3 .bottomHalf{
@@ -97,5 +101,5 @@ line-height: 21px;
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    top: 3px;
+    top: -16px;
 }
