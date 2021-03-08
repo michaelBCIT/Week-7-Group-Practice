@@ -24,7 +24,7 @@
 }
 
 .page5-1 .cloud{
-    width: 352px;
+    width: 360px;
     height: 126px;
 
 }
@@ -74,7 +74,7 @@
   }
 
 .page5-1 .flying-bird{
-width: 219px;
+width: 223px;
 height: 191px;
 left: 63px;
 top: 334px;
@@ -86,9 +86,9 @@ top: 334px;
     color: white;
     font-family: sans-serif;
     font-weight: bold;
-    font-size: 15px;
+    font-size: 12px;
     left: 135px;
-    top: 165px;
+    top: 168px;
     animation: blinker 1.5s linear infinite;
 }
 @keyframes blinker{
@@ -113,7 +113,7 @@ margin-top: -37px;
 
 .page5-1 .text{
 width: 139px;
-height: 47px;
+height: 49px;
 
 font-family: sans-serif;
 font-style: normal;
