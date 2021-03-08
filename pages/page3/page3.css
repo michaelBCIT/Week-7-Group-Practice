@@ -68,7 +68,24 @@
     align-items: center;
     flex-direction: column;
 }
+.page3 .click{
+    position: relative;
+    top: 190px;
+    z-index: 1;
+    color: white;
+    font-family: Roboto;
+font-style: normal;
+font-weight: bold;
+font-size: 18px;
+line-height: 21px;
 
+    animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker{
+    50%{
+    opacity:0
+}
+}
 .page3 .plantspage3{
     position: relative;
     top: 10px;
@@ -80,5 +97,5 @@
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    top: 10px;
+    top: 3px;
 }
