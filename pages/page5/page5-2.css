@@ -33,14 +33,14 @@ left: 40px;
 .page5-2 .textt{
 position: relative;
 width: 177.45px;
-height: 137.65px;
-left: 125px;
+height: 120px;
+left: 111px;
 top: 130px;
 
 font-family: sans-serif;
 font-style: normal;
 font-weight: bold;
-font-size: 16px;
+font-size: 15px;
 
 text-align: center;
 color: #4E4841;
@@ -51,20 +51,21 @@ z-index:2;
     position: relative;
     top: -100px;
     margin: -10px;
-    
 }
 
 .page5-2 .garbage-hill{
+    position: relative;
     width: 380px;
     margin-left: 5px;
+    bottom:-21px;
 }
 
 .page5-2 .ButtonPage5-2{
-    width: 181%;
+    width: 183%;
     display: flex;
     justify-content: space-evenly;
     align-content: flex-end;
     position: relative;
-    margin-top: -85px;
-    left: -144px;
+    margin-top: -83px;
+    left: -148px;
 }
