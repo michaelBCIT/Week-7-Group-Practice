@@ -61,6 +61,7 @@ function StartButtonUI(text="Start") {
 
     line-height: 42px;
     text-align: center;
+    hover:
     "
     onclick='NextPage(".page2")'
     >${text}
