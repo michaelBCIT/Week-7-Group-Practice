@@ -189,8 +189,8 @@
     animation-duration: 3s;
     animation-name: slidein;
     position: relative;
-    bottom: 900px;
-    right:-50px;
+    bottom: 950px;
+    right:-40px;
     z-index: 2;
   }
   
@@ -218,6 +218,7 @@
     position: absolute;
     top: 90px;
     left: -130px;
+    z-index:3;
 
     display: flex;
     justify-content: space-evenly;
@@ -228,13 +229,13 @@
     bottom: -1200px;
     right: 70px;
     bottom: -1100px;
-    left: -99px;
+    left: -70px;
     
 }
 
 .page4 .nextbutton-p4-2 {
     position:relative;
-    bottom: -1200px;
+    bottom: -1100px;
     right: 560px;
 }
 
@@ -273,10 +274,3 @@
     }
   }
   
-  
-  Resources
-=======
-    bottom: -1100px;
-    right: 960px;
-}
->>>>>>> 85ff977f8523223604756eca9159ecf4a5b2c32a
