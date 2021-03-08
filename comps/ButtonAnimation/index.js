@@ -61,18 +61,18 @@ function MyButtonAnimationUI(text="TIP 1", src="https://www.flaticon.com/svg/vst
 
 }
 
-function clickedTip(el){
+function clickedTip(button){
     let a = document.getElementsByClassName("tipsButton");
     let b = document.getElementsByClassName("loremText");
 
     for(let i = 0; i < 3; i++){
-        for(let k = 0; k < 1; k++){
-            a[i].style.width = "125px";
-            el.style.animation = "expandAnim 0.4s linear 0s 1 forwards";
-            
-            if(el.width="325px"){
-                el.style.visibility = "visible";
-            }
+        a[i].style.width = "125px";
+        button.style.animation = "expandAnim 0.4s linear 0s 1 forwards";
+        
+        if(button.width="325px"){
+            b[i].style.visibility = "visible";
+        } else{
+            b[i].style.visibility = "hidden";
         }
     }
 }
