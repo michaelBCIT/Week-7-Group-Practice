@@ -30,8 +30,8 @@
 }
 .page5-1 .sun {
     position: absolute;
-    top: 13%;
-    left: 53%;
+    top: 250px;
+    left: 730px;
     width: 45px;
     height: 45px;
     margin: -1.25em;
@@ -44,7 +44,7 @@
   .page5-1 .rays {
     position: absolute;
     top: -2em;
-    left: 50%;
+    left: 23px;
     display: block;
     width: 0.375em;
     height: 1.125em;
