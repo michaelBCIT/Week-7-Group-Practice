@@ -19,16 +19,17 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    top: 100px;
+    top: -100px;
 
     animation-name:movedown;
     animation-delay: 0.5s;
     animation-duration: 1s;
+    animation-fill-mode: forwards;
 }
 
 @keyframes movedown{
     0% {top:-100px;}
-    100%{top: 40px;}
+    100%{top: 110px;}
 }
 
 .page7-1 .tower{
