@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Clean Table- Infographic</title>
     <link href="pages/page1/page1.css" text="text/css" rel="stylesheet" />
     <link href="pages/page2/page2.css" text="text/css" rel="stylesheet" />
     <link href="pages/page2/page2-2.css" text="text/css" rel="stylesheet" />
@@ -17,7 +17,6 @@
     <link href="pages/page6/page6-1/page6-1.css" text="text/css" rel="stylesheet" />
     <link href="pages/page6/page6-4/page6-4.css" text="text/css" rel="stylesheet" />
     <link href="pages/page7/page7-1.css" text="text/css" rel="stylesheet" />
-    <link href="pages/page8/page-8-1/page8.css" text="text/css" rel="stylesheet" />
     <link href="pages/page8/page8-2/page8-2.css" text="text/css" rel="stylesheet" />
     <link href="pages/page9/page9-1/page9.css" text="text/css" rel="stylesheet" />
     <link rel="stylesheet" href="workflow.css">
@@ -164,8 +163,6 @@
                 <!--<img class="heart" src="/stories/info-pics/clean_table_icons/heart.svg" alt="heart">-->
                 <div id="heart"></div>
             </div>     
-            
-            
 
             <div class="section2">
                 <img class="broccoli" src="/stories/info-pics/clean_table_icons/broccoli.png" alt="broccoli">
@@ -173,11 +170,9 @@
                 <div class="textBubblePage4-2"></div> 
             </div>
 
-            
             <img class="smokeone" src="/stories/info-pics/clean_table_icons/smokeball.svg">
 
             <img class="smoketwo" src="/stories/info-pics/clean_table_icons/smokeball.svg">
-            
 
             <div class="section3">
                 <h4 class="click" onclick="NextPage('.page4-2')">CLICK HERE</h4>
@@ -334,11 +329,30 @@
             </div>
                 <div class="buttons-p7-1">
                     <div class="button-p7-1-1" onclick="BackPage('.page6')"></div>
-                    <div class="button-p7-1-2" onclick="NextPage('.page8')"></div>
+                    <div class="button-p7-1-2" onclick="NextPage('.page8-2')"></div>
                 </div>
         </div>
     </div>
 
+    <div class="page8-2">
+        <div class="headerpage8-2"></div>
+
+        <div class="container8-2">
+            <div class="tip1-2"></div>
+
+            <div class="tip2-2"></div>
+
+            <div class="tip3-2"></div>
+
+        </div>
+
+        <div class="buttons-p8-2">
+            <div class="BackButton-Page8-1-2" onclick="BackPage('.page7-1')"></div>
+            <div class="NextButton-Page8-2-2" onclick="NextPage('.page9-1')"></div>
+        </div>
+    </div>
+
+<!--
     <div class="page8">
         <div class="headerpage8"></div>
 
@@ -353,6 +367,7 @@
             <div class="NextButton-Page8-2" onclick="NextPage('.page9-1')"></div>
         </div>
     </div>
+-->
 
     <div class="page9-1">
         <div class="container9">
@@ -374,8 +389,11 @@
             <div class="intheend">IN THE END ...</div>
             <div class="cleantablewillgiveusers"></div>
         
+
             <div class="backbutton" onclick="BackPage('.page8')"></div>
             <div class="footer" onclick="Footer('.page1')"></div>
+            <div class="backbutton" onclick="BackPage('.page8-2')"></div>
+            <div class="footer"></div>
         </div>
     </div>
     
@@ -383,6 +401,7 @@
 
 
     <script src="./comps/BackNextButton/index.js"></script>
+    <script src="./comps/ButtonAnimation/index.js"></script>
     <script src="./comps/Header/index.js"></script>
     <script src="./comps/Logo/index.js"></script>
     <script src="./comps/PieChart/index.js"></script>
@@ -394,7 +413,7 @@
     <script src="./comps/Subheader/index.js"></script>
     <script src="./comps/Button/index.js"></script>
     <script src="./comps/Piechart2/index.js"></script>
-    <script src="comps/Footer/index.js"></script>
+    <script src="./comps/Footer/index.js"></script>
     <script src="./workflow.js"></script>
     
 

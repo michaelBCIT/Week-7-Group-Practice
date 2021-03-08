@@ -2,7 +2,7 @@
     background-color: #FDF3CD;
     width: 375px;
     height: 812px;
-    display: flex;
+    display: none;
     flex-direction: column;
 }
 

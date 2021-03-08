@@ -96,7 +96,7 @@
 
     animation-name: moveright;
     animation-duration: 4s;
-    animation-delay: 1s;
+    animation-delay: 0s;
 }
 
 @keyframes moveright{
@@ -116,7 +116,7 @@
 
     animation-name: moveleft;
     animation-duration: 4s;
-    animation-delay: 1s;
+    animation-delay: 0s;
 }
 
 @keyframes moveleft{
@@ -145,7 +145,7 @@
 
     animation-name: grow;
     animation-duration: 4s;
-    animation-delay: 1s;
+    animation-delay: 0s;
 }
 
 @keyframes grow{
