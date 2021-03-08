@@ -61,17 +61,14 @@ function StartButtonUI(text="Start") {
 
     line-height: 42px;
     text-align: center;
-    hover:
     "
     onclick='NextPage(".page2")'
+    startbutton:hover{
+        background-color:yellow;
+    }
     >${text}
-
-
-
     </div>
-
-
     `;
 }
-
 //export const StartButton = StartButtonUI();
+
