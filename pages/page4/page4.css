@@ -3,6 +3,7 @@
     height: 1350px;    
     background-color: #FDF3CD;
     display: none;
+    overflow: hidden;
 }
 
 .page4 .container4{
@@ -175,7 +176,20 @@
     font-family: sans-serif;
     color: white;
     text-shadow: 2px 2px 0px #7A5151;
-    
+    animation-duration: 3s;
+    animation-name: slidein;
+  }
+  
+  @keyframes slidein {
+    from {
+      margin-left: 100%;
+      width: 300%;
+    }
+  
+    to {
+      margin-left: 0%;
+      width: 100%;
+    }
 }
 
 .page4 .gas{
@@ -187,10 +201,22 @@
 
 .page4 .buttons-p4{
     width: 170%;
-    position: relative;
-    top: 60px;
+    position: absolute;
+    top: 90px;
     left: -130px;
 
     display: flex;
     justify-content: space-evenly;
+}
+
+.page4 .backbutton-p4-1 {
+    position:relative;
+    bottom: -200px;
+    
+}
+
+.page4 .nextbutton-p4-2 {
+    position:relative;
+    bottom: -300px;
+    right: 500px;
 }

@@ -5,6 +5,12 @@
     height: 812px;   
     background-color: #FDF3CD;
 
+    display: none;
+    
+
+    flex-direction: column;
+
+
     display: flex;
     flex-direction: column; 
     display: none;
@@ -13,6 +19,7 @@
 .page6-4 .container6-4{
     justify-content: center;
     align-items: center;
+
 }
 
 .page6-4 p {
@@ -25,6 +32,8 @@
     top:265px;
     right: -115px;
 }
+
+/*
 .page6-4 .piechart {
     position: relative;
     top:-200px;
@@ -58,13 +67,23 @@
 
     
 }
+*/
 
-.page6-4 .percent {
+.page6-4 .piechart2{
     display: flex;
     justify-content: center;
     align-items: center;
+
+    font-family: sans-serif;
+    color: #4E4841;
+
+}
+
+.page6-4 .percent {
     position: relative;
-    top: -1650px;
+    bottom: 250px;
+    left: 40px;
+
 }
 
 .page6-4 .images {
@@ -74,17 +93,16 @@
 
 .page6-4 .road{
     position: relative;
-    top: -1260px;
+    top: 160px;
 }
 
 .page6-4 .truck{
     position: relative;
     width: 150px;
-    top: -1430px;
-    right: -40px;
     z-index: 1;
     animation:drive 2s linear;
 }
+
 
 @keyframes drive{
     0%{
@@ -93,23 +111,41 @@
 }
 
 .page6-4 .trash {
-    width:140px;
+    width:100px;
     position: relative;
-    bottom: 1477px;
-    right: -235px;
+    top: -50px;
+    left:250px;
+
     z-index: 1;
 }
 
 .page6-4 .backnext6-4{
-    width: 325px;
+    position: relative;
+
+    width: 85%;
     display: flex;
     justify-content: space-between;
-    position: relative;
-    top: 97px;
+    top: -20px;
+    left: 22px;
 }
 
 .page6-4 .images {
     position: relative;
-    bottom: -30px;
+
 }
 
+
+  @keyframes shrink {
+    0% {
+      width: 90%;
+      margin: 0 5%;
+    }
+    50% {
+      width: 60%;
+      margin: 0 18%;
+    }
+    100% {
+      width: 90%;
+      margin: 0 5%;
+    }
+  }
