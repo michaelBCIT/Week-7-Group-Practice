@@ -16,7 +16,7 @@ function MyButtonAnimationUI(text="TIP 1", src="https://www.flaticon.com/svg/vst
     transition-property: width;
     transition-duration: 0.5s;
     transition-timing-function: linear;
-    onclick="clickTip()"
+    onclick="clickedTip()"
     '>
 
     <div style='
