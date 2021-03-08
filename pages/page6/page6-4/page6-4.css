@@ -10,11 +10,15 @@
 =======
     flex-direction: column;
 
+<<<<<<< HEAD
     display: none;
 
  
 >>>>>>> e3304124170e4126eb014348ad403706e6930281
     
+=======
+    display: none;   
+>>>>>>> 4004800105d5e8e915aca7f8bd5aa05e95a085ca
 }
 
 .page6-4 p {
@@ -37,13 +41,28 @@
     position: relative;
     top: -996px;
     right: 70px;
+
+    animation-delay: 1s;
+    animation: pulse 5s;
+
 }
+
+@keyframes pulse {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 .page6-4 .bot-pie {
     width: 600px;
     position: relative;
     bottom: 150px;
     right: 80px;
+
+    
 }
 
 .page6-4 .percent {
@@ -81,13 +100,12 @@
 }
 
 .page6-4 .backnext6-4{
-    width: 325px;
-    display: flex;
-    justify-content: space-between;
-    position: relative;
-    top: 0px;
-}
+    width: 375px;
+    margin-top: 100px;
 
+
+    position: relative;
+}
 
 .page6-4 .images {
     position: relative;
