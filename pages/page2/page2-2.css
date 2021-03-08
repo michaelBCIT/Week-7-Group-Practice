@@ -31,8 +31,11 @@ html, body{
 
 .page2-2 .textbubble-2{
     width: 500px;
+    position: relative;
+
     top: 50px;
-    position: absolute;
+    left: 30px;
+    
 }
 
 .page2-2 .banana{
