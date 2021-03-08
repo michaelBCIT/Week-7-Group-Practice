@@ -70,20 +70,53 @@
 */
 
 .page6-4 .piechart2{
-    display: flex;
-    justify-content: center;
-    align-items: center;
+    position: relative;
+    
+    top: -10px;
+    left: 50px;
 
     font-family: sans-serif;
     color: #4E4841;
 
 }
 
+.page6-4 .sthree{
+    position: absolute;
+    top: 270px;
+    margin-left: 145px;
+
+    z-index: 1;
+    color: white;
+    font-family: sans-serif;
+    font-weight: bold;
+    font-size: 70px;
+
+    animation-delay: 5s;
+    animation: pulse 5s;
+
+}
+
+@keyframes pulse {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
+
 .page6-4 .percent {
     position: relative;
     bottom: 250px;
     left: 40px;
 
+    animation-name: move-left;
+    animation-duration: 5s;
+}
+
+@keyframes move-left{
+    0% {left:0px;}
+    25%{left: 40px;}
 }
 
 .page6-4 .images {
@@ -120,13 +153,13 @@
 }
 
 .page6-4 .backnext6-4{
-    position: relative;
+    position: absolute;
 
-    width: 85%;
+    width: 25%;
     display: flex;
     justify-content: space-between;
-    top: -20px;
-    left: 22px;
+    top: 755px;
+    left: 485px;
 }
 
 .page6-4 .images {

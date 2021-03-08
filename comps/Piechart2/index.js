@@ -4,7 +4,7 @@ function Pie(){
             <h1 style='
                 opacity: 1;
                 transition: opacity 1s;
-            '>63% of Canadians</h1>
+            '>Click here!</h1>
             <div id='pie'
             style='
                 position: relative;
@@ -16,7 +16,7 @@ function Pie(){
                 background: conic-gradient(#FE9179 20%, #FCC695 0);
                 
                 margin-bottom: 50px;
-                margin-left: 40px;
+                margin-left: 50px;
 
                 padding: 50px;
 

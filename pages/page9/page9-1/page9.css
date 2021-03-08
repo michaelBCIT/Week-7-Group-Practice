@@ -1,7 +1,7 @@
 
 .page9-1 {
     width: 375px;
-    height: 1500px;
+    height: 1350px;
     background-color:#FDF3CD;
     display:flex;
     justify-content:center;
@@ -9,11 +9,11 @@
     flex-direction: column;
 
     display: none;
-    
+    overflow: hidden;
 }
 
 .page9-1 .container9{
-    margin-top: -270px;
+    margin-top: 0px;
 }
 
 .page9-1 .header-p9{
@@ -26,7 +26,7 @@
     justify-content: center;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    color: #ffffff;
+    color: #522E05;
     margin-top: 30px;
 }
 
@@ -75,10 +75,41 @@
     margin-top: 30px;
 }
 .page9-1 .cleantablewillgiveusers{
+    position: relative;
     margin-top: 30px;
     font-weight: bold;
-    left: -100px;
+    left: 15px;
 }
+
+.page9-1 .notepad{
+    position: absolute;
+    transform: rotate(-30deg);
+    width: 8%;
+
+    left: 720px;
+    top: 490px;
+
+    animation-name: moveright;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+.page9-1 .cookbook{
+    position: absolute;
+    transform: rotate(-20deg);
+    width: 8%;
+
+    left: 470px;
+    animation-name: moveleft;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+@keyframes moveleft{
+    0% {left: 400px}
+    25% {left: 470px;}
+}
+
 
 .page9-1 .backbutton {
    margin-top:50px;
