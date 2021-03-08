@@ -28,12 +28,12 @@ font-size: 20px;
 text-align: center;
 color: #ffffff;
 z-index: 2;
-animation:mymove 5s;
-animation-delay: 2s;
+animation:mymove 3s;
+animation-delay: 0s;
 }
 @keyframes mymove{
-    from{top: 210px;}
-    to {bottom:0px;}
+    from{bottom:0px; opacity: 0%;}
+    to {top: 210px;opacity: 100%;}
 }
 .page4-2 .big-smoke{
 position: relative;
@@ -42,13 +42,13 @@ height: 230px;
 left: -30px;
 transform: rotate(-16deg);
 top: 20px;
-animation:mymove 5s;
-animation-delay: 2s;
+animation:mymove 3s;
+animation-delay: 0s;
 }
 
 @keyframes mymove{
-    from{top:200px;}
-    to {bottom:0px;}
+    from{top:200px; opacity: 0%;}
+    to {bottom:0px; opacity: 100%;}
 }
 .page4-2 .gas-photo{
 width:60%;
