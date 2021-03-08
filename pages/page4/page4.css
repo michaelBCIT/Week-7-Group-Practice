@@ -24,13 +24,17 @@
     justify-content: center;
     align-items: center;
     flex-direction: column;
-    margin-top: 50px;
+    margin-top: 20px;
    
 
     width: 365px;
     height: 400px;
- 
-   
+}
+
+.page4 .trash{
+    width:250px;
+    position: relative;
+    top: 40px;
 }
 
 /*.page4 .heart{
