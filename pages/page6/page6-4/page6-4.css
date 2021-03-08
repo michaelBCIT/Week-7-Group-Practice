@@ -1,18 +1,18 @@
-html, body {
-    margin:0;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
+
 
 .page6-4 {
     width: 375px;
     height: 812px;   
     background-color: #FDF3CD;
+    flex-direction: column;
+
+    display: none;
+
+ 
     
 }
 
-p {
+.page6-4 p {
     font-weight: bold;
     color: white;
     font-size: 60px;
@@ -75,17 +75,14 @@ p {
     z-index: 1;
 }
 
-.page6-4 .back{
+.page6-4 .backnext6-4{
+    width: 325px;
+    display: flex;
+    justify-content: space-between;
     position: relative;
-    bottom: 725px;
-    right: -10px;
+    top: 0px;
 }
 
-.page6-4 .next{
-    position: relative;
-    bottom: 765px;
-    right: -270px;
-}
 
 .page6-4 .images {
     position: relative;
