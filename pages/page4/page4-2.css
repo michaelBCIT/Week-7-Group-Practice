@@ -27,7 +27,7 @@ text-align: center;
 color: #ffffff;
 z-index: 2;
 opacity: 0;
-animation:mymove 5s;
+animation:mymove 3s;
 animation-delay: 0.66s;
 animation-fill-mode: forwards;
 }
@@ -53,7 +53,7 @@ left: -30px;
 transform: rotate(-16deg);
 top: 20px;
 opacity: 0;
-animation:mymove 5s;
+animation:mymove 3s;
 animation-delay: 0.33s;
 animation-fill-mode: forwards;
 
@@ -81,13 +81,11 @@ top:150px;
 }
 
 .page4-2 .buttons-p4-2{
-    width: 180%;
+    width: 170%;
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     align-content: flex-end;
     position: relative;
-    top:270px;
-    left: -150px;
 }
 
 

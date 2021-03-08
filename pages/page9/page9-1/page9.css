@@ -14,21 +14,24 @@
 }
 
 .page9-1 .container9{
-    margin-top: 0px;
+    margin-top: 20px;
 }
 
 .page9-1 .header-p9{
-    margin-top: 0px;
+    position: relative;
+    bottom:50px;
 }
 
 .page9-1 .description{
-    font-size: 24px;
+    font-size: 26px;
     font-weight: bold;
     justify-content: center;
     text-align: center;
     font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     color: #522E05;
     margin-top: 30px;
+    position: relative;
+    bottom: 20px;
 }
 
 .page9-1 .touchofabutton{
@@ -126,13 +129,15 @@
 
 
 .page9-1 .backbutton {
-   margin-top:50px;
+   
    position: relative;
-   left: 10px;
+   top: 20px;
+   left: 15px;
 }
 
 .page9-1 .footer {
-    margin-top: 10px;
+    position: relative;
+    bottom: -30px;
 }
     
 .page9-1 .phoneicon{

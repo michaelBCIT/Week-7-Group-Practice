@@ -25,12 +25,30 @@ html, body{
     padding-left: 100px;
     transform: rotate(20deg);
     z-index:2;
+
+    animation-name: moveside;
+    animation-duration: 3s;
+    animation-delay: 0s;
+}
+
+@keyframes moveside{
+    from {top: 200px;}
+    50%  {top: 200px !important;}
+    to   {top: 0px;}
 }
 
 .page2-2 .textbubble-1{
     position: relative;
     z-index: 1;
     left: 10px;
+
+    animation-name: moveleft2;
+    animation-delay: 0s;
+    animation-duration: 3s;
+}
+
+@keyframes moveleft2{
+    from{left: -200px;}
 }
 
 .page2-2 .textbubble-2{
@@ -39,6 +57,14 @@ html, body{
     top: 10px;
     left: 100px;
     z-index: 2;
+
+    animation-name: moveright2;
+    animation-delay: 0s;
+    animation-duration: 3s;
+}
+
+@keyframes moveright2{
+    from{left: 300px;}
 }
 
 .page2-2 .banana{
@@ -72,7 +98,7 @@ html, body{
 }
 
 @keyframes apple{
-    from{top: 0; right:-200; opacity: 0; width: 5%;}
+    from{top: 0; top:200; opacity: 0; width: 5%;}
 }
 
 .page2-2 .can{
@@ -82,12 +108,11 @@ html, body{
 }
 
 .page2-2  .buttons-p2{
-    width: 135%;
+    width: 210%;
     display: flex;
     justify-content: space-evenly;
     position: relative;
 
-    margin-top: 35px;
-    margin-left: -150px;
+    
 }
 
