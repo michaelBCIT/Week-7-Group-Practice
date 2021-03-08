@@ -128,8 +128,9 @@
 .page4 .section2{
     width: 365px;
 
-    margin-top: 50px;
-
+    position: relative;
+    right: 25px;
+    bottom: 20px;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -170,7 +171,7 @@
 }
 
 .page4 .section3{
-    margin-top: 100px;
+    margin-top: 10px;
     font-family: sans-serif;
     color: white;
     text-shadow: 2px 2px 0px #7A5151;
@@ -187,7 +188,7 @@
 .page4 .buttons-p4{
     width: 170%;
     position: relative;
-    top: 40px;
+    top: 60px;
     left: -130px;
 
     display: flex;
