@@ -68,10 +68,18 @@
 .page6 .truck{
     position: relative;
     width: 150px;
-    z-index: 1;
-    right: -20px;
+    z-index: 2;
+    right: -380px;
     top:60px;
 
+    animation-name: goright;
+    animation-duration: 6s;
+    animation-delay:3s;
+}
+
+@keyframes goright{
+    0% {right: -20px;}
+    25%{right: -380px;}
 }
 
 .page6 .sign{
@@ -79,7 +87,7 @@
     width: 155px;
     z-index: 1;
     right: -60px;
-    top: 30px;
+    top: 15px;
 }
 
 
@@ -104,7 +112,7 @@
     z-index: 2;
     position:relative;
     left:275px;
-    top: -30px;
+    top: -40px;
 }
 
 .page6 .here {
@@ -115,7 +123,7 @@
     z-index: 2;
     position:relative;
     left:250px;
-    top: -20px;
+    top: -35px;
 }
 
 .page6 .images {
