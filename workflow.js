@@ -178,3 +178,6 @@ function BackPage(page){
   document.querySelector(page).id = "show";
 }
 
+function GarbageCanText(){
+    document
+}

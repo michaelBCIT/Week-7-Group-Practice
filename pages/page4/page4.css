@@ -276,8 +276,8 @@
 
 .page4 .buttons-p4{
   z-index: 5;
-  position: relative;
-  top:-910px;
+  position: absolute;
+  top:1180px;
   
   width: 355px;
   display: flex;
