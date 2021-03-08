@@ -87,9 +87,14 @@ top: 334px;
     font-family: sans-serif;
     font-weight: bold;
     font-size: 15px;
-
     left: 135px;
     top: 165px;
+    animation: blinker 1.5s linear infinite;
+}
+@keyframes blinker{
+    50%{
+    opacity:0
+}
 }
 
 .page5-1 .green-land{
@@ -148,12 +153,6 @@ left: 25px;
     justify-content: center;
 }
 
-.page5-1 .thinking-image{
-    width: 150px;
-    left: auto;
-    right: auto;
-    margin-left: 35%
-}
 
 .page5-1 .subheaderpage5{
     margin-left: 15px;
@@ -162,13 +161,6 @@ left: 25px;
 
 .page5-1 .bubble-5-1{
     margin-top: 10px;
-}
-
-.page5-1 .sun-and-cloud{
-
-    width: 360px;
-    height: 126px;
-
 }
 
 .page5-1 .flying-bird{
