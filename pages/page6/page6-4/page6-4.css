@@ -155,11 +155,11 @@
 .page6-4 .backnext6-4{
     position: absolute;
 
-    width: 43%;
+    width: 25%;
     display: flex;
     justify-content: space-between;
-    top: 760px;
-    left: 220px;
+    top: 755px;
+    left: 485px;
 }
 
 .page6-4 .images {
