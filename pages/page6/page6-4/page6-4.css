@@ -4,8 +4,19 @@
     width: 375px;
     height: 812px;   
     background-color: #FDF3CD;
+
     display: none;
     
+
+    flex-direction: column;
+
+    display: none;   
+}
+
+.page6-4 .container6-4{
+    justify-content: center;
+    align-items: center;
+
 }
 
 .page6-4 p {
@@ -28,13 +39,28 @@
     position: relative;
     top: -996px;
     right: 70px;
+
+    animation-delay: 1s;
+    animation: pulse 5s;
+
 }
+
+@keyframes pulse {
+    0% {
+      opacity: 0;
+    }
+    100% {
+      opacity: 1;
+    }
+  }
 
 .page6-4 .bot-pie {
     width: 600px;
     position: relative;
     bottom: 150px;
     right: 80px;
+
+    
 }
 
 .page6-4 .percent {
@@ -63,6 +89,8 @@
     z-index: 1;
     animation:drive 2s linear;
 }
+
+
 @keyframes drive{
     0%{
     transform: translateX(-220px);
@@ -79,6 +107,7 @@
 
 .page6-4 .back{
     position: relative;
+
     bottom: 725px;
     right: -10px;
 }
@@ -88,6 +117,9 @@
     bottom: 765px;
     right: -270px;
 }
+
+
+    top: 97px;
 
 .page6-4 .images {
     position: relative;
