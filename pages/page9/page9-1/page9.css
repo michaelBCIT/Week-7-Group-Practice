@@ -86,12 +86,17 @@
     transform: rotate(-30deg);
     width: 8%;
 
-    left: 720px;
+    right: 470px;
     top: 490px;
 
     animation-name: moveright;
     animation-duration: 4s;
     animation-delay: 1s;
+}
+
+@keyframes moveright{
+    0% {right: 300px;}
+    25%{right: 470px;}
 }
 
 .page9-1 .cookbook{
@@ -122,8 +127,17 @@
 }
     
 .page9-1 .phoneicon{
-    height: 30px;
-    position:relative;
-    left:-30px;
-    top: 65px;
+    height: 80px;
+    position:absolute;
+    left: 465px;
+    top: 280px;
+
+    animation-name: grow;
+    animation-duration: 4s;
+    animation-delay: 1s;
+}
+
+@keyframes grow{
+    0% {height: 30px;}
+    25%{height: 80px;}
 }
