@@ -13,13 +13,16 @@ html, body{
     overflow: hidden;
 }
 
+
+
 .page2-2 .container{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*justify-content: center;*/
+    /*align-items: center;*/
 }
 
-.page2-2  .lid{
+.page2-2 .lid{
     position: relative;
     top: 20px;
     padding-left: 100px;
