@@ -35,9 +35,9 @@ html, body{
 }
 
 @keyframes moveside{
-    from {top: 200px;}
-    50%  {top: 200px !important;}
-    to   {top: 0px;}
+    from {top:100px;}
+    50%  {top: 50px !important;}
+    to   {top: 20px;}
 }
 
 .page2-2 .textbubble-1{
@@ -75,8 +75,10 @@ html, body{
     z-index: 2;
     transform: rotate(40deg);
 
+    width: 20%;
+
     left: 240px;
-    top: -190px;
+    top: -220px;
 
     animation-name: banana;
     animation-delay: 0s;
@@ -92,8 +94,10 @@ html, body{
     z-index: 2;
     transform: rotate(-40deg);
 
+    width: 15%;
+
     top: -120px;
-    right: 90px;
+    right: 120px;
 
     animation-name: apple;
     animation-delay: 0s;
@@ -110,18 +114,14 @@ html, body{
     margin-top: -100px;
 }
 
-.page2-2 .buttons-p2{
-    width: 375px;
+.page2-2  .buttons-p2{
+    width: 700px;
     display: flex;
     justify-content: space-evenly;
-    position: absolute;
-    flex-flow: 1;
-    top: 748px;
-
-}
-
-.page2-2 .button-p2-3{
     position: relative;
-    left: 62px;
+
+    left: -165px;
+    
+
 }
 
