@@ -59,11 +59,15 @@
 
 .page3 .textbubblepage3-2{
      position: relative;
-    top: 87px;
+    top: 89px;
     right: 0px;
     font-weight: bold;
 }
-
+.page3 .subheaderpage3-2{
+    position:relative;
+    top:78px;
+    z-index: 2;
+}
 .page3 .bottomHalf{
     flex-grow: 1;
     display: flex;
@@ -91,7 +95,7 @@ line-height: 21px;
 }
 .page3 .plantspage3{
     position: relative;
-    top: 10px;
+    top: 30px;
 }
 
 .page3 .buttons-p3{
@@ -99,5 +103,5 @@ line-height: 21px;
     display: flex;
     justify-content: space-evenly;
     position: relative;
-    top: -16px;
+    top: 30px;
 }
