@@ -274,12 +274,12 @@
     left: -70px;
 }*/
 
-.buttons-p4 {
+.page4 .buttons-p4{
   z-index: 5;
-  position: absolute;
-  top:-900px;
+  position: relative;
+  top:-910px;
   
-  width: 200px;
+  width: 355px;
   display: flex;
   justify-content: space-between;
   
