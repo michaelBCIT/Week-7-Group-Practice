@@ -10,6 +10,7 @@ html, body{
     height: 812px;
     background-color: #FDF3CD; 
     display:none;
+    overflow: hidden;
 }
 
 .page2-2 .container{
