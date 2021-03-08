@@ -13,8 +13,6 @@
 
 }
 
-
-
 .page4-2 .fact-text{
 position: relative;
 height: 1px;
@@ -28,12 +26,24 @@ font-size: 20px;
 text-align: center;
 color: #ffffff;
 z-index: 2;
+opacity: 0;
 animation:mymove 3s;
-animation-delay: 0s;
+animation-delay: 0.66s;
+animation-fill-mode: forwards;
 }
 @keyframes mymove{
-    from{bottom:0px; opacity: 0%;}
-    to {top: 210px;opacity: 100%;}
+    0% {
+        top: 210px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 0px;
+        opacity: 1;
+    }
+    /*
+    from{top: 210px;}
+    to {bottom:0px;}
+    */
 }
 .page4-2 .big-smoke{
 position: relative;
@@ -42,13 +52,26 @@ height: 230px;
 left: -30px;
 transform: rotate(-16deg);
 top: 20px;
+opacity: 0;
 animation:mymove 3s;
-animation-delay: 0s;
+animation-delay: 0.33s;
+animation-fill-mode: forwards;
+
 }
 
 @keyframes mymove{
-    from{top:200px; opacity: 0%;}
-    to {bottom:0px; opacity: 100%;}
+    0% {
+        top: 200px;
+        opacity: 0;
+    }
+    100% {
+        bottom: 0px;
+        opacity: 1;
+    }
+    /*
+    from{top:200px;}
+    to {bottom:0px;}
+    */
 }
 .page4-2 .gas-photo{
 width:60%;
@@ -58,9 +81,12 @@ top:150px;
 }
 
 .page4-2 .buttons-p4-2{
-    width: 170%;
     display: flex;
     justify-content: space-between;
     align-content: flex-end;
     position: relative;
+    padding: 15px;
+    bottom: -250px;
 }
+
+
