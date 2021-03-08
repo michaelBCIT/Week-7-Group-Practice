@@ -42,15 +42,8 @@
     top: -188px;
     right: -200px;
 
-    animation-name: growout;
-    animation-duration: 2s;
-    animation-delay: 1s;
 }
 
-@keyframes growout{
-    0% {height: 30px;}
-    100%{height: 80px;}
-}
 
 .page6 .toofindout{
     margin-top: -60px;
@@ -75,7 +68,7 @@
 
     animation-name: goright;
     animation-duration: 2s;
-    animation-delay:3s;
+    animation-delay:2s;
     animation-fill-mode: forwards;
 }
 

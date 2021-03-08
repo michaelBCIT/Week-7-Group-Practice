@@ -43,7 +43,7 @@
 
 function StartButtonUI(text="Start") {
     return `<div class="back" style="
-    background-color:#FE9179;
+    background-color:#FBAD81;
     Width:241px;
     Height:64px;
     Top:629px;
@@ -63,8 +63,8 @@ function StartButtonUI(text="Start") {
     text-align: center;
     "
     onclick='NextPage(".page2")'
-    startbutton:hover{
-        background-color:yellow;
+    back:hover{
+        background-color: #FE9179;
     }
     >${text}
     </div>
