@@ -1,6 +1,6 @@
 .page4{
     width: 375px;
-    height: 1350px;    
+    height: 1250px;    
     background-color: #FDF3CD;
     display: none;
     overflow: hidden;
@@ -218,12 +218,13 @@
 
 .page4 .backbutton-p4-1 {
     position:relative;
-    bottom: -200px;
+    bottom: -1100px;
+    left: -90px;
     
 }
 
 .page4 .nextbutton-p4-2 {
     position:relative;
-    bottom: -300px;
-    right: 500px;
+    bottom: -1100px;
+    right: 960px;
 }
