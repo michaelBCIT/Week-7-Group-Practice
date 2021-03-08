@@ -4,21 +4,9 @@
     width: 375px;
     height: 812px;   
     background-color: #FDF3CD;
-<<<<<<< HEAD
+
     display: flex;
-    flex-direction: column;
-=======
-    flex-direction: column;
-
-<<<<<<< HEAD
-    display: none;
-
- 
->>>>>>> e3304124170e4126eb014348ad403706e6930281
-    
-=======
-    display: none;   
->>>>>>> 4004800105d5e8e915aca7f8bd5aa05e95a085ca
+    flex-direction: column; 
 }
 
 .page6-4 p {
