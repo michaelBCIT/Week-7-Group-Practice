@@ -32,9 +32,9 @@ html, body{
 }
 
 @keyframes moveside{
-    from {top: 200px;}
-    50%  {top: 200px !important;}
-    to   {top: 0px;}
+    from {top:100px;}
+    50%  {top: 50px !important;}
+    to   {top: 20px;}
 }
 
 .page2-2 .textbubble-1{
