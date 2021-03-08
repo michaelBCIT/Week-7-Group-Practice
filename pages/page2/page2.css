@@ -27,6 +27,7 @@
     font-size: 20px;
 
     left: 10px;
+    filter: drop-shadow(2px 2px 2px black);
     
 }
 
@@ -45,3 +46,8 @@
     margin-top: 71px;
 }
 
+/*@keyframes lidUp{
+    0% {
+        top: ;
+    }
+}*/
