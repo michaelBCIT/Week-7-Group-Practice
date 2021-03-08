@@ -4,8 +4,16 @@
     width: 375px;
     height: 812px;   
     background-color: #FDF3CD;
+<<<<<<< HEAD
     display: flex;
     flex-direction: column;
+=======
+    flex-direction: column;
+
+    display: none;
+
+ 
+>>>>>>> e3304124170e4126eb014348ad403706e6930281
     
 }
 
@@ -72,17 +80,14 @@
     z-index: 1;
 }
 
-.page6-4 .back{
+.page6-4 .backnext6-4{
+    width: 325px;
+    display: flex;
+    justify-content: space-between;
     position: relative;
-    bottom: 725px;
-    right: -10px;
+    top: 0px;
 }
 
-.page6-4 .next{
-    position: relative;
-    bottom: 765px;
-    right: -270px;
-}
 
 .page6-4 .images {
     position: relative;
