@@ -3,7 +3,7 @@ function MyFooterUI(){
     return`
     <div
     style='
-    background-color: #FE9179;
+    background-color: #59A091;
     height: 130px;
     width: 375px;
 
@@ -19,12 +19,13 @@ function MyFooterUI(){
     '>
     
     <div>
-    <img src="/comps/img/logo.png" alt="logo-image" style="
+    <img src="/stories/info-pics/Logo 1.png" alt="logo-image" style="
     width: 50%;
     height:50%;
     display: block;
     margin-left: auto;
     margin-right: auto;
+
     ">
    
     CLEAN TABLE 

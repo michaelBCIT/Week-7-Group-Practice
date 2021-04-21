@@ -1,6 +1,6 @@
 function HeaderUI (text = "THE COST OF FOOD WASTE"){
     return `<div style="
-    background-color: #FE9179; 
+    background-color: #59A091; 
     height:133px;
     width:375px;
 

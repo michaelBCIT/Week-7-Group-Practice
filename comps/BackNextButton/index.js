@@ -1,6 +1,6 @@
 function BackNextButtonUI(text="text") {
     return `<div class="back" style="
-    background-color:#FE9179;
+    background-color:#59A091;
     height: 40px;
     width: 75px;
     border-radius: 10px;

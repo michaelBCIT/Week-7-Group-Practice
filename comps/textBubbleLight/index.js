@@ -1,4 +1,4 @@
-function textBubbleLightUI(bubbleText = "lorem ipsum", width = "250px", bubbleColor = "#F5D9B7", font="18px", fontcolor="#766654", height="auto", mgtop="0px"){
+function textBubbleLightUI(bubbleText = "lorem ipsum", width = "250px", bubbleColor = "#FFFFFF", font="18px", fontcolor="#766654", height="auto", mgtop="0px"){
     return `
         <div style="
         display: flex;

@@ -3,12 +3,11 @@ html, body {
     margin:0;
     justify-content: center;
     align-content: center;
-    
 }
 
 
 .page8-3{
-    background-color: #FDF3CD;
+    background-color: #D7F0EC;
     width: 375px;
     height: 812px;
     display: flex;

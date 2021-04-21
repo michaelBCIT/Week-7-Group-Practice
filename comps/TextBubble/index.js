@@ -4,7 +4,7 @@ function TextBubbleUI(text="text") {
     height: 129px;
     width: 309px;
     border-radius: 10px;
-    color: #766654;
+    color: #FFFFFF;
     display:flex;
     align-items:center;
     justify-content: center;

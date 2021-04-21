@@ -43,7 +43,7 @@
 
 function StartButtonUI(text="Start") {
     return `<div class="back" style="
-    background-color:#FBAD81;
+    background-color:#59A091;
     Width:241px;
     Height:64px;
     Top:629px;
