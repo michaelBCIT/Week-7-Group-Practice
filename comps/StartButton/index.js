@@ -46,7 +46,7 @@ function StartButtonUI(text="Start") {
 
     background-color:#59A091;
 
-    background-color:#FE9179;
+    background-color:#59A091;
 
     Width:241px;
     Height:64px;

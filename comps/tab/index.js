@@ -4,14 +4,14 @@ function MyTabUI(){
     <div style='
     height: 124px;
     width: 363px;
-    background-color: #FBAD81;
+    background-color: #59A091;
     border-radius: 10px;
 
     color: white;
     font-family: sans-serif;
     font-weight: bold;
 
-    background-color: #FBAD81;
+    background-color: #59A091;
     -webkit-box-shadow: 0 10px 6px -6px #777;
     -moz-box-shadow: 0 10px 6px -6px #777;
          box-shadow: 0 10px 6px -6px #777;
