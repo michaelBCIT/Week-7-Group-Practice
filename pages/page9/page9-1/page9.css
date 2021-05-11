@@ -19,7 +19,9 @@
 
 .page9-1 .header-p9{
     position: relative;
-    bottom:50px;
+    bottom:38px;
+    display: flex;
+    justify-content: center;
 }
 
 .page9-1 .description{
@@ -131,13 +133,15 @@
 .page9-1 .backbutton {
    
    position: relative;
-   top: 20px;
+   top: 13px;
    left: 15px;
 }
 
 .page9-1 .footer {
     position: relative;
-    bottom: -30px;
+    bottom: -20px;
+    display: flex;
+    justify-content: center;
 }
     
 .page9-1 .phoneicon{

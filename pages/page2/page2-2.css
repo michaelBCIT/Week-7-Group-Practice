@@ -13,13 +13,16 @@ html, body{
     overflow: hidden;
 }
 
+
+
 .page2-2 .container{
     display: flex;
     flex-direction: column;
-    align-items: center;
+    /*justify-content: center;*/
+    /*align-items: center;*/
 }
 
-.page2-2  .lid{
+.page2-2 .lid{
     position: relative;
     top: 20px;
     padding-left: 100px;
@@ -32,9 +35,9 @@ html, body{
 }
 
 @keyframes moveside{
-    from {top: 200px;}
-    50%  {top: 200px !important;}
-    to   {top: 0px;}
+    from {top:100px;}
+    50%  {top: 50px !important;}
+    to   {top: 20px;}
 }
 
 .page2-2 .textbubble-1{
