@@ -13,8 +13,6 @@ html, body{
     overflow: hidden;
 }
 
-
-
 .page2-2 .container{
     display: flex;
     flex-direction: column;
